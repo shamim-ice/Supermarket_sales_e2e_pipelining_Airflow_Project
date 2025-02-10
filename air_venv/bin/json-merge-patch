@@ -1,0 +1,7 @@
+#!/home/shamim/airflow_git/Airflow_project/air_venv/bin/python3
+import json_merge_patch.cli
+json_merge_patch.cli.main()
+
+
+
+
