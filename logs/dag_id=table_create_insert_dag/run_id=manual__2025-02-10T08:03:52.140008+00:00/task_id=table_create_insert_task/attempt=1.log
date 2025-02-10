@@ -1,0 +1,94 @@
+[2025-02-10T14:03:58.284+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-10T14:03:58.298+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: table_create_insert_dag.table_create_insert_task manual__2025-02-10T08:03:52.140008+00:00 [queued]>
+[2025-02-10T14:03:58.306+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: table_create_insert_dag.table_create_insert_task manual__2025-02-10T08:03:52.140008+00:00 [queued]>
+[2025-02-10T14:03:58.307+0600] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-10T14:03:58.325+0600] {taskinstance.py:2889} INFO - Executing <Task(SQLExecuteQueryOperator): table_create_insert_task> on 2025-02-10 08:03:52.140008+00:00
+[2025-02-10T14:03:58.335+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'table_create_insert_dag', 'table_create_insert_task', 'manual__2025-02-10T08:03:52.140008+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/create_insert_table.py', '--cfg-path', '/tmp/tmpe6o1whsm']
+[2025-02-10T14:03:58.337+0600] {standard_task_runner.py:105} INFO - Job 5: Subtask table_create_insert_task
+[2025-02-10T14:03:58.342+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=23577) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-10T14:03:58.343+0600] {standard_task_runner.py:72} INFO - Started process 23640 to run task
+[2025-02-10T14:03:58.381+0600] {task_command.py:467} INFO - Running <TaskInstance: table_create_insert_dag.table_create_insert_task manual__2025-02-10T08:03:52.140008+00:00 [running]> on host shamim-X541UV
+[2025-02-10T14:03:58.451+0600] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='table_create_insert_dag' AIRFLOW_CTX_TASK_ID='table_create_insert_task' AIRFLOW_CTX_EXECUTION_DATE='2025-02-10T08:03:52.140008+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-10T08:03:52.140008+00:00'
+[2025-02-10T14:03:58.452+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-10T14:03:58.453+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-10T14:03:58.453+0600] {logging_mixin.py:190} INFO - Current task name:table_create_insert_task state:running start_date:2025-02-10 08:03:58.298837+00:00
+[2025-02-10T14:03:58.453+0600] {logging_mixin.py:190} INFO - Dag name:table_create_insert_dag and current dag run status:running
+[2025-02-10T14:03:58.453+0600] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-10T14:03:58.454+0600] {sql.py:295} INFO - Executing: 
+    --DDL: Create Employees Table
+CREATE TABLE IF NOT EXISTS employees (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100),
+    department VARCHAR(50),
+    hire_date DATE,
+    salary NUMERIC(10, 2)
+);
+
+--DML: Insert Sample Data
+
+INSERT INTO employees (name, department, hire_date, salary) VALUES
+('Alice Johnson', 'Engineering', '2022-01-10', 60000),
+('Bob Smith', 'Engineering', '2023-03-12', 75000),
+('Charlie Brown', 'Marketing', '2023-05-15', 48000),
+('David Wilson', 'Marketing', '2021-07-20', 52000),
+('Eve Davis', 'Sales', '2023-09-01', 30000),
+('Frank Miller', 'Sales', '2022-04-25', 45000),
+('Grace Lee', 'Sales', '2024-01-05', 70000),
+('Heidi White', 'HR', '2020-11-11', 55000),
+('Ivan Black', 'HR', '2023-08-30', 47000),
+('Judy Green', 'Finance', '2021-12-01', 80000),
+('Karl Blue', 'Finance', '2022-10-15', 49000),
+('Liam Red', 'Engineering', '2023-02-28', 62000),
+('Mona Gold', 'Engineering', '2024-03-17', 72000),
+('Nina Silver', 'Marketing', '2022-09-09', 53000),
+('Oscar Orange', 'Sales', '2023-07-19', 35000);
+    
+[2025-02-10T14:03:58.461+0600] {base.py:84} INFO - Retrieving connection 'postgres'
+[2025-02-10T14:03:58.467+0600] {base.py:84} INFO - Retrieving connection 'postgres'
+[2025-02-10T14:03:58.526+0600] {sql.py:511} INFO - Running statement: 
+    --DDL: Create Employees Table
+CREATE TABLE IF NOT EXISTS employees (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100),
+    department VARCHAR(50),
+    hire_date DATE,
+    salary NUMERIC(10, 2)
+);
+
+--DML: Insert Sample Data
+
+INSERT INTO employees (name, department, hire_date, salary) VALUES
+('Alice Johnson', 'Engineering', '2022-01-10', 60000),
+('Bob Smith', 'Engineering', '2023-03-12', 75000),
+('Charlie Brown', 'Marketing', '2023-05-15', 48000),
+('David Wilson', 'Marketing', '2021-07-20', 52000),
+('Eve Davis', 'Sales', '2023-09-01', 30000),
+('Frank Miller', 'Sales', '2022-04-25', 45000),
+('Grace Lee', 'Sales', '2024-01-05', 70000),
+('Heidi White', 'HR', '2020-11-11', 55000),
+('Ivan Black', 'HR', '2023-08-30', 47000),
+('Judy Green', 'Finance', '2021-12-01', 80000),
+('Karl Blue', 'Finance', '2022-10-15', 49000),
+('Liam Red', 'Engineering', '2023-02-28', 62000),
+('Mona Gold', 'Engineering', '2024-03-17', 72000),
+('Nina Silver', 'Marketing', '2022-09-09', 53000),
+('Oscar Orange', 'Sales', '2023-07-19', 35000);
+    , parameters: None
+[2025-02-10T14:03:58.553+0600] {sql.py:520} INFO - Rows affected: 15
+[2025-02-10T14:03:58.561+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py:470 DeprecationWarning: Import of fetch_all_handler from the 'airflow.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from 'airflow.providers.common.sql.hooks.handlers'.
+[2025-02-10T14:03:58.565+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py:471 DeprecationWarning: Import of return_single_query_results from the 'airflow.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from 'airflow.providers.common.sql.hooks.handlers'.
+[2025-02-10T14:03:58.569+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py:486 DeprecationWarning: Import of return_single_query_results from the 'airflow.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from 'airflow.providers.common.sql.hooks.handlers'.
+[2025-02-10T14:03:58.571+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py:311 DeprecationWarning: Import of return_single_query_results from the 'airflow.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from 'airflow.providers.common.sql.hooks.handlers'.
+[2025-02-10T14:03:58.579+0600] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-10T14:03:58.579+0600] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=table_create_insert_dag, task_id=table_create_insert_task, run_id=manual__2025-02-10T08:03:52.140008+00:00, execution_date=20250210T080352, start_date=20250210T080358, end_date=20250210T080358
+[2025-02-10T14:03:58.588+0600] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-10T14:03:58.588+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-10T14:03:58.589+0600] {logging_mixin.py:190} INFO - Dag name:table_create_insert_dag queued_at:2025-02-10 08:03:52.156988+00:00
+[2025-02-10T14:03:58.589+0600] {logging_mixin.py:190} INFO - Task hostname:shamim-X541UV operator:SQLExecuteQueryOperator
+[2025-02-10T14:03:58.638+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-10T14:03:58.653+0600] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-10T14:03:58.654+0600] {local_task_job_runner.py:245} INFO - ::endgroup::
