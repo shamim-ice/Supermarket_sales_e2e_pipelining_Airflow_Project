@@ -1,0 +1,29 @@
+[2025-02-10T12:59:46.841+0600] {processor.py:186} INFO - Started process (PID=13031) to work on /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2025-02-10T12:59:46.842+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-02-10T12:59:46.846+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:46.845+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2025-02-10T12:59:46.857+0600] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2025-02-10T12:59:46.985+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:46.984+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG:latest_only
+[2025-02-10T12:59:46.996+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:46.995+0600] {override.py:1930} INFO - Created Permission View: can edit on DAG:latest_only
+[2025-02-10T12:59:47.003+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:47.003+0600] {override.py:1930} INFO - Created Permission View: can read on DAG:latest_only
+[2025-02-10T12:59:47.014+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:47.014+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:latest_only
+[2025-02-10T12:59:47.021+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:47.021+0600] {override.py:1930} INFO - Created Permission View: can read on DAG Run:latest_only
+[2025-02-10T12:59:47.029+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:47.028+0600] {override.py:1930} INFO - Created Permission View: can create on DAG Run:latest_only
+[2025-02-10T12:59:47.036+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:47.036+0600] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:latest_only
+[2025-02-10T12:59:47.037+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:47.036+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:59:47.050+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:47.050+0600] {dag.py:3262} INFO - Creating ORM DAG for latest_only
+[2025-02-10T12:59:47.060+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:47.060+0600] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-02-10 00:00:00+00:00, run_after=2025-02-10 04:00:00+00:00
+[2025-02-10T12:59:47.088+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.256 seconds
+[2025-02-10T13:01:01.350+0600] {processor.py:186} INFO - Started process (PID=13533) to work on /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2025-02-10T13:01:01.356+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-02-10T13:01:01.360+0600] {logging_mixin.py:190} INFO - [2025-02-10T13:01:01.359+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2025-02-10T13:01:01.372+0600] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2025-02-10T13:01:01.389+0600] {logging_mixin.py:190} INFO - [2025-02-10T13:01:01.389+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T13:01:01.412+0600] {logging_mixin.py:190} INFO - [2025-02-10T13:01:01.412+0600] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-02-10 00:00:00+00:00, run_after=2025-02-10 04:00:00+00:00
+[2025-02-10T13:01:01.439+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.099 seconds
+[2025-02-10T13:02:12.852+0600] {processor.py:186} INFO - Started process (PID=13655) to work on /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2025-02-10T13:02:12.855+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-02-10T13:02:12.859+0600] {logging_mixin.py:190} INFO - [2025-02-10T13:02:12.859+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2025-02-10T13:02:12.872+0600] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2025-02-10T13:02:12.896+0600] {logging_mixin.py:190} INFO - [2025-02-10T13:02:12.896+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T13:02:12.926+0600] {logging_mixin.py:190} INFO - [2025-02-10T13:02:12.926+0600] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-02-10 00:00:00+00:00, run_after=2025-02-10 04:00:00+00:00
+[2025-02-10T13:02:12.958+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.117 seconds

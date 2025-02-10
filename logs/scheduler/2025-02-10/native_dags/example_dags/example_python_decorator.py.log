@@ -1,0 +1,32 @@
+[2025-02-10T12:59:33.897+0600] {processor.py:186} INFO - Started process (PID=12946) to work on /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-02-10T12:59:33.898+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-02-10T12:59:33.900+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:33.900+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-02-10T12:59:33.913+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:33.913+0600] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-10T12:59:33.916+0600] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-02-10T12:59:34.050+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:34.050+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_python_decorator
+[2025-02-10T12:59:34.062+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:34.062+0600] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_python_decorator
+[2025-02-10T12:59:34.071+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:34.070+0600] {override.py:1930} INFO - Created Permission View: can read on DAG:example_python_decorator
+[2025-02-10T12:59:34.082+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:34.081+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_python_decorator
+[2025-02-10T12:59:34.089+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:34.089+0600] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_python_decorator
+[2025-02-10T12:59:34.097+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:34.096+0600] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_python_decorator
+[2025-02-10T12:59:34.104+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:34.104+0600] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_python_decorator
+[2025-02-10T12:59:34.105+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:34.105+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:59:34.119+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:34.119+0600] {dag.py:3262} INFO - Creating ORM DAG for example_python_decorator
+[2025-02-10T12:59:34.120+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:34.120+0600] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-02-10T12:59:34.140+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.251 seconds
+[2025-02-10T13:00:51.180+0600] {processor.py:186} INFO - Started process (PID=13520) to work on /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-02-10T13:00:51.186+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-02-10T13:00:51.189+0600] {logging_mixin.py:190} INFO - [2025-02-10T13:00:51.189+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-02-10T13:00:51.201+0600] {logging_mixin.py:190} INFO - [2025-02-10T13:00:51.201+0600] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-10T13:00:51.204+0600] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-02-10T13:00:51.223+0600] {logging_mixin.py:190} INFO - [2025-02-10T13:00:51.223+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T13:00:51.239+0600] {logging_mixin.py:190} INFO - [2025-02-10T13:00:51.238+0600] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-02-10T13:00:51.261+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.088 seconds
+[2025-02-10T13:02:02.674+0600] {processor.py:186} INFO - Started process (PID=13642) to work on /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-02-10T13:02:02.678+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-02-10T13:02:02.680+0600] {logging_mixin.py:190} INFO - [2025-02-10T13:02:02.680+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-02-10T13:02:02.691+0600] {logging_mixin.py:190} INFO - [2025-02-10T13:02:02.690+0600] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-10T13:02:02.693+0600] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-02-10T13:02:02.713+0600] {logging_mixin.py:190} INFO - [2025-02-10T13:02:02.713+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T13:02:02.729+0600] {logging_mixin.py:190} INFO - [2025-02-10T13:02:02.728+0600] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-02-10T13:02:02.754+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.087 seconds

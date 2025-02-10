@@ -1,0 +1,22 @@
+[2025-02-10T12:59:53.338+0600] {processor.py:186} INFO - Started process (PID=13114) to work on /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-02-10T12:59:53.340+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-02-10T12:59:53.346+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:53.345+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-02-10T12:59:53.361+0600] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-02-10T12:59:53.486+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:53.485+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_display_name
+[2025-02-10T12:59:53.499+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:53.498+0600] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_display_name
+[2025-02-10T12:59:53.508+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:53.508+0600] {override.py:1930} INFO - Created Permission View: can read on DAG:example_display_name
+[2025-02-10T12:59:53.520+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:53.519+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_display_name
+[2025-02-10T12:59:53.529+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:53.528+0600] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_display_name
+[2025-02-10T12:59:53.537+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:53.537+0600] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_display_name
+[2025-02-10T12:59:53.546+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:53.545+0600] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_display_name
+[2025-02-10T12:59:53.546+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:53.546+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:59:53.562+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:53.562+0600] {dag.py:3262} INFO - Creating ORM DAG for example_display_name
+[2025-02-10T12:59:53.563+0600] {logging_mixin.py:190} INFO - [2025-02-10T12:59:53.563+0600] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-02-10T12:59:53.590+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.270 seconds
+[2025-02-10T13:01:23.719+0600] {processor.py:186} INFO - Started process (PID=13592) to work on /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-02-10T13:01:23.723+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-02-10T13:01:23.728+0600] {logging_mixin.py:190} INFO - [2025-02-10T13:01:23.727+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-02-10T13:01:23.742+0600] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-02-10T13:01:23.770+0600] {logging_mixin.py:190} INFO - [2025-02-10T13:01:23.769+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T13:01:23.796+0600] {logging_mixin.py:190} INFO - [2025-02-10T13:01:23.796+0600] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-02-10T13:01:23.824+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.113 seconds
