@@ -6,7 +6,7 @@ import time
 #define DAG
 dag=DAG(
     dag_id='seq_parallel_dag',
-    start_time=datetime(2025,2,5),
+    start_date=datetime(2025,2,5),
     schedule_interval=None
 )
 

@@ -1,0 +1,27 @@
+[2025-02-11T10:48:31.949+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-11T10:48:31.963+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: count_rw_qc_dag.qc_task manual__2025-02-11T04:48:20.319029+00:00 [queued]>
+[2025-02-11T10:48:31.972+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: count_rw_qc_dag.qc_task manual__2025-02-11T04:48:20.319029+00:00 [queued]>
+[2025-02-11T10:48:31.972+0600] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-11T10:48:31.986+0600] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): qc_task> on 2025-02-11 04:48:20.319029+00:00
+[2025-02-11T10:48:31.998+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'count_rw_qc_dag', 'qc_task', 'manual__2025-02-11T04:48:20.319029+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/count_rowa_qc.py', '--cfg-path', '/tmp/tmpckb5nviz']
+[2025-02-11T10:48:31.999+0600] {standard_task_runner.py:105} INFO - Job 16: Subtask qc_task
+[2025-02-11T10:48:32.003+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=28654) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-11T10:48:32.005+0600] {standard_task_runner.py:72} INFO - Started process 28661 to run task
+[2025-02-11T10:48:32.044+0600] {task_command.py:467} INFO - Running <TaskInstance: count_rw_qc_dag.qc_task manual__2025-02-11T04:48:20.319029+00:00 [running]> on host shamim-X541UV
+[2025-02-11T10:48:32.113+0600] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='count_rw_qc_dag' AIRFLOW_CTX_TASK_ID='qc_task' AIRFLOW_CTX_EXECUTION_DATE='2025-02-11T04:48:20.319029+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-11T04:48:20.319029+00:00'
+[2025-02-11T10:48:32.114+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-11T10:48:32.114+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-11T10:48:32.114+0600] {logging_mixin.py:190} INFO - Current task name:qc_task state:running start_date:2025-02-11 04:48:31.963455+00:00
+[2025-02-11T10:48:32.115+0600] {logging_mixin.py:190} INFO - Dag name:count_rw_qc_dag and current dag run status:running
+[2025-02-11T10:48:32.115+0600] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-11T10:48:32.123+0600] {logging_mixin.py:190} INFO - Quality Check Passed:30 rows found.
+[2025-02-11T10:48:32.124+0600] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-11T10:48:32.129+0600] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-11T10:48:32.129+0600] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=count_rw_qc_dag, task_id=qc_task, run_id=manual__2025-02-11T04:48:20.319029+00:00, execution_date=20250211T044820, start_date=20250211T044831, end_date=20250211T044832
+[2025-02-11T10:48:32.140+0600] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-11T10:48:32.141+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-11T10:48:32.141+0600] {logging_mixin.py:190} INFO - Dag name:count_rw_qc_dag queued_at:2025-02-11 04:48:20.346675+00:00
+[2025-02-11T10:48:32.141+0600] {logging_mixin.py:190} INFO - Task hostname:shamim-X541UV operator:PythonOperator
+[2025-02-11T10:48:32.179+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-11T10:48:32.196+0600] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-11T10:48:32.196+0600] {local_task_job_runner.py:245} INFO - ::endgroup::
