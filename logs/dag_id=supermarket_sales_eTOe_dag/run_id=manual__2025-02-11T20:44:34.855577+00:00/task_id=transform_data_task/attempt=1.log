@@ -1,0 +1,111 @@
+[2025-02-12T02:44:50.939+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-12T02:44:50.966+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: supermarket_sales_eTOe_dag.transform_data_task manual__2025-02-11T20:44:34.855577+00:00 [queued]>
+[2025-02-12T02:44:50.976+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: supermarket_sales_eTOe_dag.transform_data_task manual__2025-02-11T20:44:34.855577+00:00 [queued]>
+[2025-02-12T02:44:50.976+0600] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-12T02:44:50.990+0600] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): transform_data_task> on 2025-02-11 20:44:34.855577+00:00
+[2025-02-12T02:44:51.001+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'supermarket_sales_eTOe_dag', 'transform_data_task', 'manual__2025-02-11T20:44:34.855577+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/final_assignment.py', '--cfg-path', '/tmp/tmpxp2bjkd4']
+[2025-02-12T02:44:51.003+0600] {standard_task_runner.py:105} INFO - Job 32: Subtask transform_data_task
+[2025-02-12T02:44:51.006+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=78378) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-12T02:44:51.006+0600] {standard_task_runner.py:72} INFO - Started process 78410 to run task
+[2025-02-12T02:44:51.092+0600] {task_command.py:467} INFO - Running <TaskInstance: supermarket_sales_eTOe_dag.transform_data_task manual__2025-02-11T20:44:34.855577+00:00 [running]> on host shamim-X541UV
+[2025-02-12T02:44:51.284+0600] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='supermarket_sales_eTOe_dag' AIRFLOW_CTX_TASK_ID='transform_data_task' AIRFLOW_CTX_EXECUTION_DATE='2025-02-11T20:44:34.855577+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-11T20:44:34.855577+00:00'
+[2025-02-12T02:44:51.286+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-12T02:44:51.293+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-12T02:44:51.293+0600] {logging_mixin.py:190} INFO - Current task name:transform_data_task state:running start_date:2025-02-11 20:44:50.966986+00:00
+[2025-02-12T02:44:51.294+0600] {logging_mixin.py:190} INFO - Dag name:supermarket_sales_eTOe_dag and current dag run status:running
+[2025-02-12T02:44:51.294+0600] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-12T02:44:51.333+0600] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/dags/final_assignment.py", line 40, in transform_data
+    df = df.dorpna()
+         ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'dorpna'
+[2025-02-12T02:44:51.375+0600] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-02-12T02:44:51.376+0600] {logging_mixin.py:190} INFO - Task start:2025-02-11 20:44:50.966986+00:00 end:2025-02-11 20:44:51.374769+00:00 duration:0.407783
+[2025-02-12T02:44:51.376+0600] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): transform_data_task> dag:<DAG: supermarket_sales_eTOe_dag> dagrun:<DagRun supermarket_sales_eTOe_dag @ 2025-02-11 20:44:34.855577+00:00: manual__2025-02-11T20:44:34.855577+00:00, state:running, queued_at: 2025-02-11 20:44:34.870054+00:00. externally triggered: True>
+[2025-02-12T02:44:51.377+0600] {logging_mixin.py:190} INFO - Failure caused by 'NoneType' object has no attribute 'dorpna'
+[2025-02-12T02:44:51.377+0600] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=supermarket_sales_eTOe_dag, task_id=transform_data_task, run_id=manual__2025-02-11T20:44:34.855577+00:00, execution_date=20250211T204434, start_date=20250211T204450, end_date=20250211T204451
+[2025-02-12T02:44:51.394+0600] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-12T02:44:51.394+0600] {standard_task_runner.py:124} ERROR - Failed to execute job 32 for task transform_data_task ('NoneType' object has no attribute 'dorpna'; 78410)
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/dags/final_assignment.py", line 40, in transform_data
+    df = df.dorpna()
+         ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'dorpna'
+[2025-02-12T02:44:51.424+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-02-12T02:44:51.464+0600] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-12T02:44:51.469+0600] {local_task_job_runner.py:245} INFO - ::endgroup::

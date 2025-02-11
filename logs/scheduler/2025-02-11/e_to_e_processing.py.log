@@ -6328,3 +6328,1074 @@ airflow.exceptions.AirflowDagCycleException: Cycle detected in DAG: e2e_data_loa
 [2025-02-12T01:30:14.545+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:30:14.544+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-12T01:30:14.563+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:30:14.563+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
 [2025-02-12T01:30:14.586+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.416 seconds
+[2025-02-12T01:30:45.090+0600] {processor.py:186} INFO - Started process (PID=41697) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:30:45.097+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:30:45.102+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:30:45.101+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:30:45.159+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:30:45.424+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:30:45.424+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:30:45.445+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:30:45.445+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:30:45.471+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.403 seconds
+[2025-02-12T01:31:16.177+0600] {processor.py:186} INFO - Started process (PID=41847) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:31:16.183+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:31:16.186+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:31:16.186+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:31:16.220+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:31:16.430+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:31:16.430+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:31:16.454+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:31:16.453+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:31:16.481+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.313 seconds
+[2025-02-12T01:31:46.665+0600] {processor.py:186} INFO - Started process (PID=42034) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:31:46.666+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:31:46.669+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:31:46.669+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:31:46.707+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:31:46.953+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:31:46.953+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:31:46.971+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:31:46.971+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:31:46.996+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.343 seconds
+[2025-02-12T01:32:17.283+0600] {processor.py:186} INFO - Started process (PID=42201) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:32:17.289+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:32:17.293+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:32:17.293+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:32:17.335+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:32:17.561+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:32:17.560+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:32:17.583+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:32:17.583+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:32:17.613+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.340 seconds
+[2025-02-12T01:32:47.850+0600] {processor.py:186} INFO - Started process (PID=42376) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:32:47.851+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:32:47.856+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:32:47.855+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:32:47.907+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:32:48.133+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:32:48.133+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:32:48.151+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:32:48.150+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:32:48.175+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.337 seconds
+[2025-02-12T01:33:18.429+0600] {processor.py:186} INFO - Started process (PID=42568) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:33:18.432+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:33:18.438+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:33:18.437+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:33:18.490+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:33:18.823+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:33:18.822+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:33:18.860+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:33:18.860+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:33:18.901+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.492 seconds
+[2025-02-12T01:33:49.176+0600] {processor.py:186} INFO - Started process (PID=42738) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:33:49.178+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:33:49.182+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:33:49.181+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:33:49.223+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:33:49.479+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:33:49.479+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:33:49.496+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:33:49.496+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:33:49.524+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.361 seconds
+[2025-02-12T01:34:19.594+0600] {processor.py:186} INFO - Started process (PID=42912) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:34:19.595+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:34:19.598+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:34:19.597+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:34:19.640+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:34:19.976+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:34:19.976+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:34:20.005+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:34:20.004+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:34:20.043+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.461 seconds
+[2025-02-12T01:34:50.098+0600] {processor.py:186} INFO - Started process (PID=43137) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:34:50.104+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:34:50.108+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:34:50.107+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:34:50.156+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:34:50.449+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:34:50.448+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:34:50.474+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:34:50.473+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:34:50.507+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.422 seconds
+[2025-02-12T01:35:20.791+0600] {processor.py:186} INFO - Started process (PID=43419) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:35:20.795+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:35:20.800+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:35:20.799+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:35:20.868+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:35:21.250+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:35:21.249+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:35:21.279+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:35:21.279+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:35:21.318+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.548 seconds
+[2025-02-12T01:35:51.643+0600] {processor.py:186} INFO - Started process (PID=43685) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:35:51.644+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:35:51.647+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:35:51.647+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:35:51.695+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:35:52.021+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:35:52.020+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:35:52.042+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:35:52.042+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:35:52.072+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.437 seconds
+[2025-02-12T01:36:22.119+0600] {processor.py:186} INFO - Started process (PID=43825) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:36:22.120+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:36:22.123+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:36:22.122+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:36:22.162+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:36:22.460+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:36:22.460+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:36:22.487+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:36:22.486+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:36:22.518+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.409 seconds
+[2025-02-12T01:36:52.825+0600] {processor.py:186} INFO - Started process (PID=43956) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:36:52.831+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:36:52.841+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:36:52.840+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:36:52.918+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:36:53.133+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:36:53.133+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:36:53.155+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:36:53.154+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:36:53.183+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.381 seconds
+[2025-02-12T01:37:23.346+0600] {processor.py:186} INFO - Started process (PID=44162) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:37:23.348+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:37:23.354+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:37:23.354+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:37:23.423+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:37:23.875+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:37:23.875+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:37:23.892+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:37:23.892+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:37:23.943+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.608 seconds
+[2025-02-12T01:37:55.253+0600] {processor.py:186} INFO - Started process (PID=44465) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:37:55.254+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:37:55.258+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:37:55.257+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:37:55.295+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:37:55.609+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:37:55.609+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:37:55.637+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:37:55.637+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:37:55.673+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.430 seconds
+[2025-02-12T01:38:25.866+0600] {processor.py:186} INFO - Started process (PID=44744) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:38:25.880+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:38:25.883+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:38:25.883+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:38:25.921+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:38:26.139+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:38:26.138+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:38:26.156+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:38:26.155+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:38:26.181+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.322 seconds
+[2025-02-12T01:38:56.363+0600] {processor.py:186} INFO - Started process (PID=45020) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:38:56.366+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:38:56.369+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:38:56.368+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:38:56.404+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:38:56.674+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:38:56.673+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:38:56.691+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:38:56.690+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:38:56.714+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.360 seconds
+[2025-02-12T01:39:27.022+0600] {processor.py:186} INFO - Started process (PID=45250) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:39:27.024+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:39:27.033+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:39:27.032+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:39:27.125+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:39:27.562+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:39:27.562+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:39:27.602+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:39:27.601+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:39:27.647+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.652 seconds
+[2025-02-12T01:39:57.845+0600] {processor.py:186} INFO - Started process (PID=45532) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:39:57.852+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:39:57.857+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:39:57.857+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:39:57.902+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:39:58.143+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:39:58.142+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:39:58.159+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:39:58.158+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:39:58.185+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.355 seconds
+[2025-02-12T01:40:28.413+0600] {processor.py:186} INFO - Started process (PID=45792) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:40:28.427+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:40:28.430+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:40:28.430+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:40:28.465+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:40:28.664+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:40:28.663+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:40:28.679+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:40:28.679+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:40:28.706+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.301 seconds
+[2025-02-12T01:40:59.040+0600] {processor.py:186} INFO - Started process (PID=46567) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:40:59.043+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:40:59.047+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:40:59.046+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:40:59.088+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:40:59.589+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:40:59.589+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:40:59.615+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:40:59.614+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:40:59.660+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.632 seconds
+[2025-02-12T01:41:30.366+0600] {processor.py:186} INFO - Started process (PID=46766) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:41:30.369+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:41:30.371+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:41:30.371+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:41:30.407+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:41:30.840+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:41:30.839+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:41:30.864+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:41:30.863+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:41:30.898+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.542 seconds
+[2025-02-12T01:42:01.240+0600] {processor.py:186} INFO - Started process (PID=46941) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:42:01.241+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:42:01.242+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:42:01.242+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:42:01.288+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:42:01.585+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:42:01.585+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:42:01.801+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:42:01.800+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:42:01.826+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.597 seconds
+[2025-02-12T01:42:32.026+0600] {processor.py:186} INFO - Started process (PID=47078) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:42:32.027+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:42:32.029+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:42:32.029+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:42:32.069+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:42:32.289+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:42:32.289+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:42:32.312+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:42:32.312+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:42:32.478+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.460 seconds
+[2025-02-12T01:43:02.544+0600] {processor.py:186} INFO - Started process (PID=47385) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:43:02.545+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:43:02.546+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:43:02.546+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:43:02.579+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:43:02.944+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:43:02.944+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:43:02.960+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:43:02.960+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:43:02.985+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.451 seconds
+[2025-02-12T01:43:33.432+0600] {processor.py:186} INFO - Started process (PID=47640) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:43:33.438+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:43:33.442+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:43:33.441+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:43:33.502+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:43:33.882+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:43:33.882+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:43:33.899+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:43:33.899+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:43:33.925+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.523 seconds
+[2025-02-12T01:44:04.111+0600] {processor.py:186} INFO - Started process (PID=47872) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:44:04.112+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:44:04.115+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:44:04.114+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:44:04.162+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:44:04.608+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:44:04.607+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:44:04.629+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:44:04.628+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:44:04.655+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.558 seconds
+[2025-02-12T01:44:34.757+0600] {processor.py:186} INFO - Started process (PID=48134) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:44:34.758+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:44:34.760+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:44:34.759+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:44:34.797+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:44:35.180+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:44:35.179+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:44:35.195+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:44:35.195+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:44:35.218+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.476 seconds
+[2025-02-12T01:45:05.574+0600] {processor.py:186} INFO - Started process (PID=48396) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:45:05.575+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:45:05.577+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:45:05.577+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:45:05.627+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:45:06.047+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:45:06.047+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:45:06.070+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:45:06.070+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:45:06.101+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.539 seconds
+[2025-02-12T01:45:36.897+0600] {processor.py:186} INFO - Started process (PID=48629) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:45:36.905+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:45:36.909+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:45:36.908+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:45:36.948+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:45:37.185+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:45:37.184+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:45:37.209+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:45:37.209+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:45:37.235+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.371 seconds
+[2025-02-12T01:46:07.276+0600] {processor.py:186} INFO - Started process (PID=48862) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:46:07.277+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:46:07.278+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:46:07.278+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:46:07.317+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:46:07.595+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:46:07.595+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:46:07.614+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:46:07.614+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:46:07.638+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.370 seconds
+[2025-02-12T01:46:38.587+0600] {processor.py:186} INFO - Started process (PID=49128) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:46:38.594+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:46:38.597+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:46:38.596+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:46:38.649+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:46:38.863+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:46:38.863+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:46:38.884+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:46:38.884+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:46:38.910+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.332 seconds
+[2025-02-12T01:47:09.048+0600] {processor.py:186} INFO - Started process (PID=49335) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:47:09.049+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:47:09.052+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:47:09.051+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:47:09.097+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:47:09.381+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:47:09.381+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:47:09.412+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:47:09.412+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:47:09.454+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.417 seconds
+[2025-02-12T01:47:39.552+0600] {processor.py:186} INFO - Started process (PID=49592) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:47:39.565+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:47:39.567+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:47:39.566+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:47:39.604+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:47:39.813+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:47:39.813+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:47:39.836+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:47:39.836+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:47:39.858+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.316 seconds
+[2025-02-12T01:48:09.937+0600] {processor.py:186} INFO - Started process (PID=49839) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:48:09.943+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:48:09.945+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:48:09.944+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:48:09.985+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:48:10.206+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:48:10.206+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:48:10.231+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:48:10.231+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:48:10.258+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.332 seconds
+[2025-02-12T01:48:40.509+0600] {processor.py:186} INFO - Started process (PID=50096) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:48:40.511+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:48:40.514+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:48:40.513+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:48:40.553+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:48:40.762+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:48:40.762+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:48:40.779+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:48:40.779+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:48:40.801+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.312 seconds
+[2025-02-12T01:49:10.853+0600] {processor.py:186} INFO - Started process (PID=50350) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:49:10.854+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:49:10.856+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:49:10.855+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:49:10.897+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:49:11.190+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:49:11.190+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:49:11.221+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:49:11.220+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:49:11.264+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.421 seconds
+[2025-02-12T01:49:41.707+0600] {processor.py:186} INFO - Started process (PID=50517) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:49:41.724+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:49:41.727+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:49:41.726+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:49:41.768+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:49:41.983+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:49:41.983+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:49:42.002+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:49:42.002+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:49:42.027+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.354 seconds
+[2025-02-12T01:50:12.151+0600] {processor.py:186} INFO - Started process (PID=50689) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:50:12.152+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:50:12.153+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:50:12.153+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:50:12.196+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:50:12.521+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:50:12.521+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:50:12.563+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:50:12.563+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:50:12.606+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.467 seconds
+[2025-02-12T01:50:44.819+0600] {processor.py:186} INFO - Started process (PID=50943) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:50:44.821+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:50:44.824+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:50:44.823+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:50:44.888+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:50:45.260+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:50:45.259+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:50:45.296+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:50:45.295+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:50:45.363+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.558 seconds
+[2025-02-12T01:51:16.286+0600] {processor.py:186} INFO - Started process (PID=51191) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:51:16.287+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:51:16.288+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:51:16.288+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:51:16.324+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:51:16.538+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:51:16.538+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:51:16.569+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:51:16.569+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:51:16.604+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.327 seconds
+[2025-02-12T01:51:46.942+0600] {processor.py:186} INFO - Started process (PID=51439) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:51:46.950+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:51:46.956+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:51:46.954+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:51:47.018+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:51:47.244+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:51:47.244+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:51:47.261+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:51:47.260+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:51:47.286+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.377 seconds
+[2025-02-12T01:52:17.406+0600] {processor.py:186} INFO - Started process (PID=51692) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:52:17.408+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:52:17.411+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:52:17.410+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:52:17.461+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:52:17.808+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:52:17.808+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:52:17.840+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:52:17.840+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:52:17.880+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.485 seconds
+[2025-02-12T01:52:47.991+0600] {processor.py:186} INFO - Started process (PID=51955) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:52:47.992+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:52:47.993+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:52:47.993+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:52:48.024+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:52:48.227+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:52:48.227+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:52:48.244+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:52:48.244+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:52:48.267+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.283 seconds
+[2025-02-12T01:53:19.147+0600] {processor.py:186} INFO - Started process (PID=52211) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:53:19.149+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:53:19.151+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:53:19.150+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:53:19.188+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:53:19.404+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:53:19.404+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:53:19.420+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:53:19.419+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:53:19.469+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.336 seconds
+[2025-02-12T01:53:49.650+0600] {processor.py:186} INFO - Started process (PID=52465) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:53:49.656+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:53:49.659+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:53:49.658+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:53:49.711+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:53:49.995+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:53:49.995+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:53:50.019+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:53:50.019+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:53:50.048+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.411 seconds
+[2025-02-12T01:54:20.306+0600] {processor.py:186} INFO - Started process (PID=52719) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:54:20.309+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:54:20.314+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:54:20.312+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:54:20.362+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:54:20.569+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:54:20.569+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:54:20.591+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:54:20.591+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:54:20.620+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.342 seconds
+[2025-02-12T01:54:51.192+0600] {processor.py:186} INFO - Started process (PID=52972) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:54:51.198+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:54:51.200+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:54:51.199+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:54:51.244+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:54:51.474+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:54:51.474+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:54:51.490+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:54:51.490+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:54:51.512+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.334 seconds
+[2025-02-12T01:55:22.199+0600] {processor.py:186} INFO - Started process (PID=53231) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:55:22.202+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:55:22.207+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:55:22.206+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:55:22.260+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:55:22.520+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:55:22.519+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:55:22.547+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:55:22.547+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:55:22.581+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.407 seconds
+[2025-02-12T01:55:52.698+0600] {processor.py:186} INFO - Started process (PID=53512) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:55:52.705+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:55:52.708+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:55:52.707+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:55:52.759+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:55:53.032+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:55:53.032+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:55:53.059+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:55:53.058+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:55:53.089+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.408 seconds
+[2025-02-12T01:56:23.355+0600] {processor.py:186} INFO - Started process (PID=53789) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:56:23.361+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:56:23.363+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:56:23.362+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:56:23.404+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:56:23.634+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:56:23.634+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:56:23.655+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:56:23.654+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:56:23.681+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.336 seconds
+[2025-02-12T01:56:54.111+0600] {processor.py:186} INFO - Started process (PID=54042) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:56:54.112+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:56:54.114+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:56:54.114+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:56:54.154+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:56:54.414+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:56:54.414+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:56:54.434+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:56:54.433+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:56:54.463+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.366 seconds
+[2025-02-12T01:57:24.666+0600] {processor.py:186} INFO - Started process (PID=54328) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:57:24.668+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:57:24.669+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:57:24.669+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:57:24.726+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:57:25.088+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:57:25.087+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:57:25.106+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:57:25.106+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:57:25.131+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.475 seconds
+[2025-02-12T01:57:55.396+0600] {processor.py:186} INFO - Started process (PID=54589) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:57:55.397+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:57:55.399+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:57:55.398+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:57:55.435+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:57:55.634+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:57:55.634+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:57:55.654+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:57:55.654+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:57:55.678+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.292 seconds
+[2025-02-12T01:58:25.718+0600] {processor.py:186} INFO - Started process (PID=54872) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:58:25.723+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:58:25.725+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:58:25.724+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:58:25.763+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:58:26.059+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:58:26.059+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:58:26.086+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:58:26.085+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:58:26.123+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.414 seconds
+[2025-02-12T01:58:56.264+0600] {processor.py:186} INFO - Started process (PID=55131) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:58:56.266+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:58:56.268+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:58:56.267+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:58:56.315+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:58:56.594+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:58:56.594+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:58:56.625+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:58:56.625+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:58:56.662+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.412 seconds
+[2025-02-12T01:59:26.771+0600] {processor.py:186} INFO - Started process (PID=55428) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:59:26.785+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:59:26.788+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:59:26.787+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:59:26.833+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:59:27.073+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:59:27.073+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:59:27.091+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:59:27.090+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:59:27.119+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.362 seconds
+[2025-02-12T01:59:57.681+0600] {processor.py:186} INFO - Started process (PID=55660) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:59:57.687+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T01:59:57.688+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:59:57.688+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:59:57.727+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T01:59:57.935+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:59:57.935+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T01:59:57.952+0600] {logging_mixin.py:190} INFO - [2025-02-12T01:59:57.952+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T01:59:57.978+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.307 seconds
+[2025-02-12T02:00:28.214+0600] {processor.py:186} INFO - Started process (PID=55934) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:00:28.216+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:00:28.220+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:00:28.219+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:00:28.276+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:00:29.019+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:00:29.019+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:00:29.177+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:00:29.176+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:00:29.249+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 1.054 seconds
+[2025-02-12T02:00:59.804+0600] {processor.py:186} INFO - Started process (PID=56121) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:00:59.811+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:00:59.812+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:00:59.812+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:00:59.848+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:01:00.102+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:01:00.101+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:01:00.131+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:01:00.131+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:01:00.190+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.398 seconds
+[2025-02-12T02:01:30.364+0600] {processor.py:186} INFO - Started process (PID=56357) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:01:30.365+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:01:30.367+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:01:30.367+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:01:30.401+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:01:30.608+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:01:30.607+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:01:30.625+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:01:30.625+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:01:30.649+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.294 seconds
+[2025-02-12T02:02:00.883+0600] {processor.py:186} INFO - Started process (PID=56622) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:02:00.885+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:02:00.886+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:02:00.886+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:02:00.918+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:02:01.098+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:02:01.098+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:02:01.115+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:02:01.114+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:02:01.142+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.267 seconds
+[2025-02-12T02:02:31.205+0600] {processor.py:186} INFO - Started process (PID=56911) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:02:31.206+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:02:31.208+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:02:31.207+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:02:31.242+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:02:31.437+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:02:31.437+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:02:31.453+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:02:31.453+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:02:31.482+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.285 seconds
+[2025-02-12T02:03:01.717+0600] {processor.py:186} INFO - Started process (PID=57198) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:03:01.719+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:03:01.722+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:03:01.721+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:03:01.778+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:03:02.284+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:03:02.284+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:03:02.321+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:03:02.321+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:03:02.361+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.734 seconds
+[2025-02-12T02:03:32.570+0600] {processor.py:186} INFO - Started process (PID=57494) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:03:32.571+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:03:32.573+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:03:32.573+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:03:32.615+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:03:32.833+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:03:32.833+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:03:32.849+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:03:32.848+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:03:32.879+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.321 seconds
+[2025-02-12T02:04:03.247+0600] {processor.py:186} INFO - Started process (PID=57757) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:04:03.248+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:04:03.249+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:04:03.249+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:04:03.280+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:04:03.464+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:04:03.464+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:04:03.479+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:04:03.479+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:04:03.508+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.268 seconds
+[2025-02-12T02:04:33.818+0600] {processor.py:186} INFO - Started process (PID=58048) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:04:33.819+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:04:33.821+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:04:33.820+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:04:33.857+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:04:34.085+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:04:34.085+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:04:34.100+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:04:34.100+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:04:34.166+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.356 seconds
+[2025-02-12T02:05:04.611+0600] {processor.py:186} INFO - Started process (PID=58306) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:05:04.613+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:05:04.615+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:05:04.614+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:05:04.670+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:05:04.903+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:05:04.902+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:05:04.920+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:05:04.919+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:05:04.958+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.371 seconds
+[2025-02-12T02:05:35.477+0600] {processor.py:186} INFO - Started process (PID=58590) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:05:35.478+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:05:35.480+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:05:35.479+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:05:35.512+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:05:35.691+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:05:35.691+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:05:35.707+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:05:35.707+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:05:35.732+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.262 seconds
+[2025-02-12T02:06:06.057+0600] {processor.py:186} INFO - Started process (PID=58849) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:06:06.059+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:06:06.066+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:06:06.065+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:06:06.143+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:06:06.476+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:06:06.476+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:06:06.496+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:06:06.496+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:06:06.519+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.501 seconds
+[2025-02-12T02:06:37.156+0600] {processor.py:186} INFO - Started process (PID=59148) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:06:37.164+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:06:37.167+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:06:37.166+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:06:37.226+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:06:37.475+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:06:37.475+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:06:37.498+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:06:37.498+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:06:37.524+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.392 seconds
+[2025-02-12T02:07:07.702+0600] {processor.py:186} INFO - Started process (PID=59430) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:07:07.704+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:07:07.706+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:07:07.705+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:07:07.752+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:07:07.995+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:07:07.994+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:07:08.014+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:07:08.014+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:07:08.039+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.346 seconds
+[2025-02-12T02:07:38.217+0600] {processor.py:186} INFO - Started process (PID=59712) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:07:38.218+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:07:38.220+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:07:38.219+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:07:38.258+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:07:38.440+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:07:38.440+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:07:38.456+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:07:38.455+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:07:38.484+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.275 seconds
+[2025-02-12T02:08:08.683+0600] {processor.py:186} INFO - Started process (PID=60035) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:08:08.686+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:08:08.689+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:08:08.688+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:08:08.759+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:08:09.071+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:08:09.071+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:08:09.117+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:08:09.116+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:08:09.158+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.494 seconds
+[2025-02-12T02:08:39.753+0600] {processor.py:186} INFO - Started process (PID=60290) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:08:39.754+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:08:39.756+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:08:39.756+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:08:39.801+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:08:40.047+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:08:40.047+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:08:40.074+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:08:40.074+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:08:40.107+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.366 seconds
+[2025-02-12T02:09:10.471+0600] {processor.py:186} INFO - Started process (PID=60584) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:09:10.473+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:09:10.476+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:09:10.475+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:09:10.517+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:09:10.734+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:09:10.734+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:09:10.750+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:09:10.750+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:09:10.776+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.353 seconds
+[2025-02-12T02:09:41.502+0600] {processor.py:186} INFO - Started process (PID=60838) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:09:41.503+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:09:41.505+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:09:41.504+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:09:41.544+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:09:41.753+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:09:41.753+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:09:41.771+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:09:41.770+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:09:41.798+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.307 seconds
+[2025-02-12T02:10:11.958+0600] {processor.py:186} INFO - Started process (PID=61062) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:10:11.960+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:10:11.961+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:10:11.961+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:10:11.999+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:10:12.229+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:10:12.229+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:10:12.252+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:10:12.252+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:10:12.283+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.334 seconds
+[2025-02-12T02:10:43.387+0600] {processor.py:186} INFO - Started process (PID=61325) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:10:43.388+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:10:43.390+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:10:43.389+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:10:43.431+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:10:43.692+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:10:43.691+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:10:43.716+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:10:43.716+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:10:43.753+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.373 seconds
+[2025-02-12T02:11:13.959+0600] {processor.py:186} INFO - Started process (PID=61605) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:11:13.960+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:11:13.962+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:11:13.962+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:11:14.004+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:11:14.204+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:11:14.204+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:11:14.220+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:11:14.220+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:11:14.273+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.324 seconds
+[2025-02-12T02:11:45.177+0600] {processor.py:186} INFO - Started process (PID=61876) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:11:45.183+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:11:45.185+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:11:45.184+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:11:45.217+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:11:45.410+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:11:45.410+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:11:45.428+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:11:45.427+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:11:45.454+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.288 seconds
+[2025-02-12T02:12:15.962+0600] {processor.py:186} INFO - Started process (PID=62135) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:12:15.964+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:12:15.966+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:12:15.965+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:12:16.004+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:12:16.210+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:12:16.209+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:12:16.226+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:12:16.226+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:12:16.269+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.315 seconds
+[2025-02-12T02:12:46.685+0600] {processor.py:186} INFO - Started process (PID=62422) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:12:46.698+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:12:46.700+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:12:46.700+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:12:46.736+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:12:46.918+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:12:46.917+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:12:46.934+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:12:46.934+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:12:46.981+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.304 seconds
+[2025-02-12T02:13:17.497+0600] {processor.py:186} INFO - Started process (PID=62714) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:13:17.499+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:13:17.501+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:13:17.500+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:13:17.547+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:13:17.873+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:13:17.872+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:13:17.900+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:13:17.900+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:13:17.939+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.453 seconds
+[2025-02-12T02:13:48.684+0600] {processor.py:186} INFO - Started process (PID=63001) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:13:48.690+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:13:48.692+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:13:48.691+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:13:48.733+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:13:48.932+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:13:48.932+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:13:48.948+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:13:48.948+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:13:48.979+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.306 seconds
+[2025-02-12T02:14:19.523+0600] {processor.py:186} INFO - Started process (PID=63267) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:14:19.525+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:14:19.530+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:14:19.529+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:14:19.589+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:14:19.805+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:14:19.805+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:14:19.829+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:14:19.829+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:14:19.883+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.388 seconds
+[2025-02-12T02:14:50.529+0600] {processor.py:186} INFO - Started process (PID=63478) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:14:50.547+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:14:50.550+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:14:50.549+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:14:50.595+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:14:50.794+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:14:50.794+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:14:50.812+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:14:50.812+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:14:50.835+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.324 seconds
+[2025-02-12T02:15:20.980+0600] {processor.py:186} INFO - Started process (PID=63725) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:15:20.981+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:15:20.982+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:15:20.982+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:15:21.020+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:15:21.235+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:15:21.235+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:15:21.259+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:15:21.259+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:15:21.281+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.308 seconds
+[2025-02-12T02:15:51.458+0600] {processor.py:186} INFO - Started process (PID=63987) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:15:51.459+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:15:51.461+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:15:51.460+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:15:51.502+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:15:51.708+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:15:51.708+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:15:51.726+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:15:51.726+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:15:51.752+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.305 seconds
+[2025-02-12T02:16:22.399+0600] {processor.py:186} INFO - Started process (PID=64256) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:16:22.400+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:16:22.402+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:16:22.402+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:16:22.447+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:16:22.687+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:16:22.686+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:16:22.702+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:16:22.702+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:16:22.729+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.341 seconds
+[2025-02-12T02:16:52.773+0600] {processor.py:186} INFO - Started process (PID=64514) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:16:52.800+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:16:52.804+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:16:52.803+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:16:52.855+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:16:53.353+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:16:53.349+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:16:53.414+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:16:53.413+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:16:53.473+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.711 seconds
+[2025-02-12T02:17:24.360+0600] {processor.py:186} INFO - Started process (PID=64770) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:17:24.361+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:17:24.366+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:17:24.363+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:17:24.443+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:17:25.222+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:17:25.222+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:17:25.265+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:17:25.265+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:17:25.359+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 1.018 seconds
+[2025-02-12T02:17:55.550+0600] {processor.py:186} INFO - Started process (PID=65033) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:17:55.560+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:17:55.567+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:17:55.562+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:17:55.708+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:17:56.575+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:17:56.574+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:17:56.617+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:17:56.616+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:17:56.672+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 1.138 seconds
+[2025-02-12T02:18:27.036+0600] {processor.py:186} INFO - Started process (PID=65268) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:18:27.052+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:18:27.056+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:18:27.056+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:18:27.116+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:18:27.446+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:18:27.445+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:18:27.470+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:18:27.470+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:18:27.509+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.484 seconds
+[2025-02-12T02:18:57.611+0600] {processor.py:186} INFO - Started process (PID=65551) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:18:57.612+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:18:57.614+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:18:57.614+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:18:57.655+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:18:57.903+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:18:57.903+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:18:57.929+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:18:57.929+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:18:57.956+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.354 seconds
+[2025-02-12T02:19:28.793+0600] {processor.py:186} INFO - Started process (PID=65794) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:19:28.799+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:19:28.801+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:19:28.801+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:19:28.839+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:19:29.060+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:19:29.060+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:19:29.087+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:19:29.086+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:19:29.116+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.334 seconds
+[2025-02-12T02:19:59.204+0600] {processor.py:186} INFO - Started process (PID=66086) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:19:59.206+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:19:59.210+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:19:59.209+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:19:59.267+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:19:59.702+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:19:59.702+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:19:59.730+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:19:59.729+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:19:59.957+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.766 seconds
+[2025-02-12T02:20:30.488+0600] {processor.py:186} INFO - Started process (PID=66320) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:20:30.502+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:20:30.505+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:20:30.504+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:20:30.566+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:20:30.783+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:20:30.783+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:20:30.806+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:20:30.805+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:20:30.843+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.372 seconds
+[2025-02-12T02:21:01.087+0600] {processor.py:186} INFO - Started process (PID=66550) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:21:01.115+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:21:01.117+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:21:01.116+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:21:01.179+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:21:01.513+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:21:01.513+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:21:01.538+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:21:01.537+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:21:01.569+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.512 seconds
+[2025-02-12T02:21:31.948+0600] {processor.py:186} INFO - Started process (PID=66847) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:21:31.949+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:21:31.951+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:21:31.951+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:21:31.996+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:21:32.308+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:21:32.308+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:21:32.341+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:21:32.340+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:21:32.381+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.449 seconds
+[2025-02-12T02:22:02.761+0600] {processor.py:186} INFO - Started process (PID=67082) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:22:02.763+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:22:02.766+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:22:02.765+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:22:02.845+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:22:03.732+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:22:03.731+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:22:03.779+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:22:03.779+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:22:03.896+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 1.156 seconds
+[2025-02-12T02:22:34.031+0600] {processor.py:186} INFO - Started process (PID=67372) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:22:34.033+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:22:34.035+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:22:34.034+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:22:34.066+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:22:34.432+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:22:34.432+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:22:34.448+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:22:34.448+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:22:34.471+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.449 seconds
+[2025-02-12T02:23:04.664+0600] {processor.py:186} INFO - Started process (PID=67658) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:23:04.670+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:23:04.673+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:23:04.672+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:23:04.719+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:23:05.175+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:23:05.175+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:23:05.198+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:23:05.198+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:23:05.226+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.574 seconds
+[2025-02-12T02:23:35.394+0600] {processor.py:186} INFO - Started process (PID=67920) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:23:35.396+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:23:35.401+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:23:35.400+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:23:35.503+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:23:35.895+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:23:35.895+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:23:35.910+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:23:35.910+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:23:35.932+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.554 seconds
+[2025-02-12T02:24:06.745+0600] {processor.py:186} INFO - Started process (PID=68210) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:24:06.753+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:24:06.758+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:24:06.757+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:24:06.817+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:24:07.062+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:24:07.061+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:24:07.238+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:24:07.237+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:24:07.263+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.547 seconds
+[2025-02-12T02:24:37.448+0600] {processor.py:186} INFO - Started process (PID=68443) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:24:37.450+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:24:37.454+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:24:37.453+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:24:37.520+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:24:38.281+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:24:38.280+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:24:38.369+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:24:38.368+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:24:38.493+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 1.059 seconds
+[2025-02-12T02:25:08.780+0600] {processor.py:186} INFO - Started process (PID=68739) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:25:08.786+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:25:08.789+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:25:08.788+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:25:08.842+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:25:09.403+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:25:09.403+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:25:09.419+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:25:09.419+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:25:09.458+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.691 seconds
+[2025-02-12T02:25:40.087+0600] {processor.py:186} INFO - Started process (PID=69045) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:25:40.088+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:25:40.090+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:25:40.089+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:25:40.123+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:25:40.452+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:25:40.451+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:25:40.466+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:25:40.466+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:25:40.493+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.417 seconds
+[2025-02-12T02:26:10.870+0600] {processor.py:186} INFO - Started process (PID=69299) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:26:10.873+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:26:10.877+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:26:10.875+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:26:10.942+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:26:11.384+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:26:11.384+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:26:11.415+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:26:11.414+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:26:11.453+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.599 seconds
+[2025-02-12T02:26:41.672+0600] {processor.py:186} INFO - Started process (PID=69551) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:26:41.686+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:26:41.688+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:26:41.687+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:26:41.724+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:26:41.987+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:26:41.987+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:26:42.014+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:26:42.013+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:26:42.039+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.381 seconds
+[2025-02-12T02:27:12.135+0600] {processor.py:186} INFO - Started process (PID=69842) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:27:12.136+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:27:12.138+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:27:12.137+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:27:12.178+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:27:12.364+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:27:12.364+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:27:12.379+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:27:12.379+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:27:12.406+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.278 seconds
+[2025-02-12T02:27:42.465+0600] {processor.py:186} INFO - Started process (PID=70099) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:27:42.466+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:27:42.468+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:27:42.467+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:27:42.502+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:27:42.682+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:27:42.682+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:27:42.698+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:27:42.698+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:27:42.720+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.262 seconds
+[2025-02-12T02:28:12.807+0600] {processor.py:186} INFO - Started process (PID=70420) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:28:12.808+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:28:12.810+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:28:12.810+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:28:12.846+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:28:13.056+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:28:13.055+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:28:13.074+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:28:13.074+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:28:13.125+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.327 seconds
+[2025-02-12T02:28:43.781+0600] {processor.py:186} INFO - Started process (PID=70664) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:28:43.783+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:28:43.785+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:28:43.784+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:28:43.829+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:28:44.133+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:28:44.133+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:28:44.150+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:28:44.150+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:28:44.177+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.408 seconds
+[2025-02-12T02:29:14.691+0600] {processor.py:186} INFO - Started process (PID=70947) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:29:14.693+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:29:14.695+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:29:14.694+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:29:14.737+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:29:14.952+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:29:14.952+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:29:14.976+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:29:14.975+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:29:15.002+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.321 seconds
+[2025-02-12T02:29:45.104+0600] {processor.py:186} INFO - Started process (PID=71204) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:29:45.105+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:29:45.106+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:29:45.106+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:29:45.142+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:29:45.382+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:29:45.382+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:29:45.403+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:29:45.403+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:29:45.431+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.336 seconds
+[2025-02-12T02:30:16.674+0600] {processor.py:186} INFO - Started process (PID=71495) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:30:16.676+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:30:16.677+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:30:16.677+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:30:16.710+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:30:16.913+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:30:16.913+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:30:16.932+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:30:16.931+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:30:16.960+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.293 seconds
+[2025-02-12T02:30:47.636+0600] {processor.py:186} INFO - Started process (PID=71779) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:30:47.673+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:30:47.675+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:30:47.674+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:30:47.723+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:30:47.987+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:30:47.987+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:30:48.007+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:30:48.006+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:30:48.039+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.429 seconds
+[2025-02-12T02:31:18.141+0600] {processor.py:186} INFO - Started process (PID=72046) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:31:18.143+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:31:18.145+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:31:18.144+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:31:18.187+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:31:18.438+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:31:18.437+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:31:18.458+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:31:18.458+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:31:18.495+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.368 seconds
+[2025-02-12T02:31:48.893+0600] {processor.py:186} INFO - Started process (PID=72307) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:31:48.895+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:31:48.896+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:31:48.896+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:31:48.931+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:31:49.161+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:31:49.160+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:31:49.177+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:31:49.177+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:31:49.204+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.319 seconds
+[2025-02-12T02:32:19.589+0600] {processor.py:186} INFO - Started process (PID=72537) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:32:19.590+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:32:19.592+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:32:19.591+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:32:19.626+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:32:19.810+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:32:19.810+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:32:19.827+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:32:19.827+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:32:19.853+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.272 seconds
+[2025-02-12T02:32:50.030+0600] {processor.py:186} INFO - Started process (PID=72792) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:32:50.031+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:32:50.033+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:32:50.033+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:32:50.075+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:32:50.279+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:32:50.279+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:32:50.296+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:32:50.296+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:32:50.329+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.308 seconds
+[2025-02-12T02:33:20.562+0600] {processor.py:186} INFO - Started process (PID=73073) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:33:20.563+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:33:20.565+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:33:20.564+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:33:20.604+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:33:20.810+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:33:20.810+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:33:20.832+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:33:20.832+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:33:20.863+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.309 seconds
+[2025-02-12T02:33:51.366+0600] {processor.py:186} INFO - Started process (PID=73350) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:33:51.369+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:33:51.373+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:33:51.372+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:33:51.417+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:33:51.616+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:33:51.616+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:33:51.632+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:33:51.632+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:33:51.656+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.320 seconds
+[2025-02-12T02:34:21.758+0600] {processor.py:186} INFO - Started process (PID=73632) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:34:21.759+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:34:21.761+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:34:21.760+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:34:21.808+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:34:22.040+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:34:22.040+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:34:22.057+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:34:22.057+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:34:22.086+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.340 seconds
+[2025-02-12T02:34:52.573+0600] {processor.py:186} INFO - Started process (PID=73879) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:34:52.574+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:34:52.575+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:34:52.575+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:34:52.611+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:34:52.814+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:34:52.814+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:34:52.830+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:34:52.830+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:34:52.855+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.290 seconds
+[2025-02-12T02:35:23.405+0600] {processor.py:186} INFO - Started process (PID=74135) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:35:23.418+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:35:23.420+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:35:23.420+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:35:23.463+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:35:23.663+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:35:23.663+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:35:23.682+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:35:23.682+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:35:23.708+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.313 seconds
+[2025-02-12T02:35:54.291+0600] {processor.py:186} INFO - Started process (PID=74397) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:35:54.300+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:35:54.304+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:35:54.303+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:35:54.351+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:35:54.573+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:35:54.573+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:35:54.601+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:35:54.601+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:35:54.655+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.399 seconds
+[2025-02-12T02:36:25.333+0600] {processor.py:186} INFO - Started process (PID=74684) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:36:25.342+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:36:25.349+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:36:25.347+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:36:25.413+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:36:25.652+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:36:25.651+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:36:25.680+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:36:25.679+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:36:25.711+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.416 seconds
+[2025-02-12T02:36:56.011+0600] {processor.py:186} INFO - Started process (PID=74976) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:36:56.012+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:36:56.014+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:36:56.014+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:36:56.149+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:36:56.394+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:36:56.394+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:36:56.418+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:36:56.418+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:36:56.446+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.449 seconds
+[2025-02-12T02:37:26.868+0600] {processor.py:186} INFO - Started process (PID=75280) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:37:26.869+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:37:26.870+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:37:26.870+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:37:26.907+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:37:27.131+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:37:27.131+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:37:27.148+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:37:27.147+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:37:27.173+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.313 seconds
+[2025-02-12T02:37:57.617+0600] {processor.py:186} INFO - Started process (PID=75568) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:37:57.619+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:37:57.621+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:37:57.621+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:37:57.653+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:37:57.830+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:37:57.830+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:37:57.845+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:37:57.845+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:37:57.868+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.259 seconds
+[2025-02-12T02:38:27.931+0600] {processor.py:186} INFO - Started process (PID=75823) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:38:27.932+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:38:27.934+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:38:27.934+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:38:27.979+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:38:28.229+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:38:28.229+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:38:28.253+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:38:28.253+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:38:28.282+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.358 seconds
+[2025-02-12T02:38:59.225+0600] {processor.py:186} INFO - Started process (PID=76106) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:38:59.235+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:38:59.237+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:38:59.236+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:38:59.273+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:38:59.482+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:38:59.481+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:38:59.502+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:38:59.502+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:38:59.528+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.322 seconds
+[2025-02-12T02:39:30.292+0600] {processor.py:186} INFO - Started process (PID=76392) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:39:30.306+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:39:30.308+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:39:30.307+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:39:30.362+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:39:30.677+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:39:30.677+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:39:30.709+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:39:30.709+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:39:30.748+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.477 seconds
+[2025-02-12T02:40:01.295+0600] {processor.py:186} INFO - Started process (PID=76534) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:40:01.308+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:40:01.310+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:40:01.310+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:40:01.351+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:40:01.617+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:40:01.617+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:40:01.648+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:40:01.648+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:40:01.684+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.413 seconds
+[2025-02-12T02:40:31.763+0600] {processor.py:186} INFO - Started process (PID=76818) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:40:31.764+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:40:31.766+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:40:31.766+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:40:31.798+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:40:31.986+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:40:31.985+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:40:32.003+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:40:32.003+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:40:32.027+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.271 seconds
+[2025-02-12T02:41:02.097+0600] {processor.py:186} INFO - Started process (PID=76982) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:41:02.098+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:41:02.101+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:41:02.100+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:41:02.166+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:41:02.644+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:41:02.643+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:41:02.676+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:41:02.675+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:41:02.738+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.661 seconds
+[2025-02-12T02:41:32.994+0600] {processor.py:186} INFO - Started process (PID=77157) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:41:32.998+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:41:32.999+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:41:32.999+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:41:33.034+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:41:33.309+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:41:33.308+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:41:33.327+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:41:33.327+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:41:33.353+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.369 seconds
+[2025-02-12T02:42:03.739+0600] {processor.py:186} INFO - Started process (PID=77386) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:42:03.746+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:42:03.749+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:42:03.749+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:42:03.803+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:42:04.098+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:42:04.098+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:42:04.129+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:42:04.128+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:42:04.189+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.483 seconds
+[2025-02-12T02:42:34.329+0600] {processor.py:186} INFO - Started process (PID=77530) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:42:34.330+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:42:34.332+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:42:34.331+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:42:34.366+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:42:34.553+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:42:34.553+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:42:34.569+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:42:34.569+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:42:34.595+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.275 seconds
+[2025-02-12T02:43:04.651+0600] {processor.py:186} INFO - Started process (PID=77706) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:43:04.652+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:43:04.653+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:43:04.653+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:43:04.689+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:43:04.907+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:43:04.906+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:43:04.926+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:43:04.925+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:43:04.953+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.310 seconds
+[2025-02-12T02:43:35.062+0600] {processor.py:186} INFO - Started process (PID=77855) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:43:35.063+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:43:35.065+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:43:35.064+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:43:35.098+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:43:35.319+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:43:35.319+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:43:35.351+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:43:35.350+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:43:35.391+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.346 seconds
+[2025-02-12T02:44:06.082+0600] {processor.py:186} INFO - Started process (PID=78091) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:44:06.088+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:44:06.098+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:44:06.097+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:44:06.180+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:44:06.626+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:44:06.625+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:44:06.695+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:44:06.694+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:44:06.884+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.855 seconds
+[2025-02-12T02:44:37.111+0600] {processor.py:186} INFO - Started process (PID=78290) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:44:37.134+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:44:37.136+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:44:37.136+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:44:37.251+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:44:37.781+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:44:37.781+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:44:37.825+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:44:37.824+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:44:37.900+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.850 seconds
+[2025-02-12T02:45:08.500+0600] {processor.py:186} INFO - Started process (PID=78508) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:45:08.504+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:45:08.508+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:45:08.506+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:45:08.549+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:45:08.800+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:45:08.800+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:45:08.821+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:45:08.821+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:45:08.862+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.376 seconds
+[2025-02-12T02:45:38.949+0600] {processor.py:186} INFO - Started process (PID=78670) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:45:38.950+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:45:38.951+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:45:38.951+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:45:38.990+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:45:39.210+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:45:39.210+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:45:39.230+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:45:39.230+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:45:39.261+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.321 seconds
+[2025-02-12T02:46:09.346+0600] {processor.py:186} INFO - Started process (PID=78839) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:46:09.360+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:46:09.362+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:46:09.361+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:46:09.405+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:46:09.630+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:46:09.630+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:46:09.646+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:46:09.646+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:46:09.699+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.364 seconds
+[2025-02-12T02:46:40.613+0600] {processor.py:186} INFO - Started process (PID=79058) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:46:40.614+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:46:40.615+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:46:40.615+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:46:40.647+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:46:40.901+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:46:40.901+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:46:40.928+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:46:40.927+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:46:40.971+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.366 seconds
+[2025-02-12T02:47:11.556+0600] {processor.py:186} INFO - Started process (PID=79271) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:47:11.558+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:47:11.559+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:47:11.559+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:47:11.594+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:47:11.825+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:47:11.825+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:47:11.842+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:47:11.842+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:47:11.871+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.325 seconds
+[2025-02-12T02:47:42.373+0600] {processor.py:186} INFO - Started process (PID=79548) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:47:42.374+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:47:42.379+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:47:42.378+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:47:42.522+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:47:42.923+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:47:42.922+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:47:42.962+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:47:42.955+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:47:43.010+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.684 seconds
+[2025-02-12T02:48:13.756+0600] {processor.py:186} INFO - Started process (PID=79852) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:48:13.763+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:48:13.766+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:48:13.765+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:48:13.821+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:48:14.294+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:48:14.293+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:48:14.322+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:48:14.322+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:48:14.358+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.615 seconds
+[2025-02-12T02:48:44.505+0600] {processor.py:186} INFO - Started process (PID=80066) to work on /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:48:44.508+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py for tasks to queue
+[2025-02-12T02:48:44.515+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:48:44.514+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:48:44.563+0600] {processor.py:925} INFO - DAG(s) 'e2e_data_loading_to_pg_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py
+[2025-02-12T02:48:44.861+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:48:44.861+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-12T02:48:44.888+0600] {logging_mixin.py:190} INFO - [2025-02-12T02:48:44.888+0600] {dag.py:4180} INFO - Setting next_dagrun for e2e_data_loading_to_pg_dag to None, run_after=None
+[2025-02-12T02:48:44.927+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/e_to_e_processing.py took 0.455 seconds
