@@ -1,0 +1,225 @@
+[2025-02-11T09:04:01.050+0600] {processor.py:186} INFO - Started process (PID=6843) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:04:01.051+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-11T09:04:01.053+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:04:01.052+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:04:01.062+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:04:01.056+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py", line 6, in <module>
+    dag=DAG(
+        ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'start_time'
+[2025-02-11T09:04:01.063+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:04:01.082+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.038 seconds
+[2025-02-11T09:04:58.374+0600] {processor.py:186} INFO - Started process (PID=7044) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:04:58.379+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-11T09:04:58.382+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:04:58.382+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:04:58.388+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:04:58.386+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py", line 6, in <module>
+    dag=DAG(
+        ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'start_time'
+[2025-02-11T09:04:58.390+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:04:58.413+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.051 seconds
+[2025-02-11T09:05:36.824+0600] {processor.py:186} INFO - Started process (PID=7268) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:05:36.830+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-11T09:05:36.832+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:05:36.832+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:05:36.837+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:05:36.836+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py", line 6, in <module>
+    dag=DAG(
+        ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'start_time'
+[2025-02-11T09:05:36.837+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:05:36.859+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.043 seconds
+[2025-02-11T09:06:16.047+0600] {processor.py:186} INFO - Started process (PID=7406) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:06:16.056+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-11T09:06:16.060+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:06:16.059+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:06:16.073+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:06:16.069+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py", line 6, in <module>
+    dag=DAG(
+        ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'start_time'
+[2025-02-11T09:06:16.074+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:06:16.146+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.121 seconds
+[2025-02-11T09:06:57.407+0600] {processor.py:186} INFO - Started process (PID=7623) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:06:57.413+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-11T09:06:57.415+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:06:57.414+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:06:57.419+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:06:57.418+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py", line 6, in <module>
+    dag=DAG(
+        ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'start_time'
+[2025-02-11T09:06:57.419+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:06:57.440+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.040 seconds
+[2025-02-11T09:07:38.133+0600] {processor.py:186} INFO - Started process (PID=7866) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:07:38.140+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-11T09:07:38.142+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:07:38.142+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:07:38.150+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:07:38.148+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py", line 6, in <module>
+    dag=DAG(
+        ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'start_time'
+[2025-02-11T09:07:38.151+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:07:38.182+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.065 seconds
+[2025-02-11T09:08:21.114+0600] {processor.py:186} INFO - Started process (PID=8151) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:08:21.122+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-11T09:08:21.124+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:08:21.123+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:08:21.128+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:08:21.127+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py", line 6, in <module>
+    dag=DAG(
+        ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'start_time'
+[2025-02-11T09:08:21.129+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:08:21.148+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.050 seconds
+[2025-02-11T09:09:03.419+0600] {processor.py:186} INFO - Started process (PID=8418) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:09:03.428+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-11T09:09:03.433+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:09:03.431+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:09:03.441+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:09:03.438+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py", line 6, in <module>
+    dag=DAG(
+        ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'start_time'
+[2025-02-11T09:09:03.442+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:09:03.468+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.075 seconds
+[2025-02-11T09:09:47.264+0600] {processor.py:186} INFO - Started process (PID=8660) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:09:47.270+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-11T09:09:47.272+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:09:47.271+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:09:47.276+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:09:47.275+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py", line 6, in <module>
+    dag=DAG(
+        ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'start_time'
+[2025-02-11T09:09:47.276+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:09:47.296+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.038 seconds
+[2025-02-11T09:10:27.281+0600] {processor.py:186} INFO - Started process (PID=8921) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:10:27.287+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-11T09:10:27.288+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:10:27.288+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:10:27.293+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:10:27.292+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py", line 6, in <module>
+    dag=DAG(
+        ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'start_time'
+[2025-02-11T09:10:27.294+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:10:27.337+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.065 seconds
+[2025-02-11T09:11:07.041+0600] {processor.py:186} INFO - Started process (PID=9142) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:11:07.047+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-11T09:11:07.049+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:11:07.049+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:11:07.053+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:11:07.052+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py", line 6, in <module>
+    dag=DAG(
+        ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'start_time'
+[2025-02-11T09:11:07.053+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:11:07.073+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.038 seconds
+[2025-02-11T09:11:46.985+0600] {processor.py:186} INFO - Started process (PID=9401) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:11:46.992+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-11T09:11:46.995+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:11:46.994+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:11:47.001+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:11:46.999+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py", line 6, in <module>
+    dag=DAG(
+        ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'start_time'
+[2025-02-11T09:11:47.002+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:11:47.035+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.060 seconds
+[2025-02-11T09:12:31.693+0600] {processor.py:186} INFO - Started process (PID=9687) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:12:31.700+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-11T09:12:31.702+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:12:31.701+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:12:31.709+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:12:31.707+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py", line 6, in <module>
+    dag=DAG(
+        ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'start_time'
+[2025-02-11T09:12:31.709+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:12:31.736+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.054 seconds
+[2025-02-11T09:13:12.368+0600] {processor.py:186} INFO - Started process (PID=9966) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:13:12.371+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-11T09:13:12.373+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:13:12.373+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:13:12.380+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:13:12.379+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py", line 7, in <module>
+    dag=DAG(
+        ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'start_time'
+[2025-02-11T09:13:12.381+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:13:12.406+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.048 seconds
+[2025-02-11T09:13:50.704+0600] {processor.py:186} INFO - Started process (PID=10094) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:13:50.711+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-11T09:13:50.712+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:13:50.712+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:13:50.719+0600] {logging_mixin.py:190} INFO - [2025-02-11T09:13:50.717+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py", line 7, in <module>
+    dag=DAG(
+        ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'start_time'
+[2025-02-11T09:13:50.720+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-11T09:13:50.747+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.050 seconds
