@@ -15,3 +15,14 @@
 [2025-02-11T17:09:33.344+0600] {logging_mixin.py:190} INFO - Dag name:seq_parallel_dag and current dag run status:running
 [2025-02-11T17:09:33.344+0600] {taskinstance.py:731} INFO - ::endgroup::
 [2025-02-11T17:09:33.345+0600] {logging_mixin.py:190} INFO - Task 4 is starting...
+[2025-02-11T17:09:38.346+0600] {logging_mixin.py:190} INFO - Task 4 is completed.
+[2025-02-11T17:09:38.347+0600] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-11T17:09:38.406+0600] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-11T17:09:38.407+0600] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=seq_parallel_dag, task_id=task4, run_id=manual__2025-02-11T11:08:17.633352+00:00, execution_date=20250211T110817, start_date=20250211T110933, end_date=20250211T110938
+[2025-02-11T17:09:38.427+0600] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-11T17:09:38.428+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-11T17:09:38.429+0600] {logging_mixin.py:190} INFO - Dag name:seq_parallel_dag queued_at:2025-02-11 11:08:17.662368+00:00
+[2025-02-11T17:09:38.429+0600] {logging_mixin.py:190} INFO - Task hostname:shamim-X541UV operator:PythonOperator
+[2025-02-11T17:09:38.444+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-11T17:09:38.471+0600] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-11T17:09:38.472+0600] {local_task_job_runner.py:245} INFO - ::endgroup::

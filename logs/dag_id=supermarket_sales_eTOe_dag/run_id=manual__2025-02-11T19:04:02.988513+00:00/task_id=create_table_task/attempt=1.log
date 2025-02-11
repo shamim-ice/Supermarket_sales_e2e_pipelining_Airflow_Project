@@ -1,0 +1,158 @@
+[2025-02-12T01:04:09.282+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-12T01:04:09.311+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: supermarket_sales_eTOe_dag.create_table_task manual__2025-02-11T19:04:02.988513+00:00 [queued]>
+[2025-02-12T01:04:09.321+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: supermarket_sales_eTOe_dag.create_table_task manual__2025-02-11T19:04:02.988513+00:00 [queued]>
+[2025-02-12T01:04:09.321+0600] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-12T01:04:09.336+0600] {taskinstance.py:2889} INFO - Executing <Task(SQLExecuteQueryOperator): create_table_task> on 2025-02-11 19:04:02.988513+00:00
+[2025-02-12T01:04:09.349+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'supermarket_sales_eTOe_dag', 'create_table_task', 'manual__2025-02-11T19:04:02.988513+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/final_assignment.py', '--cfg-path', '/tmp/tmpxmaorsdk']
+[2025-02-12T01:04:09.351+0600] {standard_task_runner.py:105} INFO - Job 22: Subtask create_table_task
+[2025-02-12T01:04:09.353+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=29117) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-12T01:04:09.354+0600] {standard_task_runner.py:72} INFO - Started process 29155 to run task
+[2025-02-12T01:04:09.442+0600] {task_command.py:467} INFO - Running <TaskInstance: supermarket_sales_eTOe_dag.create_table_task manual__2025-02-11T19:04:02.988513+00:00 [running]> on host shamim-X541UV
+[2025-02-12T01:04:09.578+0600] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='supermarket_sales_eTOe_dag' AIRFLOW_CTX_TASK_ID='create_table_task' AIRFLOW_CTX_EXECUTION_DATE='2025-02-11T19:04:02.988513+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-11T19:04:02.988513+00:00'
+[2025-02-12T01:04:09.580+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-12T01:04:09.581+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-12T01:04:09.581+0600] {logging_mixin.py:190} INFO - Current task name:create_table_task state:running start_date:2025-02-11 19:04:09.312074+00:00
+[2025-02-12T01:04:09.582+0600] {logging_mixin.py:190} INFO - Dag name:supermarket_sales_eTOe_dag and current dag run status:running
+[2025-02-12T01:04:09.582+0600] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-12T01:04:09.583+0600] {sql.py:295} INFO - Executing: 
+    DROP TABLE IF EXISTS supermarket_sales;
+    CREATE TABLE IF NOT EXISTS supermarket_sales(
+    Invoice_ID VARCHAR(100) PRIMARY KEY,
+    Branch VARCHAR(100) NULL,
+    City VARCHAR(100) NULL,
+    Customer type VARCHAR(100) NULL,
+    Gender VARCHAR(100) NULL,
+    Product line VARCHAR(100) NULL,
+    Unit price NUMERIC(10,2) NULL,
+    Quantity INT NULL,
+    Tax 5% NUMERIC(10,2) NULL,
+    Total NUMERIC(10,2) NULL,
+    Date DATE,
+    Time TIME,
+    Payment VARCHAR(100) NULL,
+    Cost of goods sold NUMERIC(10,2) NULL,
+    Gross margin percentage NUMERIC(10,2) NULL,
+    Gross income NUMERIC(10,2) NULL,
+    Customer stratification rating NUMERIC(10,2)
+    );
+    
+[2025-02-12T01:04:09.603+0600] {base.py:84} INFO - Retrieving connection 'postgres'
+[2025-02-12T01:04:09.628+0600] {base.py:84} INFO - Retrieving connection 'postgres'
+[2025-02-12T01:04:09.645+0600] {sql.py:511} INFO - Running statement: 
+    DROP TABLE IF EXISTS supermarket_sales;
+    CREATE TABLE IF NOT EXISTS supermarket_sales(
+    Invoice_ID VARCHAR(100) PRIMARY KEY,
+    Branch VARCHAR(100) NULL,
+    City VARCHAR(100) NULL,
+    Customer type VARCHAR(100) NULL,
+    Gender VARCHAR(100) NULL,
+    Product line VARCHAR(100) NULL,
+    Unit price NUMERIC(10,2) NULL,
+    Quantity INT NULL,
+    Tax 5% NUMERIC(10,2) NULL,
+    Total NUMERIC(10,2) NULL,
+    Date DATE,
+    Time TIME,
+    Payment VARCHAR(100) NULL,
+    Cost of goods sold NUMERIC(10,2) NULL,
+    Gross margin percentage NUMERIC(10,2) NULL,
+    Gross income NUMERIC(10,2) NULL,
+    Customer stratification rating NUMERIC(10,2)
+    );
+    , parameters: None
+[2025-02-12T01:04:09.646+0600] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 301, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 467, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 516, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.SyntaxError: syntax error at or near "VARCHAR"
+LINE 7:     Customer type VARCHAR(100) NULL,
+                          ^
+
+[2025-02-12T01:04:09.669+0600] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-02-12T01:04:09.669+0600] {logging_mixin.py:190} INFO - Task start:2025-02-11 19:04:09.312074+00:00 end:2025-02-11 19:04:09.668934+00:00 duration:0.35686
+[2025-02-12T01:04:09.670+0600] {logging_mixin.py:190} INFO - Task:<Task(SQLExecuteQueryOperator): create_table_task> dag:<DAG: supermarket_sales_eTOe_dag> dagrun:<DagRun supermarket_sales_eTOe_dag @ 2025-02-11 19:04:02.988513+00:00: manual__2025-02-11T19:04:02.988513+00:00, state:running, queued_at: 2025-02-11 19:04:03.005227+00:00. externally triggered: True>
+[2025-02-12T01:04:09.670+0600] {logging_mixin.py:190} INFO - Failure caused by syntax error at or near "VARCHAR"
+LINE 7:     Customer type VARCHAR(100) NULL,
+                          ^
+[2025-02-12T01:04:09.670+0600] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=supermarket_sales_eTOe_dag, task_id=create_table_task, run_id=manual__2025-02-11T19:04:02.988513+00:00, execution_date=20250211T190402, start_date=20250211T190409, end_date=20250211T190409
+[2025-02-12T01:04:09.684+0600] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-12T01:04:09.684+0600] {standard_task_runner.py:124} ERROR - Failed to execute job 22 for task create_table_task (syntax error at or near "VARCHAR"
+LINE 7:     Customer type VARCHAR(100) NULL,
+                          ^
+; 29155)
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 301, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 467, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 516, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.SyntaxError: syntax error at or near "VARCHAR"
+LINE 7:     Customer type VARCHAR(100) NULL,
+                          ^
+
+[2025-02-12T01:04:09.730+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-02-12T01:04:09.762+0600] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-12T01:04:09.764+0600] {local_task_job_runner.py:245} INFO - ::endgroup::

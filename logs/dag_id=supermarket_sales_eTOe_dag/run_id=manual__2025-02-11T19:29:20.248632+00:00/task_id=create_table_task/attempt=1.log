@@ -1,0 +1,79 @@
+[2025-02-12T01:29:25.741+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-12T01:29:25.769+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: supermarket_sales_eTOe_dag.create_table_task manual__2025-02-11T19:29:20.248632+00:00 [queued]>
+[2025-02-12T01:29:25.779+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: supermarket_sales_eTOe_dag.create_table_task manual__2025-02-11T19:29:20.248632+00:00 [queued]>
+[2025-02-12T01:29:25.780+0600] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-12T01:29:25.806+0600] {taskinstance.py:2889} INFO - Executing <Task(SQLExecuteQueryOperator): create_table_task> on 2025-02-11 19:29:20.248632+00:00
+[2025-02-12T01:29:25.818+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'supermarket_sales_eTOe_dag', 'create_table_task', 'manual__2025-02-11T19:29:20.248632+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/final_assignment.py', '--cfg-path', '/tmp/tmp_96jwrbf']
+[2025-02-12T01:29:25.820+0600] {standard_task_runner.py:105} INFO - Job 23: Subtask create_table_task
+[2025-02-12T01:29:25.823+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=41177) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-12T01:29:25.824+0600] {standard_task_runner.py:72} INFO - Started process 41203 to run task
+[2025-02-12T01:29:25.913+0600] {task_command.py:467} INFO - Running <TaskInstance: supermarket_sales_eTOe_dag.create_table_task manual__2025-02-11T19:29:20.248632+00:00 [running]> on host shamim-X541UV
+[2025-02-12T01:29:26.050+0600] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='supermarket_sales_eTOe_dag' AIRFLOW_CTX_TASK_ID='create_table_task' AIRFLOW_CTX_EXECUTION_DATE='2025-02-11T19:29:20.248632+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-11T19:29:20.248632+00:00'
+[2025-02-12T01:29:26.052+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-12T01:29:26.052+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-12T01:29:26.053+0600] {logging_mixin.py:190} INFO - Current task name:create_table_task state:running start_date:2025-02-11 19:29:25.769845+00:00
+[2025-02-12T01:29:26.054+0600] {logging_mixin.py:190} INFO - Dag name:supermarket_sales_eTOe_dag and current dag run status:running
+[2025-02-12T01:29:26.055+0600] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-12T01:29:26.055+0600] {sql.py:295} INFO - Executing: 
+    DROP TABLE IF EXISTS supermarket_sales;
+    CREATE TABLE IF NOT EXISTS supermarket_sales(
+    invoice_id VARCHAR(100) PRIMARY KEY,
+    branch VARCHAR(100),
+    city VARCHAR(100),
+    customer_type VARCHAR(100),
+    gender VARCHAR(100),
+    product_line VARCHAR(100),
+    unit_price NUMERIC(10,2),
+    quantity INT,
+    tax_5_percent NUMERIC(10,2),
+    total NUMERIC(10,2),
+    date DATE,
+    time TIME,  -- Use TIME if only storing time; use TIMESTAMP for date and time
+    payment VARCHAR(100),
+    cost_of_goods_sold NUMERIC(10,2),
+    gross_margin_percentage NUMERIC(10,2),
+    gross_income NUMERIC(10,2),
+    customer_stratification_rating NUMERIC(10,2)
+    );
+    
+[2025-02-12T01:29:26.076+0600] {base.py:84} INFO - Retrieving connection 'postgres'
+[2025-02-12T01:29:26.098+0600] {base.py:84} INFO - Retrieving connection 'postgres'
+[2025-02-12T01:29:26.115+0600] {sql.py:511} INFO - Running statement: 
+    DROP TABLE IF EXISTS supermarket_sales;
+    CREATE TABLE IF NOT EXISTS supermarket_sales(
+    invoice_id VARCHAR(100) PRIMARY KEY,
+    branch VARCHAR(100),
+    city VARCHAR(100),
+    customer_type VARCHAR(100),
+    gender VARCHAR(100),
+    product_line VARCHAR(100),
+    unit_price NUMERIC(10,2),
+    quantity INT,
+    tax_5_percent NUMERIC(10,2),
+    total NUMERIC(10,2),
+    date DATE,
+    time TIME,  -- Use TIME if only storing time; use TIMESTAMP for date and time
+    payment VARCHAR(100),
+    cost_of_goods_sold NUMERIC(10,2),
+    gross_margin_percentage NUMERIC(10,2),
+    gross_income NUMERIC(10,2),
+    customer_stratification_rating NUMERIC(10,2)
+    );
+    , parameters: None
+[2025-02-12T01:29:26.130+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py:470 DeprecationWarning: Import of fetch_all_handler from the 'airflow.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from 'airflow.providers.common.sql.hooks.handlers'.
+[2025-02-12T01:29:26.132+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py:471 DeprecationWarning: Import of return_single_query_results from the 'airflow.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from 'airflow.providers.common.sql.hooks.handlers'.
+[2025-02-12T01:29:26.136+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py:486 DeprecationWarning: Import of return_single_query_results from the 'airflow.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from 'airflow.providers.common.sql.hooks.handlers'.
+[2025-02-12T01:29:26.138+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py:311 DeprecationWarning: Import of return_single_query_results from the 'airflow.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from 'airflow.providers.common.sql.hooks.handlers'.
+[2025-02-12T01:29:26.159+0600] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-12T01:29:26.159+0600] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=supermarket_sales_eTOe_dag, task_id=create_table_task, run_id=manual__2025-02-11T19:29:20.248632+00:00, execution_date=20250211T192920, start_date=20250211T192925, end_date=20250211T192926
+[2025-02-12T01:29:26.169+0600] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-12T01:29:26.170+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-12T01:29:26.170+0600] {logging_mixin.py:190} INFO - Dag name:supermarket_sales_eTOe_dag queued_at:2025-02-11 19:29:20.262010+00:00
+[2025-02-12T01:29:26.171+0600] {logging_mixin.py:190} INFO - Task hostname:shamim-X541UV operator:SQLExecuteQueryOperator
+[2025-02-12T01:29:26.199+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-12T01:29:26.232+0600] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-12T01:29:26.233+0600] {local_task_job_runner.py:245} INFO - ::endgroup::
