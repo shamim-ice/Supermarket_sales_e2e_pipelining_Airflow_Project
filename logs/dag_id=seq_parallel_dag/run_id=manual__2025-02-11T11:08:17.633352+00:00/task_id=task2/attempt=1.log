@@ -1,0 +1,28 @@
+[2025-02-11T17:08:53.619+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-11T17:08:53.658+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: seq_parallel_dag.task2 manual__2025-02-11T11:08:17.633352+00:00 [queued]>
+[2025-02-11T17:08:53.677+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: seq_parallel_dag.task2 manual__2025-02-11T11:08:17.633352+00:00 [queued]>
+[2025-02-11T17:08:53.678+0600] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-11T17:08:53.697+0600] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): task2> on 2025-02-11 11:08:17.633352+00:00
+[2025-02-11T17:08:53.711+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'seq_parallel_dag', 'task2', 'manual__2025-02-11T11:08:17.633352+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/seq_parallel_task.py', '--cfg-path', '/tmp/tmpzesn4vzo']
+[2025-02-11T17:08:53.713+0600] {standard_task_runner.py:105} INFO - Job 12: Subtask task2
+[2025-02-11T17:08:53.716+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=113277) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-11T17:08:53.718+0600] {standard_task_runner.py:72} INFO - Started process 113288 to run task
+[2025-02-11T17:08:53.819+0600] {task_command.py:467} INFO - Running <TaskInstance: seq_parallel_dag.task2 manual__2025-02-11T11:08:17.633352+00:00 [running]> on host shamim-X541UV
+[2025-02-11T17:08:53.950+0600] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='seq_parallel_dag' AIRFLOW_CTX_TASK_ID='task2' AIRFLOW_CTX_EXECUTION_DATE='2025-02-11T11:08:17.633352+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-11T11:08:17.633352+00:00'
+[2025-02-11T17:08:53.952+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-11T17:08:53.952+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-11T17:08:53.953+0600] {logging_mixin.py:190} INFO - Current task name:task2 state:running start_date:2025-02-11 11:08:53.658522+00:00
+[2025-02-11T17:08:53.953+0600] {logging_mixin.py:190} INFO - Dag name:seq_parallel_dag and current dag run status:running
+[2025-02-11T17:08:53.954+0600] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-11T17:08:53.955+0600] {logging_mixin.py:190} INFO - Task 2 is starting...
+[2025-02-11T17:08:58.955+0600] {logging_mixin.py:190} INFO - Task 2 is completed.
+[2025-02-11T17:08:58.956+0600] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-11T17:08:59.014+0600] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-11T17:08:59.015+0600] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=seq_parallel_dag, task_id=task2, run_id=manual__2025-02-11T11:08:17.633352+00:00, execution_date=20250211T110817, start_date=20250211T110853, end_date=20250211T110859
+[2025-02-11T17:08:59.065+0600] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-11T17:08:59.066+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-11T17:08:59.067+0600] {logging_mixin.py:190} INFO - Dag name:seq_parallel_dag queued_at:2025-02-11 11:08:17.662368+00:00
+[2025-02-11T17:08:59.068+0600] {logging_mixin.py:190} INFO - Task hostname:shamim-X541UV operator:PythonOperator
+[2025-02-11T17:08:59.104+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-11T17:08:59.205+0600] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-11T17:08:59.208+0600] {local_task_job_runner.py:245} INFO - ::endgroup::

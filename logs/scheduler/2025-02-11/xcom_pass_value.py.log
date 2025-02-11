@@ -3876,3 +3876,403 @@ TypeError: DAG.__init__() got an unexpected keyword argument 'start_time'
 [2025-02-11T15:49:18.741+0600] {logging_mixin.py:190} INFO - [2025-02-11T15:49:18.740+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-11T15:49:18.755+0600] {logging_mixin.py:190} INFO - [2025-02-11T15:49:18.755+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
 [2025-02-11T15:49:18.792+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.089 seconds
+[2025-02-11T16:02:42.459+0600] {processor.py:186} INFO - Started process (PID=101736) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:02:42.460+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:02:42.461+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:02:42.461+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:02:42.473+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:02:42.628+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:02:42.628+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:02:42.643+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:02:42.643+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:02:42.675+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.224 seconds
+[2025-02-11T16:03:53.817+0600] {processor.py:186} INFO - Started process (PID=102160) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:03:53.820+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:03:53.822+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:03:53.821+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:03:53.835+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:03:53.855+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:03:53.855+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:03:53.876+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:03:53.876+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:03:53.908+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.100 seconds
+[2025-02-11T16:04:53.909+0600] {processor.py:186} INFO - Started process (PID=102480) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:04:53.914+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:04:53.916+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:04:53.915+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:04:53.926+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:04:53.946+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:04:53.946+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:04:53.965+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:04:53.964+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:04:53.993+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.094 seconds
+[2025-02-11T16:05:42.624+0600] {processor.py:186} INFO - Started process (PID=102702) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:05:42.635+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:05:42.642+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:05:42.639+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:05:42.671+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:05:42.698+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:05:42.698+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:05:42.725+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:05:42.725+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:05:42.766+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.171 seconds
+[2025-02-11T16:06:27.976+0600] {processor.py:186} INFO - Started process (PID=102946) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:06:27.983+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:06:27.986+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:06:27.985+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:06:28.003+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:06:28.021+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:06:28.021+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:06:28.038+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:06:28.038+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:06:28.068+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.101 seconds
+[2025-02-11T16:07:10.108+0600] {processor.py:186} INFO - Started process (PID=103138) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:07:10.113+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:07:10.114+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:07:10.114+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:07:10.125+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:07:10.142+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:07:10.142+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:07:10.158+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:07:10.158+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:07:10.185+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.084 seconds
+[2025-02-11T16:07:52.612+0600] {processor.py:186} INFO - Started process (PID=103360) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:07:52.619+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:07:52.621+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:07:52.620+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:07:52.631+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:07:52.649+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:07:52.649+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:07:52.666+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:07:52.665+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:07:52.695+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.089 seconds
+[2025-02-11T16:08:35.008+0600] {processor.py:186} INFO - Started process (PID=103560) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:08:35.010+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:08:35.012+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:08:35.011+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:08:35.037+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:08:35.067+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:08:35.067+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:08:35.089+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:08:35.088+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:08:35.130+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.133 seconds
+[2025-02-11T16:09:18.106+0600] {processor.py:186} INFO - Started process (PID=103727) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:09:18.123+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:09:18.125+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:09:18.124+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:09:18.142+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:09:18.163+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:09:18.162+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:09:18.181+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:09:18.181+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:09:18.209+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.113 seconds
+[2025-02-11T16:10:01.130+0600] {processor.py:186} INFO - Started process (PID=103919) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:10:01.868+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:10:01.872+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:10:01.871+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:10:01.890+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:10:01.913+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:10:01.912+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:10:01.933+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:10:01.932+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:10:01.964+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.842 seconds
+[2025-02-11T16:10:44.856+0600] {processor.py:186} INFO - Started process (PID=104108) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:10:44.859+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:10:44.861+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:10:44.861+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:10:44.872+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:10:44.891+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:10:44.891+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:10:44.908+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:10:44.908+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:10:44.936+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.088 seconds
+[2025-02-11T16:11:26.600+0600] {processor.py:186} INFO - Started process (PID=104286) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:11:26.602+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:11:26.604+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:11:26.603+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:11:26.614+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:11:26.634+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:11:26.634+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:11:26.659+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:11:26.659+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:11:26.694+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.102 seconds
+[2025-02-11T16:12:10.294+0600] {processor.py:186} INFO - Started process (PID=104445) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:12:10.301+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:12:10.303+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:12:10.302+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:12:10.314+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:12:10.331+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:12:10.331+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:12:10.350+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:12:10.350+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:12:10.380+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.094 seconds
+[2025-02-11T16:12:52.125+0600] {processor.py:186} INFO - Started process (PID=104644) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:12:52.132+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:12:52.134+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:12:52.133+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:12:52.144+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:12:52.162+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:12:52.162+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:12:52.178+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:12:52.178+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:12:52.206+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.088 seconds
+[2025-02-11T16:13:36.839+0600] {processor.py:186} INFO - Started process (PID=104824) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:13:36.840+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:13:36.843+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:13:36.842+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:13:36.859+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:13:36.880+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:13:36.879+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:13:36.897+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:13:36.897+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:13:36.922+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.096 seconds
+[2025-02-11T16:14:22.728+0600] {processor.py:186} INFO - Started process (PID=105046) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:14:22.735+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:14:22.737+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:14:22.736+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:14:22.750+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:14:22.769+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:14:22.769+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:14:22.785+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:14:22.785+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:14:22.829+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.111 seconds
+[2025-02-11T16:49:12.209+0600] {processor.py:186} INFO - Started process (PID=106451) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:49:12.210+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:49:12.214+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:49:12.213+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:49:12.226+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:49:12.401+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:49:12.400+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG:xcom_pass_value_dag
+[2025-02-11T16:49:12.415+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:49:12.414+0600] {override.py:1930} INFO - Created Permission View: can edit on DAG:xcom_pass_value_dag
+[2025-02-11T16:49:12.423+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:49:12.423+0600] {override.py:1930} INFO - Created Permission View: can read on DAG:xcom_pass_value_dag
+[2025-02-11T16:49:12.432+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:49:12.431+0600] {override.py:1930} INFO - Created Permission View: can create on DAG Run:xcom_pass_value_dag
+[2025-02-11T16:49:12.440+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:49:12.440+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:xcom_pass_value_dag
+[2025-02-11T16:49:12.449+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:49:12.448+0600] {override.py:1930} INFO - Created Permission View: can read on DAG Run:xcom_pass_value_dag
+[2025-02-11T16:49:12.457+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:49:12.456+0600] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:xcom_pass_value_dag
+[2025-02-11T16:49:12.457+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:49:12.457+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:49:12.477+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:49:12.477+0600] {dag.py:3262} INFO - Creating ORM DAG for xcom_pass_value_dag
+[2025-02-11T16:49:12.478+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:49:12.478+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:49:12.497+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.302 seconds
+[2025-02-11T16:49:42.887+0600] {processor.py:186} INFO - Started process (PID=106629) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:49:42.888+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:49:42.892+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:49:42.891+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:49:42.905+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:49:42.940+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:49:42.940+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:49:42.961+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:49:42.961+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:49:42.989+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.114 seconds
+[2025-02-11T16:50:13.102+0600] {processor.py:186} INFO - Started process (PID=106804) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:50:13.103+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:50:13.105+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:50:13.105+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:50:13.115+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:50:13.154+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:50:13.154+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:50:13.174+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:50:13.174+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:50:13.203+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.112 seconds
+[2025-02-11T16:50:43.421+0600] {processor.py:186} INFO - Started process (PID=106950) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:50:43.424+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:50:43.430+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:50:43.430+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:50:43.444+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:50:43.499+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:50:43.498+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:50:43.528+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:50:43.528+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:50:43.557+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.146 seconds
+[2025-02-11T16:51:14.422+0600] {processor.py:186} INFO - Started process (PID=107093) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:51:14.423+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:51:14.425+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:51:14.425+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:51:14.434+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:51:14.472+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:51:14.472+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:51:14.491+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:51:14.491+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:51:14.514+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.100 seconds
+[2025-02-11T16:51:44.583+0600] {processor.py:186} INFO - Started process (PID=107239) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:51:44.584+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:51:44.587+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:51:44.587+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:51:44.595+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:51:44.630+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:51:44.630+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:51:44.648+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:51:44.648+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:51:44.673+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.096 seconds
+[2025-02-11T16:52:15.312+0600] {processor.py:186} INFO - Started process (PID=107376) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:52:15.313+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:52:15.316+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:52:15.316+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:52:15.324+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:52:15.363+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:52:15.363+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:52:15.383+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:52:15.382+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:52:15.403+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.098 seconds
+[2025-02-11T16:52:45.592+0600] {processor.py:186} INFO - Started process (PID=107553) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:52:45.593+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:52:45.596+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:52:45.595+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:52:45.604+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:52:45.643+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:52:45.643+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:52:45.662+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:52:45.662+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:52:45.684+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.099 seconds
+[2025-02-11T16:53:16.394+0600] {processor.py:186} INFO - Started process (PID=107689) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:53:16.396+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:53:16.399+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:53:16.398+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:53:16.407+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:53:16.440+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:53:16.440+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:53:16.459+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:53:16.459+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:53:16.479+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.093 seconds
+[2025-02-11T16:53:46.577+0600] {processor.py:186} INFO - Started process (PID=107851) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:53:46.578+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:53:46.582+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:53:46.581+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:53:46.593+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:53:46.630+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:53:46.630+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:53:46.661+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:53:46.661+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:53:46.684+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.117 seconds
+[2025-02-11T16:54:17.613+0600] {processor.py:186} INFO - Started process (PID=108012) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:54:17.614+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:54:17.617+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:54:17.617+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:54:17.625+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:54:17.665+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:54:17.665+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:54:17.693+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:54:17.693+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:54:17.715+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.110 seconds
+[2025-02-11T16:54:48.070+0600] {processor.py:186} INFO - Started process (PID=108159) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:54:48.071+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:54:48.073+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:54:48.073+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:54:48.082+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:54:48.126+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:54:48.125+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:54:48.149+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:54:48.149+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:54:48.175+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.112 seconds
+[2025-02-11T16:55:18.213+0600] {processor.py:186} INFO - Started process (PID=108356) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:55:19.050+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:55:19.062+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:55:19.060+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:55:19.096+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:55:19.204+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:55:19.204+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:55:19.238+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:55:19.238+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:55:19.267+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 1.061 seconds
+[2025-02-11T16:55:49.848+0600] {processor.py:186} INFO - Started process (PID=108519) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:55:49.851+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:55:49.859+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:55:49.858+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:55:49.883+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:55:49.986+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:55:49.986+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:55:50.021+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:55:50.021+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:55:50.054+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.229 seconds
+[2025-02-11T16:56:21.035+0600] {processor.py:186} INFO - Started process (PID=108663) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:56:21.036+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:56:21.039+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:56:21.038+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:56:21.047+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:56:21.089+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:56:21.089+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:56:21.111+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:56:21.111+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:56:21.134+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.107 seconds
+[2025-02-11T16:56:51.972+0600] {processor.py:186} INFO - Started process (PID=108793) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:56:51.973+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:56:51.976+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:56:51.975+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:56:51.985+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:56:52.020+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:56:52.019+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:56:52.042+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:56:52.042+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:56:52.064+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.102 seconds
+[2025-02-11T16:57:22.195+0600] {processor.py:186} INFO - Started process (PID=109009) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:57:22.196+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:57:22.200+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:57:22.199+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:57:22.211+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:57:22.257+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:57:22.257+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:57:22.277+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:57:22.277+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:57:22.316+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.133 seconds
+[2025-02-11T16:57:53.359+0600] {processor.py:186} INFO - Started process (PID=109176) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:57:53.361+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:57:53.363+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:57:53.363+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:57:53.372+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:57:53.408+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:57:53.407+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:57:53.425+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:57:53.425+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:57:53.445+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.093 seconds
+[2025-02-11T16:58:23.514+0600] {processor.py:186} INFO - Started process (PID=109311) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:58:23.515+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:58:23.518+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:58:23.518+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:58:23.527+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:58:23.562+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:58:23.562+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:58:23.579+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:58:23.579+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:58:23.600+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.094 seconds
+[2025-02-11T16:58:53.731+0600] {processor.py:186} INFO - Started process (PID=109443) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:58:53.732+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:58:53.736+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:58:53.735+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:58:53.744+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:58:53.777+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:58:53.777+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:58:53.794+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:58:53.794+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:58:53.814+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.091 seconds
+[2025-02-11T16:59:23.892+0600] {processor.py:186} INFO - Started process (PID=109596) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:59:23.894+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:59:23.897+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:59:23.897+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:59:23.906+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:59:23.941+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:59:23.940+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:59:23.958+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:59:23.958+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:59:23.980+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.099 seconds
+[2025-02-11T16:59:54.948+0600] {processor.py:186} INFO - Started process (PID=109745) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:59:54.949+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T16:59:54.952+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:59:54.951+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:59:54.960+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T16:59:54.999+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:59:54.999+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T16:59:55.020+0600] {logging_mixin.py:190} INFO - [2025-02-11T16:59:55.019+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T16:59:55.045+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.104 seconds
+[2025-02-11T17:00:25.180+0600] {processor.py:186} INFO - Started process (PID=109900) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:00:25.181+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T17:00:25.183+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:00:25.183+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:00:25.192+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:00:25.232+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:00:25.231+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T17:00:25.254+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:00:25.254+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T17:00:25.277+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.105 seconds
+[2025-02-11T17:00:56.124+0600] {processor.py:186} INFO - Started process (PID=110033) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:00:56.125+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T17:00:56.127+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:00:56.127+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:00:56.137+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:00:56.172+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:00:56.172+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T17:00:56.191+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:00:56.191+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T17:00:56.214+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.098 seconds
+[2025-02-11T17:01:26.285+0600] {processor.py:186} INFO - Started process (PID=110240) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:01:26.286+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T17:01:26.291+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:01:26.290+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:01:26.303+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:01:26.346+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:01:26.346+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T17:01:26.368+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:01:26.368+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T17:01:26.404+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.130 seconds
+[2025-02-11T17:01:57.043+0600] {processor.py:186} INFO - Started process (PID=110454) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:01:57.046+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T17:01:57.053+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:01:57.051+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:01:57.068+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:01:57.125+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:01:57.125+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T17:01:57.158+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:01:57.157+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T17:01:57.194+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.178 seconds
+[2025-02-11T17:02:27.293+0600] {processor.py:186} INFO - Started process (PID=110646) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:02:27.295+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T17:02:27.299+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:02:27.299+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:02:27.311+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:02:27.367+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:02:27.367+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T17:02:27.405+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:02:27.404+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T17:02:28.362+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 1.079 seconds
+[2025-02-11T17:02:58.538+0600] {processor.py:186} INFO - Started process (PID=110808) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:02:58.539+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T17:02:58.542+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:02:58.541+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:02:58.550+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:02:58.583+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:02:58.583+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T17:02:58.600+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:02:58.600+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T17:02:58.622+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.091 seconds
+[2025-02-11T17:03:29.027+0600] {processor.py:186} INFO - Started process (PID=110947) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:03:29.028+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T17:03:29.034+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:03:29.034+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:03:29.048+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:03:29.099+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:03:29.099+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T17:03:29.128+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:03:29.128+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T17:03:29.173+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.161 seconds
+[2025-02-11T17:03:59.756+0600] {processor.py:186} INFO - Started process (PID=111081) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:03:59.756+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T17:03:59.759+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:03:59.759+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:03:59.769+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:03:59.811+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:03:59.810+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T17:03:59.834+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:03:59.833+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T17:03:59.859+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.111 seconds
+[2025-02-11T17:04:30.346+0600] {processor.py:186} INFO - Started process (PID=111228) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:04:30.347+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T17:04:30.349+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:04:30.349+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:04:30.358+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:04:30.396+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:04:30.396+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T17:04:30.414+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:04:30.413+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T17:04:30.445+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.107 seconds
+[2025-02-11T17:05:00.601+0600] {processor.py:186} INFO - Started process (PID=111361) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:05:00.602+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T17:05:00.604+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:05:00.604+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:05:00.613+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:05:00.656+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:05:00.656+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T17:05:00.683+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:05:00.682+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T17:05:00.869+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.275 seconds
+[2025-02-11T17:05:31.719+0600] {processor.py:186} INFO - Started process (PID=111519) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:05:31.720+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T17:05:31.723+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:05:31.723+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:05:31.734+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:05:31.778+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:05:31.778+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T17:05:31.802+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:05:31.802+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T17:05:31.828+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.119 seconds
+[2025-02-11T17:06:02.807+0600] {processor.py:186} INFO - Started process (PID=112151) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:06:02.808+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T17:06:02.812+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:06:02.811+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:06:02.824+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:06:02.872+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:06:02.872+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T17:06:02.894+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:06:02.894+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T17:06:02.919+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.122 seconds
+[2025-02-11T17:06:33.136+0600] {processor.py:186} INFO - Started process (PID=112405) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:06:33.137+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T17:06:33.139+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:06:33.139+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:06:33.150+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:06:33.184+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:06:33.184+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T17:06:33.202+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:06:33.201+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T17:06:33.225+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.097 seconds
+[2025-02-11T17:07:03.851+0600] {processor.py:186} INFO - Started process (PID=112537) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:07:03.852+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T17:07:03.855+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:07:03.854+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:07:03.863+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:07:03.898+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:07:03.898+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T17:07:03.915+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:07:03.915+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T17:07:03.937+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.093 seconds
+[2025-02-11T17:07:35.178+0600] {processor.py:186} INFO - Started process (PID=112681) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:07:35.179+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T17:07:35.183+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:07:35.182+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:07:35.192+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:07:35.238+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:07:35.238+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T17:07:35.258+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:07:35.258+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T17:07:35.281+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.111 seconds
+[2025-02-11T17:08:07.509+0600] {processor.py:186} INFO - Started process (PID=112874) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:08:07.511+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T17:08:07.514+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:08:07.514+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:08:07.526+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:08:07.577+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:08:07.577+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T17:08:07.605+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:08:07.605+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T17:08:07.630+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.131 seconds
+[2025-02-11T17:08:38.288+0600] {processor.py:186} INFO - Started process (PID=113112) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:08:38.289+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T17:08:38.293+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:08:38.293+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:08:38.306+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:08:38.356+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:08:38.355+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T17:08:38.381+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:08:38.381+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T17:08:38.408+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.131 seconds
+[2025-02-11T17:09:09.447+0600] {processor.py:186} INFO - Started process (PID=113341) to work on /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:09:09.449+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py for tasks to queue
+[2025-02-11T17:09:09.453+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:09:09.452+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:09:09.466+0600] {processor.py:925} INFO - DAG(s) 'xcom_pass_value_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py
+[2025-02-11T17:09:09.528+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:09:09.528+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-11T17:09:09.561+0600] {logging_mixin.py:190} INFO - [2025-02-11T17:09:09.561+0600] {dag.py:4180} INFO - Setting next_dagrun for xcom_pass_value_dag to None, run_after=None
+[2025-02-11T17:09:09.608+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/xcom_pass_value.py took 0.172 seconds

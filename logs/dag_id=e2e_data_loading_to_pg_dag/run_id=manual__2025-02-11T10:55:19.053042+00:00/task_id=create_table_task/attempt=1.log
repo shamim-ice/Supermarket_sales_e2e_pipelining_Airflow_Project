@@ -1,0 +1,137 @@
+[2025-02-11T16:55:26.689+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-11T16:55:26.753+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: e2e_data_loading_to_pg_dag.create_table_task manual__2025-02-11T10:55:19.053042+00:00 [queued]>
+[2025-02-11T16:55:26.785+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: e2e_data_loading_to_pg_dag.create_table_task manual__2025-02-11T10:55:19.053042+00:00 [queued]>
+[2025-02-11T16:55:26.785+0600] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-11T16:55:26.831+0600] {taskinstance.py:2889} INFO - Executing <Task(SQLExecuteQueryOperator): create_table_task> on 2025-02-11 10:55:19.053042+00:00
+[2025-02-11T16:55:26.866+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'e2e_data_loading_to_pg_dag', 'create_table_task', 'manual__2025-02-11T10:55:19.053042+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/e_to_e_processing.py', '--cfg-path', '/tmp/tmpsqf7axm4']
+[2025-02-11T16:55:26.872+0600] {standard_task_runner.py:105} INFO - Job 2: Subtask create_table_task
+[2025-02-11T16:55:26.895+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=108374) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-11T16:55:26.896+0600] {standard_task_runner.py:72} INFO - Started process 108467 to run task
+[2025-02-11T16:55:26.992+0600] {task_command.py:467} INFO - Running <TaskInstance: e2e_data_loading_to_pg_dag.create_table_task manual__2025-02-11T10:55:19.053042+00:00 [running]> on host shamim-X541UV
+[2025-02-11T16:55:27.134+0600] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='e2e_data_loading_to_pg_dag' AIRFLOW_CTX_TASK_ID='create_table_task' AIRFLOW_CTX_EXECUTION_DATE='2025-02-11T10:55:19.053042+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-11T10:55:19.053042+00:00'
+[2025-02-11T16:55:27.136+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-11T16:55:27.137+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-11T16:55:27.137+0600] {logging_mixin.py:190} INFO - Current task name:create_table_task state:running start_date:2025-02-11 10:55:26.754579+00:00
+[2025-02-11T16:55:27.138+0600] {logging_mixin.py:190} INFO - Dag name:e2e_data_loading_to_pg_dag and current dag run status:running
+[2025-02-11T16:55:27.138+0600] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-11T16:55:27.139+0600] {sql.py:295} INFO - Executing: 
+    DROP TABLE IF EXISTS staging_table;
+    CREATE TABLE IF NOT EXISTs staging_table(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100),
+    age INT,
+    month VARCHAR(100),
+    salary NUMERIC
+    );
+    
+[2025-02-11T16:55:27.183+0600] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 296, in execute
+    hook = self.get_db_hook()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 195, in get_db_hook
+    return self._hook
+           ^^^^^^^^^^
+  File "/usr/lib/python3.12/functools.py", line 995, in __get__
+    val = self.func(instance)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 171, in _hook
+    hook = self.get_hook(conn_id=conn_id, hook_params=self.hook_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 163, in get_hook
+    connection = BaseHook.get_connection(conn_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/hooks/base.py", line 83, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/connection.py", line 537, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres` isn't defined
+[2025-02-11T16:55:27.194+0600] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-02-11T16:55:27.195+0600] {logging_mixin.py:190} INFO - Task start:2025-02-11 10:55:26.754579+00:00 end:2025-02-11 10:55:27.194177+00:00 duration:0.439598
+[2025-02-11T16:55:27.195+0600] {logging_mixin.py:190} INFO - Task:<Task(SQLExecuteQueryOperator): create_table_task> dag:<DAG: e2e_data_loading_to_pg_dag> dagrun:<DagRun e2e_data_loading_to_pg_dag @ 2025-02-11 10:55:19.053042+00:00: manual__2025-02-11T10:55:19.053042+00:00, state:running, queued_at: 2025-02-11 10:55:19.175067+00:00. externally triggered: True>
+[2025-02-11T16:55:27.195+0600] {logging_mixin.py:190} INFO - Failure caused by The conn_id `postgres` isn't defined
+[2025-02-11T16:55:27.195+0600] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=e2e_data_loading_to_pg_dag, task_id=create_table_task, run_id=manual__2025-02-11T10:55:19.053042+00:00, execution_date=20250211T105519, start_date=20250211T105526, end_date=20250211T105527
+[2025-02-11T16:55:27.210+0600] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-11T16:55:27.210+0600] {standard_task_runner.py:124} ERROR - Failed to execute job 2 for task create_table_task (The conn_id `postgres` isn't defined; 108467)
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 296, in execute
+    hook = self.get_db_hook()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 195, in get_db_hook
+    return self._hook
+           ^^^^^^^^^^
+  File "/usr/lib/python3.12/functools.py", line 995, in __get__
+    val = self.func(instance)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 171, in _hook
+    hook = self.get_hook(conn_id=conn_id, hook_params=self.hook_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 163, in get_hook
+    connection = BaseHook.get_connection(conn_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/hooks/base.py", line 83, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/connection.py", line 537, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres` isn't defined
+[2025-02-11T16:55:27.238+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-02-11T16:55:27.278+0600] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-11T16:55:27.283+0600] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -109,7 +109,7 @@ task_load_final_table = SQLExecuteQueryOperator(
         SELECT name, SUM(salary) FROM staging_table
         GROUP BY name;
     END;
-    $procedure$
+    $procedure$;
     CALL transform_and_load_data(); 
     """,
     dag=dag

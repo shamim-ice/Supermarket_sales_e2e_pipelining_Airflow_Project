@@ -1,0 +1,30 @@
+[2025-02-11T17:08:41.694+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-11T17:08:41.725+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: e2e_data_loading_to_pg_dag.load_df_task manual__2025-02-11T11:08:11.261939+00:00 [queued]>
+[2025-02-11T17:08:41.738+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: e2e_data_loading_to_pg_dag.load_df_task manual__2025-02-11T11:08:11.261939+00:00 [queued]>
+[2025-02-11T17:08:41.739+0600] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-11T17:08:41.764+0600] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): load_df_task> on 2025-02-11 11:08:11.261939+00:00
+[2025-02-11T17:08:41.783+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'e2e_data_loading_to_pg_dag', 'load_df_task', 'manual__2025-02-11T11:08:11.261939+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/e_to_e_processing.py', '--cfg-path', '/tmp/tmp2htf0sct']
+[2025-02-11T17:08:41.785+0600] {standard_task_runner.py:105} INFO - Job 10: Subtask load_df_task
+[2025-02-11T17:08:41.794+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=113100) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-11T17:08:41.795+0600] {standard_task_runner.py:72} INFO - Started process 113175 to run task
+[2025-02-11T17:08:41.945+0600] {task_command.py:467} INFO - Running <TaskInstance: e2e_data_loading_to_pg_dag.load_df_task manual__2025-02-11T11:08:11.261939+00:00 [running]> on host shamim-X541UV
+[2025-02-11T17:08:42.200+0600] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='e2e_data_loading_to_pg_dag' AIRFLOW_CTX_TASK_ID='load_df_task' AIRFLOW_CTX_EXECUTION_DATE='2025-02-11T11:08:11.261939+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-11T11:08:11.261939+00:00'
+[2025-02-11T17:08:42.202+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-11T17:08:42.203+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-11T17:08:42.205+0600] {logging_mixin.py:190} INFO - Current task name:load_df_task state:running start_date:2025-02-11 11:08:41.725836+00:00
+[2025-02-11T17:08:42.205+0600] {logging_mixin.py:190} INFO - Dag name:e2e_data_loading_to_pg_dag and current dag run status:running
+[2025-02-11T17:08:42.206+0600] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-11T17:08:42.208+0600] {logging_mixin.py:190} INFO - insert into staging_table(Name,Age,Month,Salary) values %s
+[2025-02-11T17:08:42.210+0600] {logging_mixin.py:190} INFO - Existing records from staging_table deleted successfully!
+[2025-02-11T17:08:42.217+0600] {logging_mixin.py:190} INFO - Dataframe is inserted successfully!
+[2025-02-11T17:08:42.218+0600] {logging_mixin.py:190} INFO - Insert Time: 0.009981393814086914 seconds.
+[2025-02-11T17:08:42.218+0600] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-11T17:08:42.251+0600] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-11T17:08:42.251+0600] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=e2e_data_loading_to_pg_dag, task_id=load_df_task, run_id=manual__2025-02-11T11:08:11.261939+00:00, execution_date=20250211T110811, start_date=20250211T110841, end_date=20250211T110842
+[2025-02-11T17:08:42.265+0600] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-11T17:08:42.266+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-11T17:08:42.266+0600] {logging_mixin.py:190} INFO - Dag name:e2e_data_loading_to_pg_dag queued_at:2025-02-11 11:08:11.283252+00:00
+[2025-02-11T17:08:42.266+0600] {logging_mixin.py:190} INFO - Task hostname:shamim-X541UV operator:PythonOperator
+[2025-02-11T17:08:42.298+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-11T17:08:42.348+0600] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-11T17:08:42.349+0600] {local_task_job_runner.py:245} INFO - ::endgroup::
