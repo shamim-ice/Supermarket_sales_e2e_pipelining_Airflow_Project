@@ -1,4 +1,4 @@
-# Apcahe-Airflow Installation - Commands
+# Airflow Installation - Commands
 ## Linux (or WSL)
 #### Update sudo apt
 In Linux terminal (or after installation WSL on your Windows):
