@@ -24,7 +24,7 @@ Make a directory where you want to save your project.
 cd
 mkdir airflow_project
 ```
-Create #### $AIRFLOW_HOME to avoid dependency.
+Create $AIRFLOW_HOME to avoid dependency.
 ```sh
 vim ~/.bashrc
 ```
@@ -34,7 +34,6 @@ perss i then export your airflow_project folder path.
 export AIRFLOW_HOME=/mnt/your_driver/your_folder
 for example: /mnt/e/airflow_project
 ```
-[```airflow_project``` should be in ```e``` drive.]
 
 Now press ```esc``` button for save and then type ```:wq``` for exit from bashrc.
 
