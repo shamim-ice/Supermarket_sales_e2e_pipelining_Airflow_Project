@@ -496,7 +496,7 @@ alembic_ini_file_path = alembic.ini
 #
 # Variable: AIRFLOW__DATABASE__SQL_ALCHEMY_CONN
 #
-sql_alchemy_conn = sqlite:////home/shamim/airflow_git/Airflow_project/airflow.db
+sql_alchemy_conn = sqlite:////mnt/e/test/airflow.db
 #sql_alchemy_conn=postgresql+psycopg2://postgres:1418@localhost:5432/airflow_db
 # Extra engine specific keyword args passed to SQLAlchemy's create_engine, as a JSON-encoded value
 #
