@@ -60,7 +60,7 @@ pip install apache-airflow
 ####### Remember to have virtual environment activated!
 #### Configure airflow.cfg
 Check your dags folder is created inside using ```vim airflow.cfg```
-If not find your dags_folder then open your ```airflow.cfg``` then [copy](https://github.com/shamim-ice/Airflow_project/blob/main/airfflow_configuration.txt) all and past. Finally, edit your dags_folder.
+If not find your dags_folder then open your ```airflow.cfg``` then [copy](https://github.com/shamim-ice/Airflow_project/blob/main/airfflow_configuration.txt) all and past. Finally, edit your dags_folder, sql_alchemy_conn and plugins folder based on your directory.
 
 ### Airflow Initialization and User Creation
 ```sh
