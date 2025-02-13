@@ -1,5 +1,5 @@
-# Airflow Installation - Commands
-## Linux
+# Apcahe-Airflow Installation - Commands
+## Linux (or WSL)
 #### Update sudo apt
 In Linux terminal (or after installation WSL on your Windows):
 
@@ -32,9 +32,16 @@ Now press ```esc``` button for save and then type ```:wq``` for exit from bashrc
 After this a bashrc should be reloaded with ```source ~/.bashrc ```. 
 To check if the value is properly set: ```echo $AIRFLOW_HOME``` and it should print the path you provided earlier.
 
+#### dags folder
+DAGs should be created inside ```$AIRFLOW_HOME```
+```sh
+cd $AIRFLOW_HOME
+mkdir dags
+```
+
 
 ### Virtual Environment setup
-Go to your ```AIRFLOW_HOME``` directory from terminal or WSL and then create virtual environment for Python.
+Go to your ```$AIRFLOW_HOME``` directory from terminal or WSL and then create virtual environment for Python.
 ```sh
 cd $AIRFLOW_HOME
 python3 -m venv airflow_venv
@@ -43,14 +50,10 @@ Now active your virtual environment ```airflow_venv```
 ```sh
 source airflow_venv/bin/activate
 ```
-#### dags folder
-DAGs should be created inside ```$AIRFLOW_HOME```
-```sh
-mkdir dags
-```
+
 
 ### Apache Airflow Installation
-Make sure your ```$AIRFLOW_HOME``` path and ```airflow_venv``` are active then installed Apache Airflow with
+Make sure you are in ```$AIRFLOW_HOME``` path and ```airflow_venv``` are active then installed Apache Airflow with
 ```sh
 pip install apache-airflow
 ```
