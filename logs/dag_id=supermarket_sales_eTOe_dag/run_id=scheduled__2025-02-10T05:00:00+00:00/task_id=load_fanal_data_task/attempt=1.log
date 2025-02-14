@@ -1,0 +1,240 @@
+[2025-02-14T22:38:01.141+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-14T22:38:01.421+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: supermarket_sales_eTOe_dag.load_fanal_data_task scheduled__2025-02-10T05:00:00+00:00 [queued]>
+[2025-02-14T22:38:01.505+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: supermarket_sales_eTOe_dag.load_fanal_data_task scheduled__2025-02-10T05:00:00+00:00 [queued]>
+[2025-02-14T22:38:01.506+0600] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-14T22:38:01.634+0600] {taskinstance.py:2889} INFO - Executing <Task(SQLExecuteQueryOperator): load_fanal_data_task> on 2025-02-10 05:00:00+00:00
+[2025-02-14T22:38:01.732+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=605254) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-14T22:38:01.748+0600] {standard_task_runner.py:72} INFO - Started process 605379 to run task
+[2025-02-14T22:38:01.741+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'supermarket_sales_eTOe_dag', 'load_fanal_data_task', 'scheduled__2025-02-10T05:00:00+00:00', '--job-id', '193', '--raw', '--subdir', 'DAGS_FOLDER/final_assignment.py', '--cfg-path', '/tmp/tmpomwg8830']
+[2025-02-14T22:38:01.751+0600] {standard_task_runner.py:105} INFO - Job 193: Subtask load_fanal_data_task
+[2025-02-14T22:38:02.179+0600] {task_command.py:467} INFO - Running <TaskInstance: supermarket_sales_eTOe_dag.load_fanal_data_task scheduled__2025-02-10T05:00:00+00:00 [running]> on host shamim-X541UV
+[2025-02-14T22:38:03.248+0600] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='supermarket_sales_eTOe_dag' AIRFLOW_CTX_TASK_ID='load_fanal_data_task' AIRFLOW_CTX_EXECUTION_DATE='2025-02-10T05:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-10T05:00:00+00:00'
+[2025-02-14T22:38:03.255+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-14T22:38:03.257+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-14T22:38:03.258+0600] {logging_mixin.py:190} INFO - Current task name:load_fanal_data_task state:running start_date:2025-02-14 16:38:01.422594+00:00
+[2025-02-14T22:38:03.259+0600] {logging_mixin.py:190} INFO - Dag name:supermarket_sales_eTOe_dag and current dag run status:running
+[2025-02-14T22:38:03.259+0600] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-14T22:38:03.267+0600] {sql.py:295} INFO - Executing: 
+    CREATE OR REPLACE PROCEDURE transform_and_load_data()
+    LANGUAGE plpgsql
+    AS $procedure$
+    BEGIN
+        insert into dim_branch(branch,city)
+        select distinct branch, city from supermarket_sales ss ;
+        
+        insert into dim_customer(customer_type)
+        select distinct customer_type from supermarket_sales;
+
+        insert into dim_gender(gender)
+        select distinct gender from supermarket_sales ss;
+
+        insert into dim_product(product_line)
+        select distinct product_line from supermarket_sales ss ;
+
+        insert into dim_payment(payment)
+        select distinct payment from supermarket_sales ss ;
+
+        insert into dim_sales_date(date)
+        select distinct date from supermarket_sales ss ;
+
+        insert into fact_sales(invoice_id, branch_id, cutstomer_type_id, gender_id, product_id, unit_price, 
+        quantity, cost_of_goods_sold , tax_5_percent, total, payment_id,  date_id, time, customer_satisfiction_rating)
+        select distinct(ss.invoice_id), db.branch_id , dc.customer_type_id , dg.gender_id, dp.product_id , ss.unit_price , 
+        ss.quantity , ss.cost_of_goods_sold , ss.tax_5_percent , ss.total , dpm.payment_id, dsd.date_id , 
+        ss.time, ss.customer_stratification_rating 
+        from supermarket_sales ss
+        join dim_branch db on ss.branch=db.branch  
+        join dim_customer dc on ss.customer_type=dc.customer_type
+        join dim_gender dg on ss.gender=dg.gender
+        join dim_product dp on ss.product_line=dp.product_line
+        join dim_payment dpm on ss.payment=dpm.payment
+        join dim_sales_date dsd on ss.date=dsd.date;
+    END;
+    $procedure$;
+    CALL transform_and_load_data(); 
+    
+[2025-02-14T22:38:03.356+0600] {base.py:84} INFO - Retrieving connection 'postgres'
+[2025-02-14T22:38:03.561+0600] {base.py:84} INFO - Retrieving connection 'postgres'
+[2025-02-14T22:38:03.749+0600] {sql.py:511} INFO - Running statement: 
+    CREATE OR REPLACE PROCEDURE transform_and_load_data()
+    LANGUAGE plpgsql
+    AS $procedure$
+    BEGIN
+        insert into dim_branch(branch,city)
+        select distinct branch, city from supermarket_sales ss ;
+        
+        insert into dim_customer(customer_type)
+        select distinct customer_type from supermarket_sales;
+
+        insert into dim_gender(gender)
+        select distinct gender from supermarket_sales ss;
+
+        insert into dim_product(product_line)
+        select distinct product_line from supermarket_sales ss ;
+
+        insert into dim_payment(payment)
+        select distinct payment from supermarket_sales ss ;
+
+        insert into dim_sales_date(date)
+        select distinct date from supermarket_sales ss ;
+
+        insert into fact_sales(invoice_id, branch_id, cutstomer_type_id, gender_id, product_id, unit_price, 
+        quantity, cost_of_goods_sold , tax_5_percent, total, payment_id,  date_id, time, customer_satisfiction_rating)
+        select distinct(ss.invoice_id), db.branch_id , dc.customer_type_id , dg.gender_id, dp.product_id , ss.unit_price , 
+        ss.quantity , ss.cost_of_goods_sold , ss.tax_5_percent , ss.total , dpm.payment_id, dsd.date_id , 
+        ss.time, ss.customer_stratification_rating 
+        from supermarket_sales ss
+        join dim_branch db on ss.branch=db.branch  
+        join dim_customer dc on ss.customer_type=dc.customer_type
+        join dim_gender dg on ss.gender=dg.gender
+        join dim_product dp on ss.product_line=dp.product_line
+        join dim_payment dpm on ss.payment=dpm.payment
+        join dim_sales_date dsd on ss.date=dsd.date;
+    END;
+    $procedure$;
+    CALL transform_and_load_data(); 
+    , parameters: None
+[2025-02-14T22:38:04.187+0600] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 301, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 467, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 516, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "fact_sales_pkey"
+DETAIL:  Key (invoice_id)=(573-98-8548) already exists.
+CONTEXT:  SQL statement "insert into fact_sales(invoice_id, branch_id, cutstomer_type_id, gender_id, product_id, unit_price, 
+        quantity, cost_of_goods_sold , tax_5_percent, total, payment_id,  date_id, time, customer_satisfiction_rating)
+        select distinct(ss.invoice_id), db.branch_id , dc.customer_type_id , dg.gender_id, dp.product_id , ss.unit_price , 
+        ss.quantity , ss.cost_of_goods_sold , ss.tax_5_percent , ss.total , dpm.payment_id, dsd.date_id , 
+        ss.time, ss.customer_stratification_rating 
+        from supermarket_sales ss
+        join dim_branch db on ss.branch=db.branch  
+        join dim_customer dc on ss.customer_type=dc.customer_type
+        join dim_gender dg on ss.gender=dg.gender
+        join dim_product dp on ss.product_line=dp.product_line
+        join dim_payment dpm on ss.payment=dpm.payment
+        join dim_sales_date dsd on ss.date=dsd.date"
+PL/pgSQL function transform_and_load_data() line 21 at SQL statement
+
+[2025-02-14T22:38:04.268+0600] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-02-14T22:38:04.271+0600] {logging_mixin.py:190} INFO - Task start:2025-02-14 16:38:01.422594+00:00 end:2025-02-14 16:38:04.266121+00:00 duration:2.843527
+[2025-02-14T22:38:04.273+0600] {logging_mixin.py:190} INFO - Task:<Task(SQLExecuteQueryOperator): load_fanal_data_task> dag:<DAG: supermarket_sales_eTOe_dag> dagrun:<DagRun supermarket_sales_eTOe_dag @ 2025-02-10 05:00:00+00:00: scheduled__2025-02-10T05:00:00+00:00, state:running, queued_at: 2025-02-14 16:36:56.182706+00:00. externally triggered: False>
+[2025-02-14T22:38:04.274+0600] {logging_mixin.py:190} INFO - Failure caused by duplicate key value violates unique constraint "fact_sales_pkey"
+DETAIL:  Key (invoice_id)=(573-98-8548) already exists.
+CONTEXT:  SQL statement "insert into fact_sales(invoice_id, branch_id, cutstomer_type_id, gender_id, product_id, unit_price, 
+        quantity, cost_of_goods_sold , tax_5_percent, total, payment_id,  date_id, time, customer_satisfiction_rating)
+        select distinct(ss.invoice_id), db.branch_id , dc.customer_type_id , dg.gender_id, dp.product_id , ss.unit_price , 
+        ss.quantity , ss.cost_of_goods_sold , ss.tax_5_percent , ss.total , dpm.payment_id, dsd.date_id , 
+        ss.time, ss.customer_stratification_rating 
+        from supermarket_sales ss
+        join dim_branch db on ss.branch=db.branch  
+        join dim_customer dc on ss.customer_type=dc.customer_type
+        join dim_gender dg on ss.gender=dg.gender
+        join dim_product dp on ss.product_line=dp.product_line
+        join dim_payment dpm on ss.payment=dpm.payment
+        join dim_sales_date dsd on ss.date=dsd.date"
+PL/pgSQL function transform_and_load_data() line 21 at SQL statement
+[2025-02-14T22:38:04.275+0600] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=supermarket_sales_eTOe_dag, task_id=load_fanal_data_task, run_id=scheduled__2025-02-10T05:00:00+00:00, execution_date=20250210T050000, start_date=20250214T163801, end_date=20250214T163804
+[2025-02-14T22:38:04.313+0600] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-14T22:38:04.318+0600] {standard_task_runner.py:124} ERROR - Failed to execute job 193 for task load_fanal_data_task (duplicate key value violates unique constraint "fact_sales_pkey"
+DETAIL:  Key (invoice_id)=(573-98-8548) already exists.
+CONTEXT:  SQL statement "insert into fact_sales(invoice_id, branch_id, cutstomer_type_id, gender_id, product_id, unit_price, 
+        quantity, cost_of_goods_sold , tax_5_percent, total, payment_id,  date_id, time, customer_satisfiction_rating)
+        select distinct(ss.invoice_id), db.branch_id , dc.customer_type_id , dg.gender_id, dp.product_id , ss.unit_price , 
+        ss.quantity , ss.cost_of_goods_sold , ss.tax_5_percent , ss.total , dpm.payment_id, dsd.date_id , 
+        ss.time, ss.customer_stratification_rating 
+        from supermarket_sales ss
+        join dim_branch db on ss.branch=db.branch  
+        join dim_customer dc on ss.customer_type=dc.customer_type
+        join dim_gender dg on ss.gender=dg.gender
+        join dim_product dp on ss.product_line=dp.product_line
+        join dim_payment dpm on ss.payment=dpm.payment
+        join dim_sales_date dsd on ss.date=dsd.date"
+PL/pgSQL function transform_and_load_data() line 21 at SQL statement
+; 605379)
+Traceback (most recent call last):
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 301, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 467, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 516, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "fact_sales_pkey"
+DETAIL:  Key (invoice_id)=(573-98-8548) already exists.
+CONTEXT:  SQL statement "insert into fact_sales(invoice_id, branch_id, cutstomer_type_id, gender_id, product_id, unit_price, 
+        quantity, cost_of_goods_sold , tax_5_percent, total, payment_id,  date_id, time, customer_satisfiction_rating)
+        select distinct(ss.invoice_id), db.branch_id , dc.customer_type_id , dg.gender_id, dp.product_id , ss.unit_price , 
+        ss.quantity , ss.cost_of_goods_sold , ss.tax_5_percent , ss.total , dpm.payment_id, dsd.date_id , 
+        ss.time, ss.customer_stratification_rating 
+        from supermarket_sales ss
+        join dim_branch db on ss.branch=db.branch  
+        join dim_customer dc on ss.customer_type=dc.customer_type
+        join dim_gender dg on ss.gender=dg.gender
+        join dim_product dp on ss.product_line=dp.product_line
+        join dim_payment dpm on ss.payment=dpm.payment
+        join dim_sales_date dsd on ss.date=dsd.date"
+PL/pgSQL function transform_and_load_data() line 21 at SQL statement
+
+[2025-02-14T22:38:04.366+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-02-14T22:38:04.502+0600] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-14T22:38:04.510+0600] {local_task_job_runner.py:245} INFO - ::endgroup::

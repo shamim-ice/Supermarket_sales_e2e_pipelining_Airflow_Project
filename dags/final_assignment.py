@@ -11,7 +11,7 @@ import pandas as pd
 dag=DAG(
     dag_id='supermarket_sales_eTOe_dag',
     start_date=datetime(2025,2,10),
-    schedule_interval=None
+    schedule_interval='0 5 * * *'        #runs every day morning at 05:00 am
 )
 
 # Step 1: Extract Data
@@ -87,9 +87,9 @@ task_create_table=SQLExecuteQueryOperator(
 )
 #Establish connection to postgreSQL database
 conn = psycopg2.connect(
-    database='airflow_db',
-    user='postgres',
-    password='1418',   #password
+    database='airflow_db', # databse name
+    user='postgres',      #databse user
+    password='****',   #password
     host='localhost',
     port='5432'
 )
@@ -153,7 +153,7 @@ task_create_dim_fact_table=SQLExecuteQueryOperator(
     -- customer dimension
     drop table if exists dim_customer CASCADE;
     create table if not exists dim_customer(
-    customer_id SERIAL primary key,
+    customer_type_id SERIAL primary key,
     customer_type VARCHAR(100)
     );
 
@@ -191,7 +191,7 @@ task_create_dim_fact_table=SQLExecuteQueryOperator(
     create table if not exists fact_sales(
     invoice_id VARCHAR(100) primary key,
     branch_id INT references dim_branch(branch_id),
-    cutstomer_id INT references dim_customer(customer_id),
+    cutstomer_type_id INT references dim_customer(customer_type_id),
     gender_id INT references dim_gender(gender_id),
     product_id INT references dim_product(product_id),
     unit_price NUMERIC(10,2),
@@ -235,9 +235,9 @@ task_load_final_data=SQLExecuteQueryOperator(
         insert into dim_sales_date(date)
         select distinct date from supermarket_sales ss ;
 
-        insert into fact_sales(invoice_id, branch_id, cutstomer_id, gender_id, product_id, unit_price, 
+        insert into fact_sales(invoice_id, branch_id, cutstomer_type_id, gender_id, product_id, unit_price, 
         quantity, cost_of_goods_sold , tax_5_percent, total, payment_id,  date_id, time, customer_satisfiction_rating)
-        select distinct(ss.invoice_id), db.branch_id , dc.customer_id , dg.gender_id, dp.product_id , ss.unit_price , 
+        select distinct(ss.invoice_id), db.branch_id , dc.customer_type_id , dg.gender_id, dp.product_id , ss.unit_price , 
         ss.quantity , ss.cost_of_goods_sold , ss.tax_5_percent , ss.total , dpm.payment_id, dsd.date_id , 
         ss.time, ss.customer_stratification_rating 
         from supermarket_sales ss
@@ -259,12 +259,3 @@ task_load_final_data=SQLExecuteQueryOperator(
 task_extract_data >> task_transform_data >> task_create_table >> \
 task_load_clean_data_into_postgresql >> task_create_dim_fact_table >> task_load_final_data
 
-#url='https://raw.githubusercontent.com/plotly/datasets/refs/heads/master/supermarket_Sales.csv'
-#df = pd.read_csv(url)
-    #print(columns_name)
-    ##create pandas DataFrame
-##df = pd.DataFrame(df)
-#columns_name = df.columns  # Join column names as a single string (incorrect approach)
-#formatted_columns = [s.lower().replace(" ", "_").replace("%","_percent") for s in df.columns]  # Correct approach on actual column names
-#columns_name = ','.join(formatted_columns)  # Convert back to a single string
-#print(columns_name)

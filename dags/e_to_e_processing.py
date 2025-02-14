@@ -47,7 +47,7 @@ df =pd.read_csv('emp_salary_info.csv')
 conn = psycopg2.connect(
     database='airflow_db',
     user='postgres',
-    password='1418',
+    password='****',
     host='localhost',
     port='5432'
 )

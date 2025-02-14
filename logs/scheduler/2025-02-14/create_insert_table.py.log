@@ -124,3 +124,472 @@
 [2025-02-14T22:09:41.778+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:41.778+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-14T22:09:41.802+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:41.802+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
 [2025-02-14T22:09:41.828+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.134 seconds
+[2025-02-14T22:10:12.075+0600] {processor.py:186} INFO - Started process (PID=581331) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:10:12.076+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:10:12.077+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:10:12.077+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:10:12.086+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:10:12.121+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:10:12.121+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:10:12.141+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:10:12.141+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:10:12.165+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.098 seconds
+[2025-02-14T22:10:42.672+0600] {processor.py:186} INFO - Started process (PID=581731) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:10:42.673+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:10:42.675+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:10:42.674+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:10:42.684+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:10:42.720+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:10:42.719+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:10:42.738+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:10:42.737+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:10:42.762+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.097 seconds
+[2025-02-14T22:11:13.589+0600] {processor.py:186} INFO - Started process (PID=582186) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:11:13.591+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:11:13.593+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:11:13.592+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:11:13.605+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:11:13.646+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:11:13.645+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:11:13.669+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:11:13.668+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:11:13.695+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.116 seconds
+[2025-02-14T22:11:44.417+0600] {processor.py:186} INFO - Started process (PID=582591) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:11:44.423+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:11:44.424+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:11:44.424+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:11:44.433+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:11:44.468+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:11:44.468+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:11:44.486+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:11:44.486+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:11:44.511+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.103 seconds
+[2025-02-14T22:12:14.686+0600] {processor.py:186} INFO - Started process (PID=583005) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:12:14.688+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:12:14.689+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:12:14.689+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:12:14.698+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:12:14.734+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:12:14.734+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:12:14.753+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:12:14.753+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:12:14.775+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.097 seconds
+[2025-02-14T22:12:44.955+0600] {processor.py:186} INFO - Started process (PID=583425) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:12:44.957+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:12:44.960+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:12:44.958+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:12:44.975+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:12:45.027+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:12:45.027+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:12:45.060+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:12:45.059+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:12:45.099+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.156 seconds
+[2025-02-14T22:13:17.221+0600] {processor.py:186} INFO - Started process (PID=583926) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:13:17.223+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:13:17.225+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:13:17.224+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:13:17.235+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:13:17.275+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:13:17.275+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:13:17.297+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:13:17.297+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:13:17.320+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.112 seconds
+[2025-02-14T22:13:47.570+0600] {processor.py:186} INFO - Started process (PID=584432) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:13:47.571+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:13:47.573+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:13:47.572+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:13:47.582+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:13:47.626+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:13:47.626+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:13:47.653+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:13:47.653+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:13:47.681+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.120 seconds
+[2025-02-14T22:14:18.234+0600] {processor.py:186} INFO - Started process (PID=584862) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:14:18.237+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:14:18.239+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:14:18.239+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:14:18.251+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:14:18.315+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:14:18.314+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:14:18.367+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:14:18.367+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:14:18.398+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.175 seconds
+[2025-02-14T22:14:49.892+0600] {processor.py:186} INFO - Started process (PID=585258) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:14:49.895+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:14:49.897+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:14:49.896+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:14:49.906+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:14:49.951+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:14:49.950+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:14:50.144+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:14:50.143+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:14:50.166+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.283 seconds
+[2025-02-14T22:15:20.648+0600] {processor.py:186} INFO - Started process (PID=585643) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:15:20.649+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:15:20.652+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:15:20.651+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:15:20.663+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:15:20.706+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:15:20.706+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:15:20.727+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:15:20.726+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:15:20.923+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.286 seconds
+[2025-02-14T22:15:51.521+0600] {processor.py:186} INFO - Started process (PID=586072) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:15:51.524+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:15:51.525+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:15:51.525+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:15:51.536+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:15:51.593+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:15:51.593+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:15:51.622+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:15:51.621+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:15:51.647+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.135 seconds
+[2025-02-14T22:16:22.227+0600] {processor.py:186} INFO - Started process (PID=586578) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:16:22.229+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:16:22.231+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:16:22.230+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:16:22.240+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:16:22.287+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:16:22.287+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:16:22.317+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:16:22.316+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:16:22.346+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.128 seconds
+[2025-02-14T22:16:53.336+0600] {processor.py:186} INFO - Started process (PID=586973) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:16:53.337+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:16:53.339+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:16:53.338+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:16:53.351+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:16:53.399+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:16:53.399+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:16:53.428+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:16:53.427+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:16:53.453+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.128 seconds
+[2025-02-14T22:17:24.101+0600] {processor.py:186} INFO - Started process (PID=587386) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:17:24.102+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:17:24.104+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:17:24.103+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:17:24.116+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:17:24.164+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:17:24.163+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:17:24.193+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:17:24.192+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:17:24.216+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.125 seconds
+[2025-02-14T22:17:54.848+0600] {processor.py:186} INFO - Started process (PID=587796) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:17:54.850+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:17:54.852+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:17:54.852+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:17:54.865+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:17:54.922+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:17:54.922+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:17:54.956+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:17:54.956+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:17:54.991+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.155 seconds
+[2025-02-14T22:18:25.707+0600] {processor.py:186} INFO - Started process (PID=588332) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:18:25.708+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:18:25.711+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:18:25.710+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:18:25.724+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:18:25.771+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:18:25.771+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:18:25.799+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:18:25.798+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:18:25.830+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.135 seconds
+[2025-02-14T22:18:56.013+0600] {processor.py:186} INFO - Started process (PID=588824) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:18:56.019+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:18:56.021+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:18:56.020+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:18:56.033+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:18:56.076+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:18:56.075+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:18:56.097+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:18:56.097+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:18:56.130+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.126 seconds
+[2025-02-14T22:19:26.780+0600] {processor.py:186} INFO - Started process (PID=589312) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:19:26.782+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:19:26.784+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:19:26.783+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:19:26.797+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:19:26.851+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:19:26.850+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:19:26.883+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:19:26.883+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:19:26.926+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.158 seconds
+[2025-02-14T22:19:57.478+0600] {processor.py:186} INFO - Started process (PID=589820) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:19:57.479+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:19:57.481+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:19:57.480+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:19:57.490+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:19:57.535+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:19:57.535+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:19:57.559+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:19:57.558+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:19:57.589+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.121 seconds
+[2025-02-14T22:20:28.082+0600] {processor.py:186} INFO - Started process (PID=590357) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:20:28.085+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:20:28.086+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:20:28.086+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:20:28.100+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:20:28.141+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:20:28.141+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:20:28.162+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:20:28.162+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:20:28.189+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.115 seconds
+[2025-02-14T22:20:58.724+0600] {processor.py:186} INFO - Started process (PID=590763) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:20:58.726+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:20:58.728+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:20:58.727+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:20:58.739+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:20:58.784+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:20:58.783+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:20:58.809+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:20:58.808+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:20:58.832+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.118 seconds
+[2025-02-14T22:21:29.423+0600] {processor.py:186} INFO - Started process (PID=591188) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:21:29.426+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:21:29.427+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:21:29.427+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:21:29.436+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:21:29.473+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:21:29.473+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:21:29.495+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:21:29.495+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:21:29.522+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.108 seconds
+[2025-02-14T22:22:00.373+0600] {processor.py:186} INFO - Started process (PID=591591) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:22:00.375+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:22:00.376+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:22:00.376+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:22:00.385+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:22:00.424+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:22:00.423+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:22:00.450+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:22:00.450+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:22:00.477+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.111 seconds
+[2025-02-14T22:22:31.407+0600] {processor.py:186} INFO - Started process (PID=592011) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:22:31.411+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:22:31.413+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:22:31.412+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:22:31.424+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:22:31.466+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:22:31.466+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:22:31.490+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:22:31.490+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:22:31.516+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.121 seconds
+[2025-02-14T22:23:01.694+0600] {processor.py:186} INFO - Started process (PID=592440) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:23:01.695+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:23:01.697+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:23:01.697+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:23:01.708+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:23:01.754+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:23:01.753+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:23:01.779+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:23:01.779+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:23:01.812+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.128 seconds
+[2025-02-14T22:23:32.301+0600] {processor.py:186} INFO - Started process (PID=592862) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:23:32.303+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:23:32.305+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:23:32.304+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:23:32.316+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:23:32.354+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:23:32.354+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:23:32.378+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:23:32.378+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:23:32.404+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.113 seconds
+[2025-02-14T22:24:03.210+0600] {processor.py:186} INFO - Started process (PID=593267) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:24:03.211+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:24:03.213+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:24:03.213+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:24:03.222+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:24:03.257+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:24:03.257+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:24:03.282+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:24:03.282+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:24:03.305+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.106 seconds
+[2025-02-14T22:24:33.823+0600] {processor.py:186} INFO - Started process (PID=593685) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:24:33.824+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:24:33.826+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:24:33.826+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:24:33.837+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:24:33.882+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:24:33.882+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:24:33.905+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:24:33.904+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:24:33.926+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.114 seconds
+[2025-02-14T22:25:04.318+0600] {processor.py:186} INFO - Started process (PID=594086) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:25:04.320+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:25:04.321+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:25:04.321+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:25:04.330+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:25:04.368+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:25:04.367+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:25:04.390+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:25:04.390+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:25:04.416+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.107 seconds
+[2025-02-14T22:25:34.945+0600] {processor.py:186} INFO - Started process (PID=594527) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:25:34.947+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:25:34.949+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:25:34.948+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:25:34.960+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:25:35.008+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:25:35.008+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:25:35.030+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:25:35.029+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:25:35.056+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.121 seconds
+[2025-02-14T22:26:05.384+0600] {processor.py:186} INFO - Started process (PID=594939) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:26:05.386+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:26:05.388+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:26:05.387+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:26:05.399+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:26:05.438+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:26:05.437+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:26:05.460+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:26:05.459+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:26:05.489+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.116 seconds
+[2025-02-14T22:26:35.984+0600] {processor.py:186} INFO - Started process (PID=595369) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:26:35.985+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:26:35.987+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:26:35.986+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:26:35.995+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:26:36.034+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:26:36.034+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:26:36.056+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:26:36.056+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:26:36.080+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.104 seconds
+[2025-02-14T22:27:06.355+0600] {processor.py:186} INFO - Started process (PID=595763) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:27:06.357+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:27:06.359+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:27:06.358+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:27:06.372+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:27:06.429+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:27:06.429+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:27:06.453+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:27:06.452+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:27:06.480+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.134 seconds
+[2025-02-14T22:27:37.363+0600] {processor.py:186} INFO - Started process (PID=596178) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:27:37.364+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:27:37.366+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:27:37.365+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:27:37.375+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:27:37.415+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:27:37.414+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:27:37.438+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:27:37.438+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:27:37.461+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.106 seconds
+[2025-02-14T22:28:08.004+0600] {processor.py:186} INFO - Started process (PID=596616) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:28:08.005+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:28:08.008+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:28:08.007+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:28:08.017+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:28:08.060+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:28:08.060+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:28:08.086+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:28:08.086+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:28:08.117+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.122 seconds
+[2025-02-14T22:28:38.613+0600] {processor.py:186} INFO - Started process (PID=597037) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:28:38.614+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:28:38.617+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:28:38.616+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:28:38.628+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:28:38.674+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:28:38.674+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:28:38.700+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:28:38.700+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:28:38.730+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.127 seconds
+[2025-02-14T22:29:09.348+0600] {processor.py:186} INFO - Started process (PID=597432) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:29:09.350+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:29:09.352+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:29:09.351+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:29:09.362+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:29:09.403+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:29:09.403+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:29:09.427+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:29:09.427+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:29:09.453+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.115 seconds
+[2025-02-14T22:29:39.505+0600] {processor.py:186} INFO - Started process (PID=597838) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:29:39.506+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:29:39.509+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:29:39.508+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:29:39.522+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:29:39.572+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:29:39.571+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:29:39.596+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:29:39.595+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:29:39.623+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.129 seconds
+[2025-02-14T22:30:10.211+0600] {processor.py:186} INFO - Started process (PID=598246) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:30:10.212+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:30:10.214+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:30:10.213+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:30:10.222+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:30:10.257+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:30:10.256+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:30:10.278+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:30:10.277+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:30:10.301+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.098 seconds
+[2025-02-14T22:30:40.912+0600] {processor.py:186} INFO - Started process (PID=598721) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:30:40.914+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:30:40.917+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:30:40.916+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:30:40.930+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:30:40.984+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:30:40.984+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:30:41.017+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:30:41.016+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:30:41.062+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.162 seconds
+[2025-02-14T22:31:11.325+0600] {processor.py:186} INFO - Started process (PID=599190) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:31:11.327+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:31:11.328+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:31:11.328+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:31:11.339+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:31:11.399+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:31:11.398+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:31:11.432+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:31:11.432+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:31:11.469+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.154 seconds
+[2025-02-14T22:31:41.657+0600] {processor.py:186} INFO - Started process (PID=599713) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:31:41.658+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:31:41.660+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:31:41.660+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:31:41.672+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:31:41.711+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:31:41.711+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:31:41.739+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:31:41.738+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:31:41.765+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.119 seconds
+[2025-02-14T22:32:11.851+0600] {processor.py:186} INFO - Started process (PID=600165) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:32:11.852+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:32:11.854+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:32:11.854+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:32:11.864+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:32:11.909+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:32:11.909+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:32:11.932+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:32:11.931+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:32:11.961+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.120 seconds
+[2025-02-14T22:32:42.481+0600] {processor.py:186} INFO - Started process (PID=600577) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:32:42.485+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:32:42.490+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:32:42.487+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:32:42.515+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:32:42.568+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:32:42.567+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:32:42.594+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:32:42.594+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:32:42.623+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.166 seconds
+[2025-02-14T22:33:12.777+0600] {processor.py:186} INFO - Started process (PID=601035) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:33:12.778+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:33:12.784+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:33:12.782+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:33:12.800+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:33:12.853+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:33:12.853+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:33:12.878+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:33:12.877+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:33:12.913+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.146 seconds
+[2025-02-14T22:33:43.144+0600] {processor.py:186} INFO - Started process (PID=601447) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:33:43.145+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:33:43.146+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:33:43.146+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:33:43.155+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:33:43.192+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:33:43.192+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:33:43.212+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:33:43.212+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:33:43.238+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.102 seconds
+[2025-02-14T22:34:13.612+0600] {processor.py:186} INFO - Started process (PID=601843) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:34:13.613+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:34:13.616+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:34:13.616+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:34:13.626+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:34:13.663+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:34:13.662+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:34:13.685+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:34:13.685+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:34:13.715+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.114 seconds
+[2025-02-14T22:34:44.186+0600] {processor.py:186} INFO - Started process (PID=602227) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:34:44.187+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:34:44.189+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:34:44.188+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:34:44.197+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:34:44.237+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:34:44.237+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:34:44.257+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:34:44.257+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:34:44.282+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.104 seconds
+[2025-02-14T22:35:15.302+0600] {processor.py:186} INFO - Started process (PID=602698) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:35:15.303+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:35:15.308+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:35:15.307+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:35:15.323+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:35:15.382+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:35:15.382+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:35:15.437+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:35:15.437+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:35:15.482+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.194 seconds
+[2025-02-14T22:35:45.740+0600] {processor.py:186} INFO - Started process (PID=603216) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:35:45.741+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:35:45.743+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:35:45.742+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:35:45.755+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:35:45.803+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:35:45.803+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:35:45.831+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:35:45.831+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:35:45.862+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.131 seconds
+[2025-02-14T22:36:16.521+0600] {processor.py:186} INFO - Started process (PID=603605) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:36:16.532+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:36:16.539+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:36:16.533+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:36:16.598+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:36:16.721+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:36:16.721+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:36:16.824+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:36:16.824+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:36:16.891+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.397 seconds
+[2025-02-14T22:36:47.597+0600] {processor.py:186} INFO - Started process (PID=604006) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:36:47.600+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:36:47.603+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:36:47.602+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:36:47.620+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:36:47.680+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:36:47.680+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:36:47.717+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:36:47.716+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:36:47.760+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.191 seconds
+[2025-02-14T22:37:23.384+0600] {processor.py:186} INFO - Started process (PID=604630) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:37:23.390+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:37:23.403+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:37:23.400+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:37:23.465+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:37:23.578+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:37:23.577+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:37:23.649+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:37:23.649+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:37:23.773+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.458 seconds
+[2025-02-14T22:37:58.083+0600] {processor.py:186} INFO - Started process (PID=605311) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:37:58.085+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:37:58.127+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:37:58.113+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:37:58.257+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:37:58.660+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:37:58.659+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:37:58.975+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:37:58.975+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:37:59.128+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 1.171 seconds
+[2025-02-14T22:38:30.098+0600] {processor.py:186} INFO - Started process (PID=605802) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:38:30.106+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:38:30.112+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:38:30.111+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:38:30.127+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:38:30.190+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:38:30.189+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:38:30.239+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:38:30.238+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:38:30.306+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.224 seconds
+[2025-02-14T22:39:00.532+0600] {processor.py:186} INFO - Started process (PID=606197) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:39:00.534+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:39:00.537+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:39:00.536+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:39:00.551+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:39:00.595+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:39:00.595+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:39:00.617+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:39:00.617+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:39:00.645+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.140 seconds
+[2025-02-14T22:39:30.734+0600] {processor.py:186} INFO - Started process (PID=606600) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:39:30.740+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:39:30.743+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:39:30.742+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:39:30.754+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:39:30.800+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:39:30.799+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:39:30.828+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:39:30.828+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:39:30.857+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.135 seconds
+[2025-02-14T22:40:01.484+0600] {processor.py:186} INFO - Started process (PID=606993) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:40:01.487+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:40:01.492+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:40:01.491+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:40:01.509+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:40:01.562+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:40:01.562+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:40:01.592+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:40:01.592+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:40:01.624+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.168 seconds
+[2025-02-14T22:40:31.718+0600] {processor.py:186} INFO - Started process (PID=607396) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:40:31.720+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:40:31.722+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:40:31.721+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:40:31.734+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:40:31.776+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:40:31.776+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:40:31.804+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:40:31.804+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:40:31.832+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.126 seconds
+[2025-02-14T22:41:02.524+0600] {processor.py:186} INFO - Started process (PID=607845) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:41:02.526+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:41:02.529+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:41:02.528+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:41:02.541+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:41:02.596+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:41:02.596+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:41:02.629+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:41:02.628+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:41:02.653+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.145 seconds
+[2025-02-14T22:41:33.038+0600] {processor.py:186} INFO - Started process (PID=608252) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:41:33.041+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:41:33.044+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:41:33.043+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:41:33.067+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:41:33.123+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:41:33.123+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:41:33.152+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:41:33.151+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:41:33.183+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.172 seconds
+[2025-02-14T22:42:04.128+0600] {processor.py:186} INFO - Started process (PID=608645) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:42:04.135+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:42:04.137+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:42:04.136+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:42:04.146+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:42:04.188+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:42:04.187+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:42:04.211+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:42:04.210+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:42:04.242+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.126 seconds
+[2025-02-14T22:42:34.387+0600] {processor.py:186} INFO - Started process (PID=609142) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:42:34.388+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:42:34.390+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:42:34.389+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:42:34.402+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:42:34.448+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:42:34.448+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:42:34.469+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:42:34.468+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:42:34.499+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.123 seconds
+[2025-02-14T22:43:04.622+0600] {processor.py:186} INFO - Started process (PID=609694) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:43:04.624+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:43:04.629+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:43:04.627+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:43:04.663+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:43:04.763+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:43:04.763+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:43:04.819+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:43:04.818+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:43:04.856+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.246 seconds
+[2025-02-14T22:43:35.421+0600] {processor.py:186} INFO - Started process (PID=610249) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:43:35.427+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:43:35.428+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:43:35.428+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:43:35.438+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:43:35.508+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:43:35.507+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:43:35.553+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:43:35.552+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:43:35.606+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.198 seconds
+[2025-02-14T22:44:06.244+0600] {processor.py:186} INFO - Started process (PID=610782) to work on /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:44:06.246+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py for tasks to queue
+[2025-02-14T22:44:06.248+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:44:06.247+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:44:06.257+0600] {processor.py:925} INFO - DAG(s) 'table_create_insert_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py
+[2025-02-14T22:44:06.298+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:44:06.298+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:44:06.324+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:44:06.324+0600] {dag.py:4180} INFO - Setting next_dagrun for table_create_insert_dag to None, run_after=None
+[2025-02-14T22:44:06.350+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/create_insert_table.py took 0.118 seconds

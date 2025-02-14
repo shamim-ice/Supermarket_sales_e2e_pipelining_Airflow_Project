@@ -1,0 +1,165 @@
+[2025-02-14T22:20:19.569+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-14T22:20:19.631+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: supermarket_sales_eTOe_dag.create_dim_fact_table_task manual__2025-02-14T16:20:00.793841+00:00 [queued]>
+[2025-02-14T22:20:19.644+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: supermarket_sales_eTOe_dag.create_dim_fact_table_task manual__2025-02-14T16:20:00.793841+00:00 [queued]>
+[2025-02-14T22:20:19.645+0600] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-14T22:20:19.667+0600] {taskinstance.py:2889} INFO - Executing <Task(SQLExecuteQueryOperator): create_dim_fact_table_task> on 2025-02-14 16:20:00.793841+00:00
+[2025-02-14T22:20:19.681+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'supermarket_sales_eTOe_dag', 'create_dim_fact_table_task', 'manual__2025-02-14T16:20:00.793841+00:00', '--job-id', '168', '--raw', '--subdir', 'DAGS_FOLDER/final_assignment.py', '--cfg-path', '/tmp/tmp8ctshfbi']
+[2025-02-14T22:20:19.683+0600] {standard_task_runner.py:105} INFO - Job 168: Subtask create_dim_fact_table_task
+[2025-02-14T22:20:19.687+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=590264) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-14T22:20:19.688+0600] {standard_task_runner.py:72} INFO - Started process 590271 to run task
+[2025-02-14T22:20:19.805+0600] {task_command.py:467} INFO - Running <TaskInstance: supermarket_sales_eTOe_dag.create_dim_fact_table_task manual__2025-02-14T16:20:00.793841+00:00 [running]> on host shamim-X541UV
+[2025-02-14T22:20:19.976+0600] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='supermarket_sales_eTOe_dag' AIRFLOW_CTX_TASK_ID='create_dim_fact_table_task' AIRFLOW_CTX_EXECUTION_DATE='2025-02-14T16:20:00.793841+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-14T16:20:00.793841+00:00'
+[2025-02-14T22:20:19.978+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-14T22:20:19.979+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-14T22:20:19.979+0600] {logging_mixin.py:190} INFO - Current task name:create_dim_fact_table_task state:running start_date:2025-02-14 16:20:19.631826+00:00
+[2025-02-14T22:20:19.980+0600] {logging_mixin.py:190} INFO - Dag name:supermarket_sales_eTOe_dag and current dag run status:running
+[2025-02-14T22:20:19.980+0600] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-14T22:20:19.981+0600] {sql.py:295} INFO - Executing: 
+    -- branch dimension
+    drop table if exists dim_branch CASCADE;
+    create table if not exists dim_branch(
+    branch_id SERIAL primary key,
+    branch VARCHAR(100),
+    city VARCHAR(100)
+    );
+
+    -- customer dimension
+    drop table if exists dim_customer CASCADE;
+    create table if not exists dim_customer(
+    customer_type_id SERIAL primary key,
+    customer_type VARCHAR(100)
+    );
+
+     -- gender dimension
+    drop table if exists dim_gender CASCADE;
+    create table if not exists dim_gender(
+    gender_id SERIAL primary key,
+    gender VARCHAR(100)
+    );
+
+    -- product dimension
+    drop table if exists dim_product CASCADE;
+    create table if not exists dim_product(
+    product_id SERIAL primary key,
+    product_line VARCHAR(100)
+    );
+
+    -- payment dimension
+    drop table if exists dim_payment CASCADE;
+    create table if not exists dim_payment(
+    payment_id SERIAL primary key,
+    payment varchar(100)
+    );
+
+    -- date dimension
+    drop table if exists dim_sales_date CASCADE;
+    create table if not exists dim_sales_date(
+    date_id SERIAL primary key,
+    date DATE
+    );
+
+
+    -- fact table
+    drop table if exists fact_sales CASCADE;
+    create table if not exists fact_sales(
+    invoice_id VARCHAR(100) primary key,
+    branch_id INT references dim_branch(branch_id),
+    cutstomer_type_id INT references dim_customer(customer_type_id),
+    gender_id INT references dim_gender(gender_id),
+    product_id INT references dim_product(product_id),
+    unit_price NUMERIC(10,2),
+    quantity INT,
+    cost_of_goods_sold NUMERIC(10,2),
+    tax_5_percent NUMERIC(10,2),
+    total NUMERIC(10,2),
+    payment_id INT references dim_payment(payment_id),
+    date_id  INT references dim_sales_date(date_id),
+    time TIME,
+    customer_satisfiction_rating NUMERIC(10,2) 
+    );
+
+    
+[2025-02-14T22:20:20.005+0600] {base.py:84} INFO - Retrieving connection 'postgres'
+[2025-02-14T22:20:20.032+0600] {base.py:84} INFO - Retrieving connection 'postgres'
+[2025-02-14T22:20:20.050+0600] {sql.py:511} INFO - Running statement: 
+    -- branch dimension
+    drop table if exists dim_branch CASCADE;
+    create table if not exists dim_branch(
+    branch_id SERIAL primary key,
+    branch VARCHAR(100),
+    city VARCHAR(100)
+    );
+
+    -- customer dimension
+    drop table if exists dim_customer CASCADE;
+    create table if not exists dim_customer(
+    customer_type_id SERIAL primary key,
+    customer_type VARCHAR(100)
+    );
+
+     -- gender dimension
+    drop table if exists dim_gender CASCADE;
+    create table if not exists dim_gender(
+    gender_id SERIAL primary key,
+    gender VARCHAR(100)
+    );
+
+    -- product dimension
+    drop table if exists dim_product CASCADE;
+    create table if not exists dim_product(
+    product_id SERIAL primary key,
+    product_line VARCHAR(100)
+    );
+
+    -- payment dimension
+    drop table if exists dim_payment CASCADE;
+    create table if not exists dim_payment(
+    payment_id SERIAL primary key,
+    payment varchar(100)
+    );
+
+    -- date dimension
+    drop table if exists dim_sales_date CASCADE;
+    create table if not exists dim_sales_date(
+    date_id SERIAL primary key,
+    date DATE
+    );
+
+
+    -- fact table
+    drop table if exists fact_sales CASCADE;
+    create table if not exists fact_sales(
+    invoice_id VARCHAR(100) primary key,
+    branch_id INT references dim_branch(branch_id),
+    cutstomer_type_id INT references dim_customer(customer_type_id),
+    gender_id INT references dim_gender(gender_id),
+    product_id INT references dim_product(product_id),
+    unit_price NUMERIC(10,2),
+    quantity INT,
+    cost_of_goods_sold NUMERIC(10,2),
+    tax_5_percent NUMERIC(10,2),
+    total NUMERIC(10,2),
+    payment_id INT references dim_payment(payment_id),
+    date_id  INT references dim_sales_date(date_id),
+    time TIME,
+    customer_satisfiction_rating NUMERIC(10,2) 
+    );
+
+    , parameters: None
+[2025-02-14T22:20:20.089+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py:470 DeprecationWarning: Import of fetch_all_handler from the 'airflow.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from 'airflow.providers.common.sql.hooks.handlers'.
+[2025-02-14T22:20:20.092+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py:471 DeprecationWarning: Import of return_single_query_results from the 'airflow.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from 'airflow.providers.common.sql.hooks.handlers'.
+[2025-02-14T22:20:20.099+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py:486 DeprecationWarning: Import of return_single_query_results from the 'airflow.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from 'airflow.providers.common.sql.hooks.handlers'.
+[2025-02-14T22:20:20.101+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py:311 DeprecationWarning: Import of return_single_query_results from the 'airflow.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from 'airflow.providers.common.sql.hooks.handlers'.
+[2025-02-14T22:20:20.129+0600] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-14T22:20:20.129+0600] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=supermarket_sales_eTOe_dag, task_id=create_dim_fact_table_task, run_id=manual__2025-02-14T16:20:00.793841+00:00, execution_date=20250214T162000, start_date=20250214T162019, end_date=20250214T162020
+[2025-02-14T22:20:20.141+0600] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-14T22:20:20.141+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-14T22:20:20.142+0600] {logging_mixin.py:190} INFO - Dag name:supermarket_sales_eTOe_dag queued_at:2025-02-14 16:20:00.809809+00:00
+[2025-02-14T22:20:20.143+0600] {logging_mixin.py:190} INFO - Task hostname:shamim-X541UV operator:SQLExecuteQueryOperator
+[2025-02-14T22:20:20.185+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-14T22:20:20.227+0600] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-14T22:20:20.235+0600] {local_task_job_runner.py:245} INFO - ::endgroup::

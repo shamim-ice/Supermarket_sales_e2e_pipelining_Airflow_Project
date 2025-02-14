@@ -1,0 +1,29 @@
+[2025-02-14T22:37:39.360+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-14T22:37:39.541+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: supermarket_sales_eTOe_dag.load_clean_data_pg_task scheduled__2025-02-13T05:00:00+00:00 [queued]>
+[2025-02-14T22:37:39.585+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: supermarket_sales_eTOe_dag.load_clean_data_pg_task scheduled__2025-02-13T05:00:00+00:00 [queued]>
+[2025-02-14T22:37:39.586+0600] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-14T22:37:39.741+0600] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): load_clean_data_pg_task> on 2025-02-13 05:00:00+00:00
+[2025-02-14T22:37:39.922+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'supermarket_sales_eTOe_dag', 'load_clean_data_pg_task', 'scheduled__2025-02-13T05:00:00+00:00', '--job-id', '183', '--raw', '--subdir', 'DAGS_FOLDER/final_assignment.py', '--cfg-path', '/tmp/tmpzgzysb61']
+[2025-02-14T22:37:39.942+0600] {standard_task_runner.py:105} INFO - Job 183: Subtask load_clean_data_pg_task
+[2025-02-14T22:37:40.022+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=604783) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-14T22:37:40.028+0600] {standard_task_runner.py:72} INFO - Started process 604913 to run task
+[2025-02-14T22:37:40.788+0600] {task_command.py:467} INFO - Running <TaskInstance: supermarket_sales_eTOe_dag.load_clean_data_pg_task scheduled__2025-02-13T05:00:00+00:00 [running]> on host shamim-X541UV
+[2025-02-14T22:37:41.528+0600] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='supermarket_sales_eTOe_dag' AIRFLOW_CTX_TASK_ID='load_clean_data_pg_task' AIRFLOW_CTX_EXECUTION_DATE='2025-02-13T05:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-13T05:00:00+00:00'
+[2025-02-14T22:37:41.547+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-14T22:37:41.547+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-14T22:37:41.551+0600] {logging_mixin.py:190} INFO - Current task name:load_clean_data_pg_task state:running start_date:2025-02-14 16:37:39.542902+00:00
+[2025-02-14T22:37:41.552+0600] {logging_mixin.py:190} INFO - Dag name:supermarket_sales_eTOe_dag and current dag run status:running
+[2025-02-14T22:37:41.553+0600] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-14T22:37:41.986+0600] {logging_mixin.py:190} INFO - insert into supermarket_sales(invoice_id,branch,city,customer_type,gender,product_line,unit_price,quantity,tax_5_percent,total,date,time,payment,cost_of_goods_sold,customer_stratification_rating) values %s
+[2025-02-14T22:37:41.996+0600] {logging_mixin.py:190} INFO - Existing records from supermarket_sales deleted successfully!
+[2025-02-14T22:37:42.422+0600] {logging_mixin.py:190} INFO - Dataframe is inserted successfully!
+[2025-02-14T22:37:42.435+0600] {logging_mixin.py:190} INFO - Insert Time: 0.866478681564331 seconds.
+[2025-02-14T22:37:42.448+0600] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-14T22:37:42.585+0600] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-14T22:37:42.589+0600] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=supermarket_sales_eTOe_dag, task_id=load_clean_data_pg_task, run_id=scheduled__2025-02-13T05:00:00+00:00, execution_date=20250213T050000, start_date=20250214T163739, end_date=20250214T163742
+[2025-02-14T22:37:42.649+0600] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-14T22:37:42.653+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-14T22:37:42.654+0600] {logging_mixin.py:190} INFO - Dag name:supermarket_sales_eTOe_dag queued_at:2025-02-14 16:36:56.983622+00:00
+[2025-02-14T22:37:42.661+0600] {logging_mixin.py:190} INFO - Task hostname:shamim-X541UV operator:PythonOperator
+[2025-02-14T22:37:42.733+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-14T22:37:42.847+0600] {local_task_job_runner.py:245} INFO - ::endgroup::

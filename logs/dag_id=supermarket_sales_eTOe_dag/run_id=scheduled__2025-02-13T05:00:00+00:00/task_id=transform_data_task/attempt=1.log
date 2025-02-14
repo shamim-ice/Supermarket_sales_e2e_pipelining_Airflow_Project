@@ -1,0 +1,26 @@
+[2025-02-14T22:37:18.254+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-14T22:37:18.580+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: supermarket_sales_eTOe_dag.transform_data_task scheduled__2025-02-13T05:00:00+00:00 [queued]>
+[2025-02-14T22:37:18.649+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: supermarket_sales_eTOe_dag.transform_data_task scheduled__2025-02-13T05:00:00+00:00 [queued]>
+[2025-02-14T22:37:18.650+0600] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-14T22:37:18.732+0600] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): transform_data_task> on 2025-02-13 05:00:00+00:00
+[2025-02-14T22:37:18.793+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'supermarket_sales_eTOe_dag', 'transform_data_task', 'scheduled__2025-02-13T05:00:00+00:00', '--job-id', '177', '--raw', '--subdir', 'DAGS_FOLDER/final_assignment.py', '--cfg-path', '/tmp/tmpci04st7y']
+[2025-02-14T22:37:18.805+0600] {standard_task_runner.py:105} INFO - Job 177: Subtask transform_data_task
+[2025-02-14T22:37:18.857+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_git/Airflow_project/air_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=604370) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-14T22:37:18.862+0600] {standard_task_runner.py:72} INFO - Started process 604544 to run task
+[2025-02-14T22:37:19.267+0600] {task_command.py:467} INFO - Running <TaskInstance: supermarket_sales_eTOe_dag.transform_data_task scheduled__2025-02-13T05:00:00+00:00 [running]> on host shamim-X541UV
+[2025-02-14T22:37:20.104+0600] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='supermarket_sales_eTOe_dag' AIRFLOW_CTX_TASK_ID='transform_data_task' AIRFLOW_CTX_EXECUTION_DATE='2025-02-13T05:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-13T05:00:00+00:00'
+[2025-02-14T22:37:20.112+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-14T22:37:20.116+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-14T22:37:20.118+0600] {logging_mixin.py:190} INFO - Current task name:transform_data_task state:running start_date:2025-02-14 16:37:18.585351+00:00
+[2025-02-14T22:37:20.118+0600] {logging_mixin.py:190} INFO - Dag name:supermarket_sales_eTOe_dag and current dag run status:running
+[2025-02-14T22:37:20.121+0600] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-14T22:37:21.030+0600] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-14T22:37:21.282+0600] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-14T22:37:21.297+0600] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=supermarket_sales_eTOe_dag, task_id=transform_data_task, run_id=scheduled__2025-02-13T05:00:00+00:00, execution_date=20250213T050000, start_date=20250214T163718, end_date=20250214T163721
+[2025-02-14T22:37:21.411+0600] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-14T22:37:21.415+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-14T22:37:21.416+0600] {logging_mixin.py:190} INFO - Dag name:supermarket_sales_eTOe_dag queued_at:2025-02-14 16:36:56.983622+00:00
+[2025-02-14T22:37:21.416+0600] {logging_mixin.py:190} INFO - Task hostname:shamim-X541UV operator:PythonOperator
+[2025-02-14T22:37:21.592+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-14T22:37:21.755+0600] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-14T22:37:21.762+0600] {local_task_job_runner.py:245} INFO - ::endgroup::
