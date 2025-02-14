@@ -1,0 +1,126 @@
+[2025-02-14T21:56:14.960+0600] {processor.py:186} INFO - Started process (PID=572364) to work on /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T21:56:14.961+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/test.py for tasks to queue
+[2025-02-14T21:56:14.965+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:56:14.963+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T21:56:15.007+0600] {processor.py:925} INFO - DAG(s) 'test_git_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T21:56:15.679+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:56:15.679+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T21:56:15.711+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:56:15.710+0600] {dag.py:4180} INFO - Setting next_dagrun for test_git_dag to None, run_after=None
+[2025-02-14T21:56:15.763+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/test.py took 0.822 seconds
+[2025-02-14T21:56:46.078+0600] {processor.py:186} INFO - Started process (PID=572786) to work on /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T21:56:46.079+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/test.py for tasks to queue
+[2025-02-14T21:56:46.080+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:56:46.080+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T21:56:46.089+0600] {processor.py:925} INFO - DAG(s) 'test_git_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T21:56:46.126+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:56:46.126+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T21:56:46.148+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:56:46.147+0600] {dag.py:4180} INFO - Setting next_dagrun for test_git_dag to None, run_after=None
+[2025-02-14T21:56:46.170+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/test.py took 0.104 seconds
+[2025-02-14T21:57:16.404+0600] {processor.py:186} INFO - Started process (PID=573182) to work on /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T21:57:16.406+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/test.py for tasks to queue
+[2025-02-14T21:57:16.408+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:57:16.407+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T21:57:16.420+0600] {processor.py:925} INFO - DAG(s) 'test_git_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T21:57:16.458+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:57:16.458+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T21:57:16.483+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:57:16.482+0600] {dag.py:4180} INFO - Setting next_dagrun for test_git_dag to None, run_after=None
+[2025-02-14T21:57:16.505+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/test.py took 0.115 seconds
+[2025-02-14T22:02:30.017+0600] {processor.py:186} INFO - Started process (PID=574050) to work on /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:02:30.018+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/test.py for tasks to queue
+[2025-02-14T22:02:30.022+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:02:30.021+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:02:30.037+0600] {processor.py:925} INFO - DAG(s) 'test_git_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:02:30.083+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:02:30.083+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:02:30.103+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:02:30.103+0600] {dag.py:4180} INFO - Setting next_dagrun for test_git_dag to None, run_after=None
+[2025-02-14T22:02:30.130+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/test.py took 0.122 seconds
+[2025-02-14T22:03:00.669+0600] {processor.py:186} INFO - Started process (PID=574507) to work on /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:03:00.670+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/test.py for tasks to queue
+[2025-02-14T22:03:00.675+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:03:00.674+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:03:00.684+0600] {processor.py:925} INFO - DAG(s) 'test_git_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:03:00.727+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:03:00.727+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:03:00.753+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:03:00.752+0600] {dag.py:4180} INFO - Setting next_dagrun for test_git_dag to None, run_after=None
+[2025-02-14T22:03:00.781+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/test.py took 0.129 seconds
+[2025-02-14T22:03:31.153+0600] {processor.py:186} INFO - Started process (PID=574925) to work on /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:03:31.154+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/test.py for tasks to queue
+[2025-02-14T22:03:31.157+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:03:31.157+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:03:31.167+0600] {processor.py:925} INFO - DAG(s) 'test_git_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:03:31.208+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:03:31.207+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:03:31.233+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:03:31.232+0600] {dag.py:4180} INFO - Setting next_dagrun for test_git_dag to None, run_after=None
+[2025-02-14T22:03:31.258+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/test.py took 0.115 seconds
+[2025-02-14T22:04:01.694+0600] {processor.py:186} INFO - Started process (PID=575342) to work on /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:04:01.696+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/test.py for tasks to queue
+[2025-02-14T22:04:01.702+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:04:01.701+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:04:01.712+0600] {processor.py:925} INFO - DAG(s) 'test_git_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:04:01.756+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:04:01.755+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:04:01.779+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:04:01.778+0600] {dag.py:4180} INFO - Setting next_dagrun for test_git_dag to None, run_after=None
+[2025-02-14T22:04:01.806+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/test.py took 0.134 seconds
+[2025-02-14T22:04:32.034+0600] {processor.py:186} INFO - Started process (PID=575767) to work on /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:04:32.036+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/test.py for tasks to queue
+[2025-02-14T22:04:32.043+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:04:32.042+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:04:32.060+0600] {processor.py:925} INFO - DAG(s) 'test_git_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:04:32.106+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:04:32.106+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:04:32.133+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:04:32.132+0600] {dag.py:4180} INFO - Setting next_dagrun for test_git_dag to None, run_after=None
+[2025-02-14T22:04:32.167+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/test.py took 0.151 seconds
+[2025-02-14T22:05:02.681+0600] {processor.py:186} INFO - Started process (PID=576180) to work on /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:05:02.683+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/test.py for tasks to queue
+[2025-02-14T22:05:02.694+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:05:02.692+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:05:02.711+0600] {processor.py:925} INFO - DAG(s) 'test_git_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:05:02.764+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:05:02.764+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:05:02.795+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:05:02.795+0600] {dag.py:4180} INFO - Setting next_dagrun for test_git_dag to None, run_after=None
+[2025-02-14T22:05:02.825+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/test.py took 0.166 seconds
+[2025-02-14T22:05:33.940+0600] {processor.py:186} INFO - Started process (PID=576968) to work on /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:05:33.944+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/test.py for tasks to queue
+[2025-02-14T22:05:33.958+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:05:33.958+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:05:33.989+0600] {processor.py:925} INFO - DAG(s) 'test_git_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:05:34.151+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:05:34.150+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:05:34.273+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:05:34.273+0600] {dag.py:4180} INFO - Setting next_dagrun for test_git_dag to None, run_after=None
+[2025-02-14T22:05:34.416+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/test.py took 0.496 seconds
+[2025-02-14T22:06:05.385+0600] {processor.py:186} INFO - Started process (PID=577464) to work on /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:06:05.387+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/test.py for tasks to queue
+[2025-02-14T22:06:05.391+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:06:05.391+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:06:05.403+0600] {processor.py:925} INFO - DAG(s) 'test_git_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:06:05.459+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:06:05.459+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:06:05.493+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:06:05.492+0600] {dag.py:4180} INFO - Setting next_dagrun for test_git_dag to None, run_after=None
+[2025-02-14T22:06:05.529+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/test.py took 0.159 seconds
+[2025-02-14T22:06:36.551+0600] {processor.py:186} INFO - Started process (PID=577966) to work on /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:06:36.554+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/test.py for tasks to queue
+[2025-02-14T22:06:36.561+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:06:36.561+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:06:36.573+0600] {processor.py:925} INFO - DAG(s) 'test_git_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:06:36.613+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:06:36.613+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:06:36.633+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:06:36.633+0600] {dag.py:4180} INFO - Setting next_dagrun for test_git_dag to None, run_after=None
+[2025-02-14T22:06:36.663+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/test.py took 0.140 seconds
+[2025-02-14T22:07:06.824+0600] {processor.py:186} INFO - Started process (PID=578394) to work on /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:07:06.827+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/test.py for tasks to queue
+[2025-02-14T22:07:06.830+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:07:06.830+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:07:06.838+0600] {processor.py:925} INFO - DAG(s) 'test_git_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:07:06.886+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:07:06.886+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:07:06.908+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:07:06.908+0600] {dag.py:4180} INFO - Setting next_dagrun for test_git_dag to None, run_after=None
+[2025-02-14T22:07:06.933+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/test.py took 0.118 seconds
+[2025-02-14T22:07:37.786+0600] {processor.py:186} INFO - Started process (PID=578897) to work on /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:07:37.789+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/test.py for tasks to queue
+[2025-02-14T22:07:37.792+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:07:37.791+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:07:37.806+0600] {processor.py:925} INFO - DAG(s) 'test_git_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:07:37.869+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:07:37.869+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:07:37.898+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:07:37.898+0600] {dag.py:4180} INFO - Setting next_dagrun for test_git_dag to None, run_after=None
+[2025-02-14T22:07:37.924+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/test.py took 0.153 seconds
+[2025-02-14T22:08:08.533+0600] {processor.py:186} INFO - Started process (PID=579438) to work on /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:08:08.534+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/test.py for tasks to queue
+[2025-02-14T22:08:08.536+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:08:08.535+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:08:08.547+0600] {processor.py:925} INFO - DAG(s) 'test_git_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:08:08.590+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:08:08.589+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:08:08.615+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:08:08.615+0600] {dag.py:4180} INFO - Setting next_dagrun for test_git_dag to None, run_after=None
+[2025-02-14T22:08:08.643+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/test.py took 0.120 seconds
+[2025-02-14T22:08:38.893+0600] {processor.py:186} INFO - Started process (PID=579923) to work on /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:08:38.906+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/test.py for tasks to queue
+[2025-02-14T22:08:38.908+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:08:38.908+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:08:38.921+0600] {processor.py:925} INFO - DAG(s) 'test_git_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:08:38.973+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:08:38.973+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:08:39.002+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:08:39.002+0600] {dag.py:4180} INFO - Setting next_dagrun for test_git_dag to None, run_after=None
+[2025-02-14T22:08:39.034+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/test.py took 0.154 seconds
+[2025-02-14T22:09:09.736+0600] {processor.py:186} INFO - Started process (PID=580321) to work on /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:09:09.762+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/test.py for tasks to queue
+[2025-02-14T22:09:09.770+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:09.768+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:09:09.784+0600] {processor.py:925} INFO - DAG(s) 'test_git_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:09:09.841+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:09.841+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:09:09.879+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:09.878+0600] {dag.py:4180} INFO - Setting next_dagrun for test_git_dag to None, run_after=None
+[2025-02-14T22:09:09.911+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/test.py took 0.211 seconds
+[2025-02-14T22:09:40.347+0600] {processor.py:186} INFO - Started process (PID=580866) to work on /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:09:40.350+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/test.py for tasks to queue
+[2025-02-14T22:09:40.354+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:40.354+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:09:40.370+0600] {processor.py:925} INFO - DAG(s) 'test_git_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/test.py
+[2025-02-14T22:09:40.413+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:40.412+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:09:40.437+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:40.436+0600] {dag.py:4180} INFO - Setting next_dagrun for test_git_dag to None, run_after=None
+[2025-02-14T22:09:40.463+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/test.py took 0.138 seconds

@@ -1,0 +1,126 @@
+[2025-02-14T21:56:16.502+0600] {processor.py:186} INFO - Started process (PID=572398) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T21:56:16.503+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-14T21:56:16.505+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:56:16.504+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T21:56:16.518+0600] {processor.py:925} INFO - DAG(s) 'seq_parallel_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T21:56:16.737+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:56:16.737+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T21:56:16.760+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:56:16.760+0600] {dag.py:4180} INFO - Setting next_dagrun for seq_parallel_dag to None, run_after=None
+[2025-02-14T21:56:16.788+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.299 seconds
+[2025-02-14T21:56:47.551+0600] {processor.py:186} INFO - Started process (PID=572819) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T21:56:47.551+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-14T21:56:47.553+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:56:47.552+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T21:56:47.562+0600] {processor.py:925} INFO - DAG(s) 'seq_parallel_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T21:56:47.603+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:56:47.603+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T21:56:47.625+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:56:47.624+0600] {dag.py:4180} INFO - Setting next_dagrun for seq_parallel_dag to None, run_after=None
+[2025-02-14T21:56:47.648+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.108 seconds
+[2025-02-14T21:57:17.720+0600] {processor.py:186} INFO - Started process (PID=573207) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T21:57:17.721+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-14T21:57:17.723+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:57:17.722+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T21:57:17.733+0600] {processor.py:925} INFO - DAG(s) 'seq_parallel_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T21:57:17.774+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:57:17.774+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T21:57:17.795+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:57:17.794+0600] {dag.py:4180} INFO - Setting next_dagrun for seq_parallel_dag to None, run_after=None
+[2025-02-14T21:57:17.822+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.112 seconds
+[2025-02-14T22:02:30.652+0600] {processor.py:186} INFO - Started process (PID=574082) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:02:30.653+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-14T22:02:30.657+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:02:30.656+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:02:30.672+0600] {processor.py:925} INFO - DAG(s) 'seq_parallel_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:02:30.726+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:02:30.726+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:02:30.756+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:02:30.755+0600] {dag.py:4180} INFO - Setting next_dagrun for seq_parallel_dag to None, run_after=None
+[2025-02-14T22:02:30.790+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.146 seconds
+[2025-02-14T22:03:01.278+0600] {processor.py:186} INFO - Started process (PID=574539) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:03:01.281+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-14T22:03:01.285+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:03:01.284+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:03:01.297+0600] {processor.py:925} INFO - DAG(s) 'seq_parallel_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:03:01.341+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:03:01.341+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:03:01.366+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:03:01.366+0600] {dag.py:4180} INFO - Setting next_dagrun for seq_parallel_dag to None, run_after=None
+[2025-02-14T22:03:01.393+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.126 seconds
+[2025-02-14T22:03:31.708+0600] {processor.py:186} INFO - Started process (PID=574957) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:03:31.713+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-14T22:03:31.716+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:03:31.716+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:03:31.728+0600] {processor.py:925} INFO - DAG(s) 'seq_parallel_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:03:31.776+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:03:31.776+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:03:31.799+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:03:31.799+0600] {dag.py:4180} INFO - Setting next_dagrun for seq_parallel_dag to None, run_after=None
+[2025-02-14T22:03:31.825+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.127 seconds
+[2025-02-14T22:04:02.372+0600] {processor.py:186} INFO - Started process (PID=575374) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:04:02.373+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-14T22:04:02.375+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:04:02.375+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:04:02.384+0600] {processor.py:925} INFO - DAG(s) 'seq_parallel_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:04:02.430+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:04:02.430+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:04:02.457+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:04:02.457+0600] {dag.py:4180} INFO - Setting next_dagrun for seq_parallel_dag to None, run_after=None
+[2025-02-14T22:04:02.490+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.127 seconds
+[2025-02-14T22:04:32.657+0600] {processor.py:186} INFO - Started process (PID=575797) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:04:32.658+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-14T22:04:32.661+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:04:32.661+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:04:32.672+0600] {processor.py:925} INFO - DAG(s) 'seq_parallel_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:04:32.724+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:04:32.724+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:04:32.751+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:04:32.750+0600] {dag.py:4180} INFO - Setting next_dagrun for seq_parallel_dag to None, run_after=None
+[2025-02-14T22:04:32.788+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.141 seconds
+[2025-02-14T22:05:03.052+0600] {processor.py:186} INFO - Started process (PID=576204) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:05:03.053+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-14T22:05:03.057+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:05:03.056+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:05:03.069+0600] {processor.py:925} INFO - DAG(s) 'seq_parallel_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:05:03.120+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:05:03.120+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:05:03.147+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:05:03.146+0600] {dag.py:4180} INFO - Setting next_dagrun for seq_parallel_dag to None, run_after=None
+[2025-02-14T22:05:03.174+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.133 seconds
+[2025-02-14T22:05:36.783+0600] {processor.py:186} INFO - Started process (PID=577005) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:05:36.786+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-14T22:05:36.794+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:05:36.794+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:05:36.882+0600] {processor.py:925} INFO - DAG(s) 'seq_parallel_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:05:37.074+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:05:37.073+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:05:37.147+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:05:37.144+0600] {dag.py:4180} INFO - Setting next_dagrun for seq_parallel_dag to None, run_after=None
+[2025-02-14T22:05:37.373+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.606 seconds
+[2025-02-14T22:06:08.136+0600] {processor.py:186} INFO - Started process (PID=577497) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:06:08.138+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-14T22:06:08.147+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:06:08.143+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:06:08.165+0600] {processor.py:925} INFO - DAG(s) 'seq_parallel_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:06:08.252+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:06:08.251+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:06:08.289+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:06:08.289+0600] {dag.py:4180} INFO - Setting next_dagrun for seq_parallel_dag to None, run_after=None
+[2025-02-14T22:06:08.337+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.217 seconds
+[2025-02-14T22:06:38.966+0600] {processor.py:186} INFO - Started process (PID=577993) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:06:38.973+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-14T22:06:38.978+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:06:38.977+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:06:38.996+0600] {processor.py:925} INFO - DAG(s) 'seq_parallel_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:06:39.039+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:06:39.039+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:06:39.063+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:06:39.063+0600] {dag.py:4180} INFO - Setting next_dagrun for seq_parallel_dag to None, run_after=None
+[2025-02-14T22:06:39.104+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.165 seconds
+[2025-02-14T22:07:09.305+0600] {processor.py:186} INFO - Started process (PID=578422) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:07:09.307+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-14T22:07:09.312+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:07:09.312+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:07:09.333+0600] {processor.py:925} INFO - DAG(s) 'seq_parallel_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:07:09.386+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:07:09.385+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:07:09.408+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:07:09.408+0600] {dag.py:4180} INFO - Setting next_dagrun for seq_parallel_dag to None, run_after=None
+[2025-02-14T22:07:09.437+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.144 seconds
+[2025-02-14T22:07:40.161+0600] {processor.py:186} INFO - Started process (PID=578949) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:07:40.164+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-14T22:07:40.166+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:07:40.165+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:07:40.184+0600] {processor.py:925} INFO - DAG(s) 'seq_parallel_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:07:40.267+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:07:40.267+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:07:40.323+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:07:40.322+0600] {dag.py:4180} INFO - Setting next_dagrun for seq_parallel_dag to None, run_after=None
+[2025-02-14T22:07:40.356+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.206 seconds
+[2025-02-14T22:08:11.003+0600] {processor.py:186} INFO - Started process (PID=579465) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:08:11.004+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-14T22:08:11.006+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:08:11.006+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:08:11.016+0600] {processor.py:925} INFO - DAG(s) 'seq_parallel_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:08:11.061+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:08:11.061+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:08:11.083+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:08:11.083+0600] {dag.py:4180} INFO - Setting next_dagrun for seq_parallel_dag to None, run_after=None
+[2025-02-14T22:08:11.116+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.125 seconds
+[2025-02-14T22:08:41.356+0600] {processor.py:186} INFO - Started process (PID=579950) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:08:41.358+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-14T22:08:41.362+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:08:41.362+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:08:41.378+0600] {processor.py:925} INFO - DAG(s) 'seq_parallel_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:08:41.475+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:08:41.470+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:08:41.538+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:08:41.538+0600] {dag.py:4180} INFO - Setting next_dagrun for seq_parallel_dag to None, run_after=None
+[2025-02-14T22:08:41.670+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.327 seconds
+[2025-02-14T22:09:12.321+0600] {processor.py:186} INFO - Started process (PID=580353) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:09:12.339+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-14T22:09:12.341+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:12.340+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:09:12.354+0600] {processor.py:925} INFO - DAG(s) 'seq_parallel_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:09:12.404+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:12.404+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:09:12.427+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:12.426+0600] {dag.py:4180} INFO - Setting next_dagrun for seq_parallel_dag to None, run_after=None
+[2025-02-14T22:09:12.465+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.155 seconds
+[2025-02-14T22:09:42.870+0600] {processor.py:186} INFO - Started process (PID=580893) to work on /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:09:42.874+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py for tasks to queue
+[2025-02-14T22:09:42.879+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:42.877+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:09:42.896+0600] {processor.py:925} INFO - DAG(s) 'seq_parallel_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py
+[2025-02-14T22:09:42.944+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:42.943+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:09:42.972+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:42.972+0600] {dag.py:4180} INFO - Setting next_dagrun for seq_parallel_dag to None, run_after=None
+[2025-02-14T22:09:43.003+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/seq_parallel_task.py took 0.163 seconds

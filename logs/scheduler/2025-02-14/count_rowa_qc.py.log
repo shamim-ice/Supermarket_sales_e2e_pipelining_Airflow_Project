@@ -1,0 +1,126 @@
+[2025-02-14T21:56:15.986+0600] {processor.py:186} INFO - Started process (PID=572379) to work on /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T21:56:15.987+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py for tasks to queue
+[2025-02-14T21:56:15.989+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:56:15.988+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T21:56:16.004+0600] {processor.py:925} INFO - DAG(s) 'count_rw_qc_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T21:56:16.231+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:56:16.230+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T21:56:16.260+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:56:16.259+0600] {dag.py:4180} INFO - Setting next_dagrun for count_rw_qc_dag to None, run_after=None
+[2025-02-14T21:56:16.286+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py took 0.317 seconds
+[2025-02-14T21:56:46.355+0600] {processor.py:186} INFO - Started process (PID=572801) to work on /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T21:56:46.356+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py for tasks to queue
+[2025-02-14T21:56:46.358+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:56:46.357+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T21:56:46.369+0600] {processor.py:925} INFO - DAG(s) 'count_rw_qc_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T21:56:46.405+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:56:46.405+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T21:56:46.425+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:56:46.424+0600] {dag.py:4180} INFO - Setting next_dagrun for count_rw_qc_dag to None, run_after=None
+[2025-02-14T21:56:46.447+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py took 0.109 seconds
+[2025-02-14T21:57:16.697+0600] {processor.py:186} INFO - Started process (PID=573197) to work on /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T21:57:16.698+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py for tasks to queue
+[2025-02-14T21:57:16.699+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:57:16.699+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T21:57:16.709+0600] {processor.py:925} INFO - DAG(s) 'count_rw_qc_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T21:57:16.749+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:57:16.748+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T21:57:16.767+0600] {logging_mixin.py:190} INFO - [2025-02-14T21:57:16.767+0600] {dag.py:4180} INFO - Setting next_dagrun for count_rw_qc_dag to None, run_after=None
+[2025-02-14T21:57:16.788+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py took 0.103 seconds
+[2025-02-14T22:02:30.318+0600] {processor.py:186} INFO - Started process (PID=574065) to work on /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:02:30.322+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py for tasks to queue
+[2025-02-14T22:02:30.326+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:02:30.326+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:02:30.342+0600] {processor.py:925} INFO - DAG(s) 'count_rw_qc_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:02:30.390+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:02:30.390+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:02:30.414+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:02:30.413+0600] {dag.py:4180} INFO - Setting next_dagrun for count_rw_qc_dag to None, run_after=None
+[2025-02-14T22:02:30.442+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py took 0.131 seconds
+[2025-02-14T22:03:00.953+0600] {processor.py:186} INFO - Started process (PID=574522) to work on /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:03:00.958+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py for tasks to queue
+[2025-02-14T22:03:00.961+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:03:00.960+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:03:00.971+0600] {processor.py:925} INFO - DAG(s) 'count_rw_qc_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:03:01.009+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:03:01.009+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:03:01.030+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:03:01.030+0600] {dag.py:4180} INFO - Setting next_dagrun for count_rw_qc_dag to None, run_after=None
+[2025-02-14T22:03:01.056+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py took 0.111 seconds
+[2025-02-14T22:03:31.419+0600] {processor.py:186} INFO - Started process (PID=574940) to work on /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:03:31.420+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py for tasks to queue
+[2025-02-14T22:03:31.423+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:03:31.422+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:03:31.432+0600] {processor.py:925} INFO - DAG(s) 'count_rw_qc_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:03:31.467+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:03:31.466+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:03:31.486+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:03:31.486+0600] {dag.py:4180} INFO - Setting next_dagrun for count_rw_qc_dag to None, run_after=None
+[2025-02-14T22:03:31.509+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py took 0.097 seconds
+[2025-02-14T22:04:01.984+0600] {processor.py:186} INFO - Started process (PID=575357) to work on /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:04:01.987+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py for tasks to queue
+[2025-02-14T22:04:01.990+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:04:01.989+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:04:01.999+0600] {processor.py:925} INFO - DAG(s) 'count_rw_qc_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:04:02.038+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:04:02.037+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:04:02.058+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:04:02.058+0600] {dag.py:4180} INFO - Setting next_dagrun for count_rw_qc_dag to None, run_after=None
+[2025-02-14T22:04:02.106+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py took 0.129 seconds
+[2025-02-14T22:04:32.338+0600] {processor.py:186} INFO - Started process (PID=575782) to work on /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:04:32.339+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py for tasks to queue
+[2025-02-14T22:04:32.343+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:04:32.342+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:04:32.352+0600] {processor.py:925} INFO - DAG(s) 'count_rw_qc_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:04:32.392+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:04:32.392+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:04:32.414+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:04:32.414+0600] {dag.py:4180} INFO - Setting next_dagrun for count_rw_qc_dag to None, run_after=None
+[2025-02-14T22:04:32.443+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py took 0.113 seconds
+[2025-02-14T22:05:02.879+0600] {processor.py:186} INFO - Started process (PID=576192) to work on /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:05:02.881+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py for tasks to queue
+[2025-02-14T22:05:02.885+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:05:02.885+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:05:02.896+0600] {processor.py:925} INFO - DAG(s) 'count_rw_qc_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:05:02.942+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:05:02.941+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:05:02.967+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:05:02.967+0600] {dag.py:4180} INFO - Setting next_dagrun for count_rw_qc_dag to None, run_after=None
+[2025-02-14T22:05:02.997+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py took 0.128 seconds
+[2025-02-14T22:05:35.130+0600] {processor.py:186} INFO - Started process (PID=576983) to work on /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:05:35.140+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py for tasks to queue
+[2025-02-14T22:05:35.160+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:05:35.159+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:05:35.211+0600] {processor.py:925} INFO - DAG(s) 'count_rw_qc_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:05:35.389+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:05:35.388+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:05:35.571+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:05:35.570+0600] {dag.py:4180} INFO - Setting next_dagrun for count_rw_qc_dag to None, run_after=None
+[2025-02-14T22:05:35.765+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py took 0.702 seconds
+[2025-02-14T22:06:05.909+0600] {processor.py:186} INFO - Started process (PID=577480) to work on /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:06:05.910+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py for tasks to queue
+[2025-02-14T22:06:05.913+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:06:05.912+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:06:05.922+0600] {processor.py:925} INFO - DAG(s) 'count_rw_qc_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:06:05.961+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:06:05.961+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:06:05.981+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:06:05.981+0600] {dag.py:4180} INFO - Setting next_dagrun for count_rw_qc_dag to None, run_after=None
+[2025-02-14T22:06:06.008+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py took 0.107 seconds
+[2025-02-14T22:06:36.715+0600] {processor.py:186} INFO - Started process (PID=577978) to work on /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:06:36.716+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py for tasks to queue
+[2025-02-14T22:06:36.719+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:06:36.719+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:06:36.729+0600] {processor.py:925} INFO - DAG(s) 'count_rw_qc_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:06:36.770+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:06:36.770+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:06:36.794+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:06:36.793+0600] {dag.py:4180} INFO - Setting next_dagrun for count_rw_qc_dag to None, run_after=None
+[2025-02-14T22:06:36.820+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py took 0.115 seconds
+[2025-02-14T22:07:07.135+0600] {processor.py:186} INFO - Started process (PID=578410) to work on /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:07:07.136+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py for tasks to queue
+[2025-02-14T22:07:07.139+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:07:07.139+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:07:07.150+0600] {processor.py:925} INFO - DAG(s) 'count_rw_qc_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:07:07.190+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:07:07.190+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:07:07.211+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:07:07.211+0600] {dag.py:4180} INFO - Setting next_dagrun for count_rw_qc_dag to None, run_after=None
+[2025-02-14T22:07:07.235+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py took 0.108 seconds
+[2025-02-14T22:07:37.973+0600] {processor.py:186} INFO - Started process (PID=578909) to work on /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:07:37.974+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py for tasks to queue
+[2025-02-14T22:07:37.976+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:07:37.975+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:07:37.988+0600] {processor.py:925} INFO - DAG(s) 'count_rw_qc_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:07:38.033+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:07:38.032+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:07:38.053+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:07:38.053+0600] {dag.py:4180} INFO - Setting next_dagrun for count_rw_qc_dag to None, run_after=None
+[2025-02-14T22:07:38.082+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py took 0.118 seconds
+[2025-02-14T22:08:08.813+0600] {processor.py:186} INFO - Started process (PID=579453) to work on /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:08:08.815+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py for tasks to queue
+[2025-02-14T22:08:08.817+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:08:08.816+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:08:08.826+0600] {processor.py:925} INFO - DAG(s) 'count_rw_qc_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:08:08.866+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:08:08.866+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:08:08.890+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:08:08.890+0600] {dag.py:4180} INFO - Setting next_dagrun for count_rw_qc_dag to None, run_after=None
+[2025-02-14T22:08:08.917+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py took 0.112 seconds
+[2025-02-14T22:08:39.269+0600] {processor.py:186} INFO - Started process (PID=579938) to work on /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:08:39.271+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py for tasks to queue
+[2025-02-14T22:08:39.273+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:08:39.272+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:08:39.286+0600] {processor.py:925} INFO - DAG(s) 'count_rw_qc_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:08:39.336+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:08:39.335+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:08:39.363+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:08:39.363+0600] {dag.py:4180} INFO - Setting next_dagrun for count_rw_qc_dag to None, run_after=None
+[2025-02-14T22:08:39.394+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py took 0.137 seconds
+[2025-02-14T22:09:10.124+0600] {processor.py:186} INFO - Started process (PID=580340) to work on /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:09:10.126+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py for tasks to queue
+[2025-02-14T22:09:10.127+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:10.127+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:09:10.142+0600] {processor.py:925} INFO - DAG(s) 'count_rw_qc_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:09:10.194+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:10.194+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:09:10.220+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:10.219+0600] {dag.py:4180} INFO - Setting next_dagrun for count_rw_qc_dag to None, run_after=None
+[2025-02-14T22:09:10.245+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py took 0.131 seconds
+[2025-02-14T22:09:40.657+0600] {processor.py:186} INFO - Started process (PID=580881) to work on /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:09:40.662+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py for tasks to queue
+[2025-02-14T22:09:40.663+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:40.663+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:09:40.674+0600] {processor.py:925} INFO - DAG(s) 'count_rw_qc_dag' retrieved from /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py
+[2025-02-14T22:09:40.711+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:40.711+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T22:09:40.732+0600] {logging_mixin.py:190} INFO - [2025-02-14T22:09:40.732+0600] {dag.py:4180} INFO - Setting next_dagrun for count_rw_qc_dag to None, run_after=None
+[2025-02-14T22:09:40.759+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_git/Airflow_project/dags/count_rowa_qc.py took 0.112 seconds
