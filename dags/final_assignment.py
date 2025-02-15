@@ -9,9 +9,9 @@ import pandas as pd
 
 #defin dag
 dag=DAG(
-    dag_id='supermarket_sales_eTOe_dag',
+    dag_id='supermarket_sales_e2e_dag',
     start_date=datetime(2025,2,10),
-    schedule_interval='0 5 * * *'        #runs every day morning at 05:00 am
+    schedule_interval='0 23 * * *'        #runs every day morning at 05:00 am
 )
 
 # Step 1: Extract Data
@@ -89,7 +89,7 @@ task_create_table=SQLExecuteQueryOperator(
 conn = psycopg2.connect(
     database='airflow_db', # databse name
     user='postgres',      #databse user
-    password='****',   #password
+    password='1418',   #password
     host='localhost',
     port='5432'
 )
