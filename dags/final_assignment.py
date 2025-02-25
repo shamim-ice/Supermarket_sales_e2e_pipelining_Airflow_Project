@@ -62,7 +62,7 @@ task_create_table=SQLExecuteQueryOperator(
     task_id='create_table_task',
     conn_id='postgres',
     sql="""
-    DROP TABLE IF EXISTS supermarket_sales;
+    DROP TABLE IF EXISTS supermarket_sales CASCADE;
     CREATE TABLE IF NOT EXISTS supermarket_sales(
     invoice_id VARCHAR(100) PRIMARY KEY,
     branch VARCHAR(100),
@@ -89,7 +89,7 @@ task_create_table=SQLExecuteQueryOperator(
 conn = psycopg2.connect(
     database='airflow_db', # databse name
     user='postgres',      #databse user
-    password='1418',   #password
+    password='****',   #password
     host='localhost',
     port='5432'
 )
